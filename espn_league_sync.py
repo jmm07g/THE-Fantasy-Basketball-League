@@ -509,11 +509,19 @@ def build_dataset(league, current_week):
 
     weeks_remaining = max(SEASON_WEEKS_TOTAL - current_week, 0)
 
+    # "current_week" from ESPN is the LIVE/in-progress week (used correctly for
+    # weeks_remaining in the Playoff Odds sim). But the dashboard header should
+    # display the most recent week that actually has posted stats -- i.e. the
+    # highest week key that survived fetch_matchups' placeholder filter -- not
+    # the live week, which usually has no real data yet.
+    last_completed_week = max(weekly_matchups.keys()) if weekly_matchups else current_week
+
     dataset = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
         "league_id": LEAGUE_ID,
         "season_year": SEASON_YEAR,
         "current_week": current_week,
+        "last_completed_week": last_completed_week,
         "weeks_remaining": weeks_remaining,
         "num_teams": NUM_TEAMS,
         "categories": CATEGORIES,
