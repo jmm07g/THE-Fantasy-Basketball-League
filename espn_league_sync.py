@@ -69,7 +69,18 @@ if ESPN_SWID and not ESPN_SWID.startswith("{"):
     ESPN_SWID = "{" + ESPN_SWID.strip("{}") + "}"
 
 COOKIES = {"espn_s2": ESPN_S2, "SWID": ESPN_SWID}
-HEADERS = {"User-Agent": "Mozilla/5.0"}
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Referer": f"https://fantasy.espn.com/basketball/league?leagueId={LEAGUE_ID}",
+    "Origin": "https://fantasy.espn.com",
+    "X-Fantasy-Source": "kona",
+    "X-Fantasy-Platform": "kona-PROD-1dc90067f0ba96801d4c38f290b39b7d7d6c4e80",
+}
 
 CATEGORIES = ["FG%", "FT%", "3PM", "REB", "AST", "STL", "BLK", "PTS"]
 
