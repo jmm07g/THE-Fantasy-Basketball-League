@@ -119,7 +119,10 @@ def inject_into_template(template_html, data_blob, current_week):
 
 def main():
     dataset = load_dataset(INPUT_JSON_PATH)
-    current_week = dataset.get("current_week", "?")
+    # Display the most recent week with real posted stats, not ESPN's "live"
+    # current_week (which is often in-progress / no data yet). Falls back to
+    # current_week for older league_data.json files that predate this field.
+    current_week = dataset.get("last_completed_week", dataset.get("current_week", "?"))
 
     if not os.path.exists(TEMPLATE_HTML_PATH):
         sys.exit(
