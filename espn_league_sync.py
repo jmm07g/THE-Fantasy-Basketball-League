@@ -61,6 +61,7 @@ DEPENDENCIES
 import os
 import sys
 import json
+import math
 import statistics
 from datetime import datetime
 
@@ -317,12 +318,17 @@ def compute_actual_cat_records(weekly_stats, weekly_pairs):
 # ---------------------------------------------------------------------------
 
 def fetch_transactions(league, size=50):
+    """Returns (txns, raw_activity). raw_activity is kept (not just the flattened
+    txns list) so the Waiver Wire Report Card can regroup actions by activity
+    (one activity = one roster move event, usually containing a DROP+ADD pair)."""
     txns = []
+    raw_activity = []
     try:
         activity = league.recent_activity(size=size)
+        raw_activity = activity
     except Exception as e:
         print(f"Warning: transactions pull failed ({e}); continuing without it.")
-        return txns
+        return txns, raw_activity
 
     for act in activity:
         for action in getattr(act, "actions", []):
@@ -334,8 +340,398 @@ def fetch_transactions(league, size=50):
                 "team_name": getattr(team, "team_name", None),
                 "action": action_type,
                 "player": getattr(player, "name", str(player)),
+                "player_id": getattr(player, "playerId", None),
             })
-    return txns
+    return txns, raw_activity
+
+
+# ---------------------------------------------------------------------------
+# Pull: draft results (for Draft Grade Retrospective)
+# ---------------------------------------------------------------------------
+
+def fetch_draft(league):
+    picks = []
+    try:
+        draft = league.draft
+    except Exception as e:
+        print(f"Warning: draft pull failed ({e}); continuing without it.")
+        return picks
+
+    for p in draft:
+        team = getattr(p, "team", None)
+        picks.append({
+            "player_id": getattr(p, "playerId", None),
+            "player_name": getattr(p, "playerName", None),
+            "team_id": getattr(team, "team_id", None),
+            "round_num": getattr(p, "round_num", None),
+            "round_pick": getattr(p, "round_pick", None),
+            "overall_pick": None,  # filled in below once we know round size
+        })
+    # Compute overall pick number from round/pick + number of teams (snake draft aware
+    # isn't needed here — we just need draft ORDER for "value vs cost" comparison).
+    picks.sort(key=lambda r: (
+        r["round_num"] if r["round_num"] is not None else 999,
+        r["round_pick"] if r["round_pick"] is not None else 999,
+    ))
+    for i, r in enumerate(picks):
+        r["overall_pick"] = i + 1
+    return picks
+
+
+# ---------------------------------------------------------------------------
+# Player pool (rostered + free agents) with season-average stats — shared
+# building block for Z-Score Contribution and Draft Grade Retrospective.
+# ---------------------------------------------------------------------------
+
+def _season_avg_from_player(p):
+    stats_block = getattr(p, "stats", {}) or {}
+    season_stats = {}
+    for key in ("0", "00", "total"):
+        if key in stats_block:
+            season_stats = stats_block[key].get("avg", {}) or stats_block[key].get("total", {})
+            break
+    return {cat: season_stats.get(espn_key) for cat, espn_key in ESPN_API_STAT_KEY.items()}
+
+
+def build_player_pool(league, teams, free_agents_raw):
+    """Combines rostered players (with season-avg stats pulled fresh per player)
+    and already-fetched free agents into one pool, then z-scores every player
+    against the pool for each category. Used for player contribution + draft grade.
+    Returns {player_id: {name, team_id/None, cats:{...}, z:{...}, zTotal}}."""
+    pool = {}
+
+    for t in teams:
+        for rp in t["roster"]:
+            pid = rp.get("player_id")
+            if pid is None:
+                continue
+            pool[pid] = {
+                "player_id": pid, "name": rp.get("name"),
+                "team_id": t["team_id"], "team_name": t["team_name"],
+                "cats": None,  # filled below once we have live player stats
+            }
+
+    # Pull live per-player stat lines for rostered players via league.player_info,
+    # since roster objects from fetch_teams_and_rosters don't carry stat blocks.
+    try:
+        all_rostered_ids = list(pool.keys())
+        # espn_api supports fetching full player objects (with stats) in bulk
+        # via league.player_info(playerId=...) one at a time; batch where possible.
+        for pid in all_rostered_ids:
+            try:
+                p = league.player_info(playerId=pid)
+                if p is not None:
+                    pool[pid]["cats"] = _season_avg_from_player(p)
+            except Exception:
+                continue
+    except Exception as e:
+        print(f"Warning: rostered player stat pull failed ({e}); contribution data may be incomplete.")
+
+    # Add free agents (already have stats from fetch_free_agents).
+    for fa in free_agents_raw:
+        pid = fa.get("player_id")
+        if pid is None or pid in pool:
+            continue
+        pool[pid] = {
+            "player_id": pid, "name": fa.get("name"),
+            "team_id": None, "team_name": None,
+            "cats": fa.get("stats"),
+        }
+
+    # Z-score every player in the pool per category (players missing a stat are excluded
+    # from that category's mean/stdev, and get z=0 for it rather than skewing results).
+    means, stdevs = {}, {}
+    for cat in CATEGORIES:
+        vals = [v["cats"][cat] for v in pool.values() if v.get("cats") and v["cats"].get(cat) is not None]
+        if vals:
+            means[cat] = statistics.mean(vals)
+            stdevs[cat] = statistics.pstdev(vals) or 1e-9
+        else:
+            means[cat] = None
+            stdevs[cat] = None
+
+    for entry in pool.values():
+        z = {}
+        cats = entry.get("cats") or {}
+        for cat in CATEGORIES:
+            v = cats.get(cat)
+            if v is None or means[cat] is None:
+                z[cat] = 0.0
+            else:
+                z[cat] = (v - means[cat]) / stdevs[cat]
+        entry["z"] = z
+        entry["zTotal"] = sum(z.values())
+
+    return pool
+
+
+# ---------------------------------------------------------------------------
+# NEW FEATURE 1: Player Z-Score Contribution
+# ---------------------------------------------------------------------------
+
+def build_player_contribution(teams, player_pool):
+    """For each team, breaks down which rostered players are driving (or hurting)
+    each category, using the season-average z-scores computed in build_player_pool.
+    Returns a list of {team, players:[{name, zTotal, cats:{...}}], topContributor,
+    biggestDrag} sorted by team name."""
+    out = []
+    for t in teams:
+        players = []
+        for rp in t["roster"]:
+            pid = rp.get("player_id")
+            entry = player_pool.get(pid) if pid is not None else None
+            if entry is None or entry.get("cats") is None:
+                continue
+            players.append({
+                "name": entry["name"],
+                "zTotal": round(entry["zTotal"], 2),
+                "cats": {c: round(entry["z"][c], 2) for c in CATEGORIES},
+                "injury_status": rp.get("injury_status"),
+            })
+        players.sort(key=lambda p: p["zTotal"], reverse=True)
+        top = players[0] if players else None
+        drag = players[-1] if players else None
+        out.append({
+            "team": t["team_name"],
+            "players": players,
+            "topContributor": top["name"] if top else None,
+            "biggestDrag": drag["name"] if drag else None,
+        })
+    out.sort(key=lambda r: r["team"])
+    return out
+
+
+# ---------------------------------------------------------------------------
+# NEW FEATURE 2: Waiver Wire Report Card
+# ---------------------------------------------------------------------------
+
+def build_waiver_report(raw_activity, player_pool, team_names):
+    """Groups each transaction activity (usually a DROP+ADD pair happening at the
+    same timestamp) and scores it using CURRENT season z-score totals of the
+    players involved. NOTE: this is a simplification -- it grades adds/drops
+    against each player's full-season value, not their value at the moment of
+    the transaction (ESPN doesn't expose a clean historical snapshot through
+    this API for that). Treat this as "how did this move age", not a
+    point-in-time trade grade."""
+    report = []
+    for act in raw_activity:
+        actions = getattr(act, "actions", [])
+        if not actions:
+            continue
+        date = getattr(act, "date", None)
+        # Group actions in this activity by team, since one "activity" can be
+        # one team's DROP+ADD pair.
+        by_team = {}
+        for action in actions:
+            team, action_type, player = action[0], action[1], action[2]
+            tid = getattr(team, "team_id", None)
+            by_team.setdefault(tid, []).append((action_type, player))
+
+        for tid, acts in by_team.items():
+            adds = [p for (a, p) in acts if a and "ADD" in str(a).upper()]
+            drops = [p for (a, p) in acts if a and "DROP" in str(a).upper()]
+            if not adds and not drops:
+                continue
+            for add_player in (adds or [None]):
+                add_pid = getattr(add_player, "playerId", None) if add_player else None
+                add_entry = player_pool.get(add_pid) if add_pid is not None else None
+                add_z = round(add_entry["zTotal"], 2) if add_entry else None
+                drop_player = drops[0] if drops else None
+                drop_pid = getattr(drop_player, "playerId", None) if drop_player else None
+                drop_entry = player_pool.get(drop_pid) if drop_pid is not None else None
+                drop_z = round(drop_entry["zTotal"], 2) if drop_entry else None
+                net = (add_z - drop_z) if (add_z is not None and drop_z is not None) else None
+                report.append({
+                    "date": date,
+                    "team": team_names.get(tid, "Unknown"),
+                    "added": getattr(add_player, "name", None) if add_player else None,
+                    "added_z": add_z,
+                    "dropped": getattr(drop_player, "name", None) if drop_player else None,
+                    "dropped_z": drop_z,
+                    "net_value": round(net, 2) if net is not None else None,
+                })
+    # Most impactful (by |net_value|) first; moves we couldn't score sort last.
+    report.sort(key=lambda r: (r["net_value"] is None, -(r["net_value"] or 0) if r["net_value"] is not None else 0))
+    return report
+
+
+# ---------------------------------------------------------------------------
+# NEW FEATURE 3: Matchup Win Probability (for the CURRENT/upcoming week)
+# ---------------------------------------------------------------------------
+
+def _normal_cdf(x):
+    return 0.5 * (1 + math.erf(x / math.sqrt(2)))
+
+
+def build_matchup_win_probability(league, current_week, season_power, team_names, weekly_matchups):
+    """Estimates each team's win probability per category (and overall) for the
+    CURRENT week's real matchup pairing, using each team's own season mean/stdev
+    per category observed so far (same distributional approach as the Playoff
+    Odds simulator, applied to the real upcoming pairing instead of a random one).
+    This is team-level, not lineup/player-level (ESPN doesn't cleanly expose
+    "games remaining this week per roster slot" through this API)."""
+    try:
+        box_scores = league.box_scores(matchup_period=current_week)
+    except Exception as e:
+        print(f"Warning: could not fetch current-week matchups for win probability ({e}).")
+        return []
+
+    # Per-team, per-category mean/stdev from completed weeks so far.
+    cat_stats = {}
+    for tid in team_names:
+        cat_stats[tid] = {}
+        for cat in CATEGORIES:
+            vals = [weekly_matchups[wk][tid][cat] for wk in weekly_matchups
+                    if tid in weekly_matchups[wk] and weekly_matchups[wk][tid].get(cat) is not None]
+            if vals:
+                mean = statistics.mean(vals)
+                sd = statistics.pstdev(vals) if len(vals) > 1 else mean * 0.08
+                cat_stats[tid][cat] = (mean, max(sd, mean * 0.04 if mean else 1.0))
+            else:
+                cat_stats[tid][cat] = (0.0, 1.0)
+
+    previews = []
+    for bs in box_scores:
+        home_team = getattr(bs, "home_team", None)
+        away_team = getattr(bs, "away_team", None)
+        if home_team is None or away_team is None:
+            continue
+        home_id = getattr(home_team, "team_id", None)
+        away_id = getattr(away_team, "team_id", None)
+        if home_id not in team_names or away_id not in team_names:
+            continue
+
+        cat_probs = {}
+        home_favored_count = 0
+        for cat in CATEGORIES:
+            hm, hs = cat_stats[home_id][cat]
+            am, a_sd = cat_stats[away_id][cat]
+            # P(home > away) for Home - Away ~ Normal(hm-am, sqrt(hs^2+a_sd^2))
+            diff_mean = hm - am
+            diff_sd = math.sqrt(hs ** 2 + a_sd ** 2) or 1e-9
+            p_home = 1 - _normal_cdf((0 - diff_mean) / diff_sd)
+            cat_probs[cat] = round(p_home, 3)
+            if p_home > 0.5:
+                home_favored_count += 1
+
+        previews.append({
+            "week": current_week,
+            "home": team_names[home_id],
+            "away": team_names[away_id],
+            "catProbs": cat_probs,
+            "homeFavoredCats": home_favored_count,
+            "awayFavoredCats": len(CATEGORIES) - home_favored_count,
+            "homeOverallFavorite": home_favored_count > len(CATEGORIES) / 2,
+        })
+    return previews
+
+
+# ---------------------------------------------------------------------------
+# NEW FEATURE 4: Draft Grade Retrospective
+# ---------------------------------------------------------------------------
+
+def build_draft_grades(draft_picks, player_pool, team_names):
+    """Compares each drafted player's draft position to their current-season
+    performance rank (by zTotal across the whole player pool). A player drafted
+    #5 overall who now ranks #40 in zTotal is a bust; a player drafted #80 who
+    now ranks #10 is a steal. Aggregates to a per-team average 'value delta'."""
+    if not draft_picks:
+        return {"picks": [], "team_grades": []}
+
+    # Rank every player in the pool by zTotal (1 = best performer in the league).
+    ranked_pool = sorted(player_pool.values(), key=lambda p: p["zTotal"], reverse=True)
+    perf_rank = {p["player_id"]: i + 1 for i, p in enumerate(ranked_pool)}
+
+    picks_out = []
+    team_deltas = {}
+    for pick in draft_picks:
+        pid = pick.get("player_id")
+        entry = player_pool.get(pid)
+        pr = perf_rank.get(pid)
+        if entry is None or pr is None:
+            continue  # player no longer in pool (dropped off waivers/retired/etc.)
+        value_delta = pick["overall_pick"] - pr  # positive = outperforming draft slot
+        picks_out.append({
+            "player": pick.get("player_name") or entry.get("name"),
+            "team": team_names.get(pick.get("team_id"), "Unassigned"),
+            "draftPick": pick["overall_pick"],
+            "performanceRank": pr,
+            "valueDelta": value_delta,
+            "zTotal": round(entry["zTotal"], 2),
+        })
+        tid = pick.get("team_id")
+        if tid is not None:
+            team_deltas.setdefault(tid, []).append(value_delta)
+
+    picks_out.sort(key=lambda r: r["valueDelta"], reverse=True)
+
+    team_grades = []
+    for tid, deltas in team_deltas.items():
+        team_grades.append({
+            "team": team_names.get(tid, "Unknown"),
+            "avgValueDelta": round(statistics.mean(deltas), 1),
+            "picksTracked": len(deltas),
+        })
+    team_grades.sort(key=lambda r: r["avgValueDelta"], reverse=True)
+
+    return {"picks": picks_out, "team_grades": team_grades}
+
+
+# ---------------------------------------------------------------------------
+# NEW FEATURE 5: Rivalry Score (head-to-head history between every team pair)
+# ---------------------------------------------------------------------------
+
+def build_rivalry_scores(weekly_matchups, weekly_pairs, team_names):
+    """Tracks every real matchup played between each pair of teams this season:
+    category W-L-T each time they've faced off, plus the closest-margin category
+    (biggest 'nail-biter') as a storyline hook."""
+    pair_records = {}  # frozenset({a,b}) -> {a_catw, b_catw, ties, meetings, closest}
+
+    for wk, pairs in weekly_pairs.items():
+        week_data = weekly_matchups.get(wk, {})
+        for a, b in pairs:
+            key = tuple(sorted((a, b)))
+            rec = pair_records.setdefault(key, {
+                "a": key[0], "b": key[1], "a_catw": 0, "b_catw": 0, "ties": 0,
+                "meetings": 0, "closest_cat": None, "closest_margin": None, "closest_week": None,
+            })
+            rec["meetings"] += 1
+            ta, tb = week_data.get(a, {}), week_data.get(b, {})
+            for cat in CATEGORIES:
+                va, vb = ta.get(cat), tb.get(cat)
+                if va is None or vb is None:
+                    continue
+                if va > vb:
+                    rec["a_catw" if a == key[0] else "b_catw"] += 1
+                elif va < vb:
+                    rec["b_catw" if a == key[0] else "a_catw"] += 1
+                else:
+                    rec["ties"] += 1
+                # Track closest % margin seen between this pair (percentage cats
+                # compared as relative distance, counting cats compared as raw totals
+                # using relative margin so FG%/FT% and raw counting stats are comparable).
+                denom = (abs(va) + abs(vb)) or 1e-9
+                margin_pct = abs(va - vb) / denom
+                if rec["closest_margin"] is None or margin_pct < rec["closest_margin"]:
+                    rec["closest_margin"] = round(margin_pct, 4)
+                    rec["closest_cat"] = cat
+                    rec["closest_week"] = wk
+
+    out = []
+    for rec in pair_records.values():
+        out.append({
+            "teamA": team_names.get(rec["a"], "Unknown"),
+            "teamB": team_names.get(rec["b"], "Unknown"),
+            "meetings": rec["meetings"],
+            "teamA_catW": rec["a_catw"],
+            "teamB_catW": rec["b_catw"],
+            "ties": rec["ties"],
+            "closestCat": rec["closest_cat"],
+            "closestMarginPct": round(rec["closest_margin"] * 100, 1) if rec["closest_margin"] is not None else None,
+            "closestWeek": rec["closest_week"],
+        })
+    out.sort(key=lambda r: r["meetings"], reverse=True)
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -413,7 +809,7 @@ def build_dataset(league, current_week):
             "ESPN_DEBUG_DUMP=1 set and check the printed 'DEBUG week ... raw stat "
             "keys' line to see the real key names, then update ESPN_API_STAT_KEY."
         )
-    transactions = fetch_transactions(league)
+    transactions, raw_activity = fetch_transactions(league)
     actual_cat_records = compute_actual_cat_records(weekly_matchups, weekly_pairs)
 
     team_names = {t["team_id"]: t["team_name"] for t in teams}
@@ -516,6 +912,49 @@ def build_dataset(league, current_week):
     # the live week, which usually has no real data yet.
     last_completed_week = max(weekly_matchups.keys()) if weekly_matchups else current_week
 
+    # ------------------------------------------------------------------
+    # New features (each wrapped so one failure doesn't sink the whole run —
+    # same defensive pattern as free_agents/transactions above).
+    # ------------------------------------------------------------------
+    player_pool = {}
+    try:
+        player_pool = build_player_pool(league, teams, free_agents)
+    except Exception as e:
+        print(f"Warning: player pool build failed ({e}); player-level features will be empty.")
+
+    player_contribution = []
+    try:
+        player_contribution = build_player_contribution(teams, player_pool)
+    except Exception as e:
+        print(f"Warning: player contribution build failed ({e}).")
+
+    waiver_report = []
+    try:
+        waiver_report = build_waiver_report(raw_activity, player_pool, team_names)
+    except Exception as e:
+        print(f"Warning: waiver report build failed ({e}).")
+
+    matchup_win_prob = []
+    try:
+        matchup_win_prob = build_matchup_win_probability(
+            league, current_week, season_power, team_names, weekly_matchups
+        )
+    except Exception as e:
+        print(f"Warning: matchup win probability build failed ({e}).")
+
+    draft_grades = {"picks": [], "team_grades": []}
+    try:
+        draft_picks = fetch_draft(league)
+        draft_grades = build_draft_grades(draft_picks, player_pool, team_names)
+    except Exception as e:
+        print(f"Warning: draft grade build failed ({e}).")
+
+    rivalry_scores = []
+    try:
+        rivalry_scores = build_rivalry_scores(weekly_matchups, weekly_pairs, team_names)
+    except Exception as e:
+        print(f"Warning: rivalry score build failed ({e}).")
+
     dataset = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
         "league_id": LEAGUE_ID,
@@ -533,6 +972,11 @@ def build_dataset(league, current_week):
         "powerRankings": power_rows,
         "zProfile": z_profile,
         "weekly": weekly_tidy,
+        "playerContribution": player_contribution,
+        "waiverReport": waiver_report,
+        "matchupWinProb": matchup_win_prob,
+        "draftGrades": draft_grades,
+        "rivalryScores": rivalry_scores,
     }
     return dataset
 
