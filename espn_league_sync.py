@@ -254,6 +254,16 @@ def fetch_matchups(current_week):
     schedule instead of erroring. Always fetch the FULL season schedule (no filter)
     and filter to relevant weeks ourselves."""
     data = _get("mMatchupScore")
+
+    if os.environ.get("ESPN_DEBUG_DUMP"):
+        # One-time diagnostic: write the raw schedule response so we can see
+        # ESPN's actual field names for this league type (Categories vs Points
+        # leagues structure matchup stats differently under the hood).
+        with open("debug_matchup_raw.json", "w") as f:
+            json.dump(data.get("schedule", [])[:3], f, indent=2)
+        print("Wrote debug_matchup_raw.json (first 3 schedule entries) — "
+              "inspect it to confirm the real stat field names.")
+
     weeks = {}
     pairs = {}
     for m in data.get("schedule", []):
