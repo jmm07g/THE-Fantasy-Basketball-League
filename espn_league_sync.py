@@ -247,19 +247,35 @@ def fetch_matchups(current_week):
     weekly_stats: {week: {team_id: {cat: value}}} — per-team category totals that week.
     weekly_pairs: {week: [(team_id_a, team_id_b), ...]} — actual real-schedule matchups,
     used to compute each team's TRUE category W-L-T against their real opponent
-    (distinct from the dashboard's simulated All-Play record against everyone)."""
-    data = _get("mMatchupScore", extra={"matchupPeriodId": current_week})
+    (distinct from the dashboard's simulated All-Play record against everyone).
+
+    IMPORTANT: ESPN's mMatchupScore view does NOT reliably support filtering via a
+    'matchupPeriodId' query param — passing it can silently return an empty/partial
+    schedule instead of erroring. Always fetch the FULL season schedule (no filter)
+    and filter to relevant weeks ourselves."""
+    data = _get("mMatchupScore")
     weeks = {}
     pairs = {}
     for m in data.get("schedule", []):
         period = m.get("matchupPeriodId")
+        if period is None or period > current_week:
+            continue  # skip future/unplayed weeks
         home = m.get("home")
         away = m.get("away")
+
+        def _has_scores(side):
+            return bool(side and side.get("cumulativeScore", {}).get("scoreByStat"))
+
+        if not (_has_scores(home) or _has_scores(away)):
+            continue  # week hasn't actually posted any stats yet (e.g. in-progress week)
+
         for side in (home, away):
             if not side:
                 continue
             team_id = side.get("teamId")
             cats = side.get("cumulativeScore", {}).get("scoreByStat", {})
+            if not cats:
+                continue
             weeks.setdefault(period, {})[team_id] = {
                 stat_name: cats.get(str(sid), {}).get("score")
                 for stat_name, sid in STAT_ID_MAP.items()
@@ -376,6 +392,12 @@ def build_dataset(current_week):
     teams = fetch_teams_and_rosters()
     free_agents = fetch_free_agents()
     weekly_matchups, weekly_pairs = fetch_matchups(current_week)
+    if not weekly_matchups:
+        sys.exit(
+            f"No matchup data came back for any week <= {current_week}. "
+            f"Check that LEAGUE_ID/SEASON_YEAR are correct and that ESPN's "
+            f"mMatchupScore view actually has posted stats yet for this season."
+        )
     transactions = fetch_transactions()
     actual_cat_records = compute_actual_cat_records(weekly_matchups, weekly_pairs)
 
