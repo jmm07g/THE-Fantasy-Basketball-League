@@ -3,20 +3,29 @@ ESPN Fantasy Basketball — Private League Data Sync
 League ID: 249846 | 12 teams | H2H Categories
 
 Pulls rosters, free agents, matchups, and transactions from ESPN's private
-fantasy API, then recomputes the Power Rankings / All-Play / Badges /
-Playoff Odds metrics used by the HTML dashboard, and writes a refreshed
-JSON data file the dashboard can be rebuilt from.
+fantasy API (via the espn_api library), then recomputes the Power Rankings /
+All-Play / Badges / Playoff Odds metrics used by the HTML dashboard, and
+writes a refreshed JSON data file the dashboard can be rebuilt from.
+
+WHY espn_api INSTEAD OF RAW requests CALLS
+-------------------------------------------
+Earlier versions of this script hit ESPN's API directly with `requests` and
+hand-parsed the JSON. That worked for rosters/free agents/transactions, but
+H2H Categories leagues store weekly box-score stats in a shape that isn't
+exposed cleanly through the raw `mMatchupScore` view (no per-category totals,
+only win/loss/tie flags). `espn_api` (pip install espn_api) is an actively
+maintained open-source library purpose-built for ESPN's fantasy API and
+already solves this — it parses category box scores correctly, handles SWID
+formatting, and talks to the right host internally.
 
 SECURITY — READ BEFORE USING
 -----------------------------
 This script authenticates using your ESPN session cookies (espn_s2, SWID).
 NEVER hardcode them here and NEVER commit them to git.
 
-MANUAL / LOCAL RUN (current setup — no cloud automation)
+MANUAL / LOCAL RUN
 ----------------------------------------------------------
-ESPN's bot protection blocks requests from GitHub Actions' datacenter IPs,
-so this runs manually from your own machine/network instead. Two ways to
-supply credentials for a local run:
+Two ways to supply credentials for a local run:
 
 Option A — one-time per terminal session:
     export ESPN_S2="..."
@@ -43,6 +52,10 @@ Getting fresh cookie values (do this every time they stop working):
 If you ever pasted real cookie values into a chat, Slack, email, etc.,
 treat them as burned: log out of ESPN everywhere (or change your
 password) to invalidate them, then generate fresh ones.
+
+DEPENDENCIES
+------------
+    pip install espn_api
 """
 
 import os
@@ -51,7 +64,13 @@ import json
 import statistics
 from datetime import datetime
 
-import requests
+try:
+    from espn_api.basketball import League
+except ImportError:
+    sys.exit(
+        "Missing dependency 'espn_api'. Install it first:\n"
+        "    pip install espn_api"
+    )
 
 
 def _load_dotenv(path=".env"):
@@ -95,203 +114,148 @@ if not ESPN_S2 or not ESPN_SWID:
         "variables (never hardcode them in this file)."
     )
 
-BASE_URL = (
-    f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/fba/seasons/{SEASON_YEAR}"
-    f"/segments/0/leagues/{LEAGUE_ID}"
-)
-# NOTE: fantasy.espn.com (the web-app domain) sits behind aggressive Akamai
-# bot protection that returns HTTP 202 + an HTML challenge page for plain
-# requests-library calls, regardless of cookie validity or source IP.
-# lm-api-reads.fantasy.espn.com is ESPN's dedicated read-only API host used
-# by the fantasy app's own JS client and is not behind that same wall.
-
 # ESPN requires SWID wrapped in curly braces, e.g. "{89FE16C2-...-BEBA8A}".
 # Browser dev tools sometimes show it without braces — add them back if missing.
 if ESPN_SWID and not ESPN_SWID.startswith("{"):
     ESPN_SWID = "{" + ESPN_SWID.strip("{}") + "}"
 
-COOKIES = {"espn_s2": ESPN_S2, "SWID": ESPN_SWID}
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
-    ),
-    "Accept": "application/json, text/plain, */*",
-    "Accept-Language": "en-US,en;q=0.9",
-    "Referer": f"https://fantasy.espn.com/basketball/league?leagueId={LEAGUE_ID}",
-    "Origin": "https://fantasy.espn.com",
-    "X-Fantasy-Source": "kona",
-    "X-Fantasy-Platform": "kona-PROD-1dc90067f0ba96801d4c38f290b39b7d7d6c4e80",
-}
-
 CATEGORIES = ["FG%", "FT%", "3PM", "REB", "AST", "STL", "BLK", "PTS"]
 
-# ESPN stat IDs for the 8 standard categories (season-to-date / weekly stat
-# blocks come back keyed by these). Confirm against a live pull — ESPN
-# occasionally shifts ids between sports/seasons.
-STAT_ID_MAP = {
-    "FG%": 19,
-    "FT%": 20,
-    "3PM": 17,
-    "REB": 6,
-    "AST": 3,
-    "STL": 2,
-    "BLK": 1,
-    "PTS": 0,
+# espn_api's own stat-name keys for category box scores occasionally differ
+# slightly in capitalization/abbreviation from our dashboard's category names.
+# Map dashboard category -> espn_api stat key.
+ESPN_API_STAT_KEY = {
+    "FG%": "FG%",
+    "FT%": "FT%",
+    "3PM": "3PTM",
+    "REB": "REB",
+    "AST": "AST",
+    "STL": "STL",
+    "BLK": "BLK",
+    "PTS": "PTS",
 }
 
 
-def _get(view_params, extra=None):
-    """GET a league view from ESPN, raising on failure."""
-    params = {"view": view_params} if isinstance(view_params, str) else {"view": view_params}
-    if extra:
-        params.update(extra)
-    resp = requests.get(BASE_URL, params=params, cookies=COOKIES, headers=HEADERS, timeout=30)
-    if resp.status_code == 401:
-        sys.exit("ESPN returned 401 Unauthorized — cookies are invalid/expired. Re-auth and update secrets.")
-    resp.raise_for_status()
-
-    content_type = resp.headers.get("Content-Type", "")
-    if "json" not in content_type.lower():
-        snippet = resp.text[:300].replace("\n", " ")
-        sys.exit(
-            f"ESPN did not return JSON (Content-Type: {content_type!r}, status {resp.status_code}). "
-            f"This almost always means auth failed silently (bad/expired espn_s2 or malformed SWID) "
-            f"and ESPN served a login/error page instead. First 300 chars of response:\n{snippet}"
-        )
+def connect():
     try:
-        return resp.json()
-    except ValueError:
-        snippet = resp.text[:300].replace("\n", " ")
-        sys.exit(f"Failed to parse JSON from ESPN response. First 300 chars:\n{snippet}")
+        league = League(league_id=LEAGUE_ID, year=SEASON_YEAR, espn_s2=ESPN_S2, swid=ESPN_SWID)
+    except Exception as e:
+        sys.exit(
+            f"Failed to connect to ESPN league {LEAGUE_ID} (season {SEASON_YEAR}): {e}\n"
+            f"Check that your cookies are fresh and LEAGUE_ID/SEASON_YEAR are correct."
+        )
+    return league
 
 
 # ---------------------------------------------------------------------------
 # Pull: teams / rosters
 # ---------------------------------------------------------------------------
 
-def fetch_teams_and_rosters():
-    data = _get(["mTeam", "mRoster"])
+def fetch_teams_and_rosters(league):
     teams = []
-    for t in data.get("teams", []):
-        team_name = f"{t.get('location', '').strip()} {t.get('nickname', '').strip()}".strip()
+    for t in league.teams:
         roster = []
-        for entry in t.get("roster", {}).get("entries", []):
-            pool = entry.get("playerPoolEntry", {})
-            player = pool.get("player", {})
+        for p in t.roster:
             roster.append({
-                "player_id": player.get("id"),
-                "name": player.get("fullName"),
-                "pro_team_id": player.get("proTeamId"),
-                "lineup_slot_id": entry.get("lineupSlotId"),
-                "injury_status": player.get("injuryStatus"),
+                "player_id": getattr(p, "playerId", None),
+                "name": getattr(p, "name", None),
+                "pro_team": getattr(p, "proTeam", None),
+                "lineup_slot": getattr(p, "lineupSlot", None),
+                "injury_status": getattr(p, "injuryStatus", None),
             })
-        record = t.get("record", {}).get("overall", {})
         teams.append({
-            "team_id": t.get("id"),
-            "team_name": team_name or f"Team {t.get('id')}",
-            "abbrev": t.get("abbrev"),
+            "team_id": t.team_id,
+            "team_name": t.team_name,
+            "abbrev": getattr(t, "team_abbrev", None),
             "roster": roster,
             # Actual league standing (H2H matchup record, not category record).
-            "wins": record.get("wins", 0),
-            "losses": record.get("losses", 0),
-            "ties": record.get("ties", 0),
+            "wins": getattr(t, "wins", 0),
+            "losses": getattr(t, "losses", 0),
+            "ties": getattr(t, "ties", 0),
         })
     return teams
 
 
 # ---------------------------------------------------------------------------
-# Pull: free agents (top N available, ranked by ESPN's own rank)
+# Pull: free agents (top N available, ranked by ESPN's own ownership %)
 # ---------------------------------------------------------------------------
 
-def fetch_free_agents(limit=150):
-    filt = {
-        "players": {
-            "filterStatus": {"value": ["FREEAGENT", "WAIVERS"]},
-            "limit": limit,
-            "sortPercOwned": {"sortAsc": False, "sortPriority": 1},
-        }
-    }
-    headers = dict(HEADERS)
-    headers["X-Fantasy-Filter"] = json.dumps(filt)
-    resp = requests.get(
-        BASE_URL, params={"view": "kona_player_info"},
-        cookies=COOKIES, headers=headers, timeout=30,
-    )
-    resp.raise_for_status()
-    data = resp.json()
-
+def fetch_free_agents(league, limit=150):
     free_agents = []
-    for p in data.get("players", []):
-        player = p.get("player", {})
-        stats_blocks = player.get("stats", [])
-        season_stats = next(
-            (s.get("stats", {}) for s in stats_blocks if s.get("statSplitTypeId") == 0), {}
-        )
-        cat_line = {cat: season_stats.get(str(sid)) for cat, sid in STAT_ID_MAP.items()}
+    try:
+        players = league.free_agents(size=limit)
+    except Exception as e:
+        print(f"Warning: free agent pull failed ({e}); continuing without it.")
+        return free_agents
+
+    for p in players:
+        stats_block = getattr(p, "stats", {}) or {}
+        season_stats = {}
+        # espn_api stats dict is keyed by scoring period / "total"/"0" style keys
+        # depending on version; prefer a season-total entry if present.
+        for key in ("0", "00", "total"):
+            if key in stats_block:
+                season_stats = stats_block[key].get("avg", {}) or stats_block[key].get("total", {})
+                break
+        cat_line = {cat: season_stats.get(espn_key) for cat, espn_key in ESPN_API_STAT_KEY.items()}
         free_agents.append({
-            "player_id": player.get("id"),
-            "name": player.get("fullName"),
-            "percent_owned": p.get("ratings", {}).get("0", {}).get("positionalRanking"),
+            "player_id": getattr(p, "playerId", None),
+            "name": getattr(p, "name", None),
+            "percent_owned": getattr(p, "percent_owned", None),
             "stats": cat_line,
         })
     return free_agents
 
 
 # ---------------------------------------------------------------------------
-# Pull: matchups / weekly category results
+# Pull: matchups / weekly category results via espn_api box scores
 # ---------------------------------------------------------------------------
 
-def fetch_matchups(current_week):
+def fetch_matchups(league, current_week):
     """Returns (weekly_stats, weekly_pairs).
     weekly_stats: {week: {team_id: {cat: value}}} — per-team category totals that week.
     weekly_pairs: {week: [(team_id_a, team_id_b), ...]} — actual real-schedule matchups,
     used to compute each team's TRUE category W-L-T against their real opponent
-    (distinct from the dashboard's simulated All-Play record against everyone).
-
-    IMPORTANT: ESPN's mMatchupScore view does NOT reliably support filtering via a
-    'matchupPeriodId' query param — passing it can silently return an empty/partial
-    schedule instead of erroring. Always fetch the FULL season schedule (no filter)
-    and filter to relevant weeks ourselves."""
-    data = _get("mMatchupScore")
-
-    if os.environ.get("ESPN_DEBUG_DUMP"):
-        # One-time diagnostic: write the raw schedule response so we can see
-        # ESPN's actual field names for this league type (Categories vs Points
-        # leagues structure matchup stats differently under the hood).
-        with open("debug_matchup_raw.json", "w") as f:
-            json.dump(data.get("schedule", [])[:3], f, indent=2)
-        print("Wrote debug_matchup_raw.json (first 3 schedule entries) — "
-              "inspect it to confirm the real stat field names.")
-
+    (distinct from the dashboard's simulated All-Play record against everyone)."""
     weeks = {}
     pairs = {}
-    for m in data.get("schedule", []):
-        period = m.get("matchupPeriodId")
-        if period is None or period > current_week:
-            continue  # skip future/unplayed weeks
-        home = m.get("home")
-        away = m.get("away")
 
-        def _has_scores(side):
-            return bool(side and side.get("cumulativeScore", {}).get("scoreByStat"))
+    for wk in range(1, current_week + 1):
+        try:
+            box_scores = league.box_scores(matchup_period=wk)
+        except Exception as e:
+            print(f"Warning: could not fetch box scores for week {wk} ({e}); skipping.")
+            continue
 
-        if not (_has_scores(home) or _has_scores(away)):
-            continue  # week hasn't actually posted any stats yet (e.g. in-progress week)
+        for bs in box_scores:
+            home_team = getattr(bs, "home_team", None)
+            away_team = getattr(bs, "away_team", None)
+            home_stats = getattr(bs, "home_stats", None) or {}
+            away_stats = getattr(bs, "away_stats", None) or {}
 
-        for side in (home, away):
-            if not side:
-                continue
-            team_id = side.get("teamId")
-            cats = side.get("cumulativeScore", {}).get("scoreByStat", {})
-            if not cats:
-                continue
-            weeks.setdefault(period, {})[team_id] = {
-                stat_name: cats.get(str(sid), {}).get("score")
-                for stat_name, sid in STAT_ID_MAP.items()
-            }
-        if home and away and home.get("teamId") is not None and away.get("teamId") is not None:
-            pairs.setdefault(period, []).append((home["teamId"], away["teamId"]))
+            if not home_stats and not away_stats:
+                continue  # week hasn't posted stats yet (e.g. in-progress/future week)
+
+            for team, stats in ((home_team, home_stats), (away_team, away_stats)):
+                if team is None or not stats:
+                    continue
+                team_id = getattr(team, "team_id", None)
+                if team_id is None:
+                    continue
+                cat_vals = {}
+                for cat, espn_key in ESPN_API_STAT_KEY.items():
+                    entry = stats.get(espn_key)
+                    # espn_api box score stat entries are typically
+                    # {'score': <value>, 'result': 'WIN'/'LOSS'/'TIE'}.
+                    val = entry.get("score") if isinstance(entry, dict) else entry
+                    cat_vals[cat] = val
+                weeks.setdefault(wk, {})[team_id] = cat_vals
+
+            if (home_team is not None and away_team is not None
+                    and getattr(home_team, "team_id", None) is not None
+                    and getattr(away_team, "team_id", None) is not None):
+                pairs.setdefault(wk, []).append((home_team.team_id, away_team.team_id))
+
     return weeks, pairs
 
 
@@ -326,34 +290,31 @@ def compute_actual_cat_records(weekly_stats, weekly_pairs):
 # Pull: transactions (adds/drops/trades) for waiver-impact tracking
 # ---------------------------------------------------------------------------
 
-def fetch_transactions():
-    data = _get("mTransactions2")
+def fetch_transactions(league, size=50):
     txns = []
-    for t in data.get("transactions", []):
-        txns.append({
-            "type": t.get("type"),
-            "status": t.get("status"),
-            "team_id": t.get("teamId"),
-            "scoring_period": t.get("scoringPeriodId"),
-            "items": [
-                {
-                    "player_id": i.get("playerId"),
-                    "from": i.get("fromTeamId"),
-                    "to": i.get("toTeamId"),
-                    "type": i.get("type"),
-                }
-                for i in t.get("items", [])
-            ],
-        })
+    try:
+        activity = league.recent_activity(size=size)
+    except Exception as e:
+        print(f"Warning: transactions pull failed ({e}); continuing without it.")
+        return txns
+
+    for act in activity:
+        for action in getattr(act, "actions", []):
+            # Each action tuple is typically (team, action_type, player, bid_amount).
+            team, action_type, player = action[0], action[1], action[2]
+            txns.append({
+                "date": getattr(act, "date", None),
+                "team_id": getattr(team, "team_id", None),
+                "team_name": getattr(team, "team_name", None),
+                "action": action_type,
+                "player": getattr(player, "name", str(player)),
+            })
     return txns
 
 
 # ---------------------------------------------------------------------------
 # Metric recomputation (mirrors the dashboard's existing logic)
 # ---------------------------------------------------------------------------
-
-PCT_CATS = {"FG%", "FT%"}
-
 
 def zscores_for_week(week_data):
     """week_data: {team_id: {cat: value}} -> {team_id: {cat: z}}"""
@@ -398,17 +359,17 @@ def _pct_rank_0_to_1(value, all_values):
     return rank / (n - 1) if n > 1 else 0.5
 
 
-def build_dataset(current_week):
-    teams = fetch_teams_and_rosters()
-    free_agents = fetch_free_agents()
-    weekly_matchups, weekly_pairs = fetch_matchups(current_week)
+def build_dataset(league, current_week):
+    teams = fetch_teams_and_rosters(league)
+    free_agents = fetch_free_agents(league)
+    weekly_matchups, weekly_pairs = fetch_matchups(league, current_week)
     if not weekly_matchups:
         sys.exit(
             f"No matchup data came back for any week <= {current_week}. "
-            f"Check that LEAGUE_ID/SEASON_YEAR are correct and that ESPN's "
-            f"mMatchupScore view actually has posted stats yet for this season."
+            f"Check that LEAGUE_ID/SEASON_YEAR are correct and that ESPN has "
+            f"posted box scores yet for this season."
         )
-    transactions = fetch_transactions()
+    transactions = fetch_transactions(league)
     actual_cat_records = compute_actual_cat_records(weekly_matchups, weekly_pairs)
 
     team_names = {t["team_id"]: t["team_name"] for t in teams}
@@ -525,21 +486,16 @@ def build_dataset(current_week):
 
 
 def main():
-    status = _get("mStatus")
-    # IMPORTANT: ESPN's status response has two different "current period" fields.
-    # - currentMatchupPeriod = the actual fantasy WEEK number (what we want).
-    # - scoringPeriodId = the NBA season's DAY count (e.g. ~21 in early Nov),
-    #   which is NOT the fantasy week and will silently break matchup lookups
-    #   (queries a nonexistent matchup period -> empty data -> blank/placeholder
-    #   dashboard, with the header showing the wrong "Week 21" etc.).
-    # Always prefer currentMatchupPeriod; only fall back to scoringPeriodId if
-    # ESPN's response shape is missing it entirely.
-    status_block = status.get("status", {})
-    current_week = status_block.get("currentMatchupPeriod") or status.get("scoringPeriodId")
-    if not current_week:
-        sys.exit("Could not determine current week from ESPN response.")
+    league = connect()
 
-    dataset = build_dataset(current_week)
+    # espn_api exposes the live fantasy week directly -- no more guessing
+    # between ESPN's raw "scoringPeriodId" (NBA day count) and the real
+    # fantasy matchup week.
+    current_week = getattr(league, "currentMatchupPeriod", None) or getattr(league, "current_week", None)
+    if not current_week:
+        sys.exit("Could not determine current week from espn_api League object.")
+
+    dataset = build_dataset(league, current_week)
 
     out_path = os.environ.get("OUTPUT_JSON_PATH", "league_data.json")
     with open(out_path, "w") as f:
