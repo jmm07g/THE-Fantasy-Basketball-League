@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:23:13.522344Z",
+  "generated_at": "2026-11-09T18:53:30.906469Z",
   "league_id": 249846,
   "season_year": 2027,
   "current_week": 4,
@@ -226,7 +226,7 @@
           "name": "Devin Vassell",
           "pro_team": "SAS",
           "lineup_slot": "SG",
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "OUT"
         },
         {
           "player_id": 4433174,
@@ -1191,7 +1191,7 @@
           "name": "Collin Murray-Boyles",
           "pro_team": "TOR",
           "lineup_slot": "PF",
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "player_id": 3155526,
@@ -1981,8 +1981,8 @@
       }
     },
     {
-      "player_id": 5104155,
-      "name": "Bilal Coulibaly",
+      "player_id": 4432241,
+      "name": "Jamal Shead",
       "percent_owned": null,
       "stats": {
         "FG%": null,
@@ -1996,8 +1996,8 @@
       }
     },
     {
-      "player_id": 4432241,
-      "name": "Jamal Shead",
+      "player_id": 5104155,
+      "name": "Bilal Coulibaly",
       "percent_owned": null,
       "stats": {
         "FG%": null,
@@ -2041,6 +2041,21 @@
       }
     },
     {
+      "player_id": 5107199,
+      "name": "Daniss Jenkins",
+      "percent_owned": null,
+      "stats": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    {
       "player_id": 4066211,
       "name": "Robert Williams III",
       "percent_owned": null,
@@ -2058,21 +2073,6 @@
     {
       "player_id": 4683688,
       "name": "Dereck Lively II",
-      "percent_owned": null,
-      "stats": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    {
-      "player_id": 5107199,
-      "name": "Daniss Jenkins",
       "percent_owned": null,
       "stats": {
         "FG%": null,
@@ -2371,6 +2371,21 @@
       }
     },
     {
+      "player_id": 4066372,
+      "name": "Kevin Huerter",
+      "percent_owned": null,
+      "stats": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    {
       "player_id": 4896372,
       "name": "Walter Clayton Jr.",
       "percent_owned": null,
@@ -2388,21 +2403,6 @@
     {
       "player_id": 4592492,
       "name": "Bones Hyland",
-      "percent_owned": null,
-      "stats": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    {
-      "player_id": 4066372,
-      "name": "Kevin Huerter",
       "percent_owned": null,
       "stats": {
         "FG%": null,
@@ -2446,6 +2446,21 @@
       }
     },
     {
+      "player_id": 4592427,
+      "name": "Spencer Jones",
+      "percent_owned": null,
+      "stats": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    {
       "player_id": 2581018,
       "name": "Kentavious Caldwell-Pope",
       "percent_owned": null,
@@ -2463,21 +2478,6 @@
     {
       "player_id": 4397040,
       "name": "Brandon Williams",
-      "percent_owned": null,
-      "stats": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    {
-      "player_id": 4592427,
-      "name": "Spencer Jones",
       "percent_owned": null,
       "stats": {
         "FG%": null,
@@ -2851,8 +2851,8 @@
       }
     },
     {
-      "player_id": 5214640,
-      "name": "Kasparas Jakucionis",
+      "player_id": 4431823,
+      "name": "Miles McBride",
       "percent_owned": null,
       "stats": {
         "FG%": null,
@@ -2866,8 +2866,8 @@
       }
     },
     {
-      "player_id": 4431823,
-      "name": "Miles McBride",
+      "player_id": 5214640,
+      "name": "Kasparas Jakucionis",
       "percent_owned": null,
       "stats": {
         "FG%": null,
@@ -2986,8 +2986,8 @@
       }
     },
     {
-      "player_id": 4395650,
-      "name": "Leaky Black",
+      "player_id": 5241364,
+      "name": "Bennett Stirtz",
       "percent_owned": null,
       "stats": {
         "FG%": null,
@@ -3016,8 +3016,8 @@
       }
     },
     {
-      "player_id": 5241364,
-      "name": "Bennett Stirtz",
+      "player_id": 4395650,
+      "name": "Leaky Black",
       "percent_owned": null,
       "stats": {
         "FG%": null,
@@ -3076,21 +3076,6 @@
       }
     },
     {
-      "player_id": 4873090,
-      "name": "Labaron Philon Jr.",
-      "percent_owned": null,
-      "stats": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    {
       "player_id": 5061568,
       "name": "Carter Bryant",
       "percent_owned": null,
@@ -3106,8 +3091,8 @@
       }
     },
     {
-      "player_id": 4593841,
-      "name": "Baylor Scheierman",
+      "player_id": 3914044,
+      "name": "Landry Shamet",
       "percent_owned": null,
       "stats": {
         "FG%": null,
@@ -3121,8 +3106,23 @@
       }
     },
     {
-      "player_id": 3914044,
-      "name": "Landry Shamet",
+      "player_id": 4873090,
+      "name": "Labaron Philon Jr.",
+      "percent_owned": null,
+      "stats": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    {
+      "player_id": 4593841,
+      "name": "Baylor Scheierman",
       "percent_owned": null,
       "stats": {
         "FG%": null,
@@ -3301,8 +3301,8 @@
       }
     },
     {
-      "player_id": 2596112,
-      "name": "Javonte Green",
+      "player_id": 5239561,
+      "name": "Jase Richardson",
       "percent_owned": null,
       "stats": {
         "FG%": null,
@@ -3316,8 +3316,8 @@
       }
     },
     {
-      "player_id": 5239561,
-      "name": "Jase Richardson",
+      "player_id": 2596112,
+      "name": "Javonte Green",
       "percent_owned": null,
       "stats": {
         "FG%": null,
