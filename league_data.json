@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-11-09T18:02:18.358231Z",
+  "generated_at": "2026-11-09T18:12:09.050278Z",
   "league_id": 249846,
   "season_year": 2027,
   "current_week": 4,
+  "last_completed_week": 3,
   "weeks_remaining": 13,
   "num_teams": 12,
   "categories": [
@@ -148,7 +149,7 @@
           "name": "Luka Doncic",
           "pro_team": "LAL",
           "lineup_slot": "G",
-          "injury_status": "DAY_TO_DAY"
+          "injury_status": "ACTIVE"
         },
         {
           "player_id": 4594268,
@@ -284,7 +285,7 @@
           "name": "Austin Reaves",
           "pro_team": "LAL",
           "lineup_slot": "PG",
-          "injury_status": "ACTIVE"
+          "injury_status": "DAY_TO_DAY"
         },
         {
           "player_id": 4433287,
