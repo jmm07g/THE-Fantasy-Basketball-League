@@ -12,21 +12,37 @@ SECURITY — READ BEFORE USING
 This script authenticates using your ESPN session cookies (espn_s2, SWID).
 NEVER hardcode them here and NEVER commit them to git.
 
-Local use:
+MANUAL / LOCAL RUN (current setup — no cloud automation)
+----------------------------------------------------------
+ESPN's bot protection blocks requests from GitHub Actions' datacenter IPs,
+so this runs manually from your own machine/network instead. Two ways to
+supply credentials for a local run:
+
+Option A — one-time per terminal session:
     export ESPN_S2="..."
     export ESPN_SWID="{...}"
     python espn_league_sync.py
 
-GitHub Actions (recommended for automation):
-    Store ESPN_S2 and ESPN_SWID as encrypted repo secrets
-    (Settings -> Secrets and variables -> Actions), then reference them
-    as env vars in the workflow step that runs this script. They are
-    never printed to logs and never live in the repo itself.
+Option B — .env file (recommended, no retyping each time):
+    1. Create a file named ".env" in the same folder as this script:
+         ESPN_S2=...
+         ESPN_SWID={...}
+    2. Add ".env" to your .gitignore so it never gets committed.
+    3. Just run:  python espn_league_sync.py
+       The script auto-loads .env if present (no extra packages needed).
 
-If you pasted real cookie values into a chat, Slack, email, etc., treat
-them as burned: log out of ESPN everywhere (or change your password) to
-invalidate them, then generate fresh ones and store only in a secrets
-manager.
+Getting fresh cookie values (do this every time they stop working):
+    1. Log into fantasy.espn.com in your browser, open your league.
+    2. Open DevTools (F12) -> Application/Storage tab -> Cookies ->
+       https://fantasy.espn.com
+    3. Copy the full "espn_s2" value and the full "SWID" value
+       (keep the curly braces on SWID, e.g. {89FE16C2-...-BEBA8A}).
+    4. Paste into your .env file (or export commands) — never into chat,
+       email, or any file you might commit/share.
+
+If you ever pasted real cookie values into a chat, Slack, email, etc.,
+treat them as burned: log out of ESPN everywhere (or change your
+password) to invalidate them, then generate fresh ones.
 """
 
 import os
@@ -36,6 +52,27 @@ import statistics
 from datetime import datetime
 
 import requests
+
+
+def _load_dotenv(path=".env"):
+    """Minimal .env loader — no external dependency required.
+    Only sets a variable if it isn't already set in the real environment."""
+    if not os.path.exists(path):
+        return
+    # encoding="utf-8-sig" strips a leading BOM if Notepad/Windows added one
+    # (common cause of "Missing credentials" even when the file looks correct).
+    with open(path, encoding="utf-8-sig") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, _, val = line.partition("=")
+            key, val = key.strip(), val.strip().strip('"').strip("'")
+            if key and key not in os.environ:
+                os.environ[key] = val
+
+
+_load_dotenv()
 
 # ---------------------------------------------------------------------------
 # Config
@@ -59,9 +96,14 @@ if not ESPN_S2 or not ESPN_SWID:
     )
 
 BASE_URL = (
-    f"https://fantasy.espn.com/apis/v3/games/fba/seasons/{SEASON_YEAR}"
+    f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/fba/seasons/{SEASON_YEAR}"
     f"/segments/0/leagues/{LEAGUE_ID}"
 )
+# NOTE: fantasy.espn.com (the web-app domain) sits behind aggressive Akamai
+# bot protection that returns HTTP 202 + an HTML challenge page for plain
+# requests-library calls, regardless of cookie validity or source IP.
+# lm-api-reads.fantasy.espn.com is ESPN's dedicated read-only API host used
+# by the fantasy app's own JS client and is not behind that same wall.
 
 # ESPN requires SWID wrapped in curly braces, e.g. "{89FE16C2-...-BEBA8A}".
 # Browser dev tools sometimes show it without braces — add them back if missing.
