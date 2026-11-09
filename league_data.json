@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:58:22.816872Z",
+  "generated_at": "2026-11-09T19:09:21.124222Z",
   "league_id": 249846,
   "season_year": 2027,
   "current_week": 4,
@@ -8479,1311 +8479,1311 @@
       {
         "player": "Moussa Diabate",
         "team": "The ScrobKnobs",
-        "draftPick": 156,
+        "auctionValue": 1,
         "performanceRank": 9,
-        "valueDelta": 147,
+        "valueDelta": 312.0,
         "zTotal": 0.0
       },
       {
         "player": "Kyshawn George",
         "team": "The ScrobKnobs",
-        "draftPick": 149,
+        "auctionValue": 1,
         "performanceRank": 8,
-        "valueDelta": 141,
+        "valueDelta": 298.6,
         "zTotal": 0.0
       },
       {
         "player": "Devin Vassell",
         "team": "The ScrobKnobs",
-        "draftPick": 152,
+        "auctionValue": 1,
         "performanceRank": 28,
-        "valueDelta": 124,
+        "valueDelta": 284.8,
         "zTotal": 0.0
       },
       {
         "player": "Daniel Gafford",
         "team": "Guard Squad ",
-        "draftPick": 155,
+        "auctionValue": 1,
         "performanceRank": 42,
-        "valueDelta": 113,
+        "valueDelta": 276.9,
         "zTotal": 0.0
       },
       {
         "player": "Brook Lopez",
         "team": "Guard Squad ",
-        "draftPick": 153,
+        "auctionValue": 1,
         "performanceRank": 41,
-        "valueDelta": 112,
+        "valueDelta": 273.8,
         "zTotal": 0.0
       },
       {
         "player": "Julian Champagnie",
         "team": "Guard Squad ",
-        "draftPick": 150,
+        "auctionValue": 1,
         "performanceRank": 40,
-        "valueDelta": 110,
+        "valueDelta": 268.7,
         "zTotal": 0.0
       },
       {
         "player": "Kevin Porter Jr.",
         "team": "Guard Squad ",
-        "draftPick": 143,
+        "auctionValue": 1,
         "performanceRank": 39,
-        "valueDelta": 104,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Myles Turner",
-        "team": "The ScrobKnobs",
-        "draftPick": 110,
-        "performanceRank": 7,
-        "valueDelta": 103,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Brandon Ingram",
-        "team": "The ScrobKnobs",
-        "draftPick": 108,
-        "performanceRank": 6,
-        "valueDelta": 102,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Aaron Gordon",
-        "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 125,
-        "performanceRank": 25,
-        "valueDelta": 100,
+        "valueDelta": 255.2,
         "zTotal": 0.0
       },
       {
         "player": "Kris Dunn",
         "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 107,
+        "auctionValue": 1,
         "performanceRank": 24,
-        "valueDelta": 83,
+        "valueDelta": 237.3,
         "zTotal": 0.0
       },
       {
-        "player": "Andrew Wiggins",
-        "team": "Guard Squad ",
-        "draftPick": 111,
-        "performanceRank": 38,
-        "valueDelta": 73,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Peyton Watson",
-        "team": "Go Hog Wild",
-        "draftPick": 83,
-        "performanceRank": 15,
-        "valueDelta": 68,
+        "player": "Myles Turner",
+        "team": "The ScrobKnobs",
+        "auctionValue": 3,
+        "performanceRank": 7,
+        "valueDelta": 227.6,
         "zTotal": 0.0
       },
       {
         "player": "Coby White",
         "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 89,
+        "auctionValue": 2,
         "performanceRank": 23,
-        "valueDelta": 66,
+        "valueDelta": 221.9,
         "zTotal": 0.0
       },
       {
-        "player": "Darryn Peterson",
-        "team": "UM FSU friends",
-        "draftPick": 117,
-        "performanceRank": 56,
-        "valueDelta": 61,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Ace Bailey",
-        "team": "Go Hog Wild",
-        "draftPick": 131,
-        "performanceRank": 70,
-        "valueDelta": 61,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Reed Sheppard",
-        "team": "Joke  Squad",
-        "draftPick": 76,
-        "performanceRank": 16,
-        "valueDelta": 60,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Joel Embiid",
-        "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 77,
-        "performanceRank": 22,
-        "valueDelta": 55,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Trae Young",
+        "player": "Brandon Ingram",
         "team": "The ScrobKnobs",
-        "draftPick": 57,
-        "performanceRank": 5,
-        "valueDelta": 52,
+        "auctionValue": 5,
+        "performanceRank": 6,
+        "valueDelta": 203.9,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Peyton Watson",
+        "team": "Go Hog Wild",
+        "auctionValue": 4,
+        "performanceRank": 15,
+        "valueDelta": 203.1,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Andrew Wiggins",
+        "team": "Guard Squad ",
+        "auctionValue": 3,
+        "performanceRank": 38,
+        "valueDelta": 198.6,
         "zTotal": 0.0
       },
       {
         "player": "RJ Barrett",
         "team": "Book Club",
-        "draftPick": 132,
+        "auctionValue": 1,
         "performanceRank": 84,
-        "valueDelta": 48,
+        "valueDelta": 195.8,
         "zTotal": 0.0
       },
       {
-        "player": "Cameron Boozer",
+        "player": "Aaron Gordon",
         "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 67,
-        "performanceRank": 21,
-        "valueDelta": 46,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Walker Kessler",
-        "team": "Joke  Squad",
-        "draftPick": 59,
-        "performanceRank": 14,
-        "valueDelta": 45,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Stephon Castle",
-        "team": "UM FSU friends",
-        "draftPick": 98,
-        "performanceRank": 55,
-        "valueDelta": 43,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Immanuel Quickley",
-        "team": "UM FSU friends",
-        "draftPick": 94,
-        "performanceRank": 54,
-        "valueDelta": 40,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Ivica Zubac",
-        "team": "UM FSU friends",
-        "draftPick": 87,
-        "performanceRank": 53,
-        "valueDelta": 34,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Alperen Sengun",
-        "team": "The ScrobKnobs",
-        "draftPick": 34,
-        "performanceRank": 4,
-        "valueDelta": 30,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Stephen Curry",
-        "team": "The ScrobKnobs",
-        "draftPick": 31,
-        "performanceRank": 3,
-        "valueDelta": 28,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Yaxel Lendeborg",
-        "team": "Y'all Seen Chris's Team?",
-        "draftPick": 137,
-        "performanceRank": 109,
-        "valueDelta": 28,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Paul George",
-        "team": "UM FSU friends",
-        "draftPick": 78,
-        "performanceRank": 52,
-        "valueDelta": 26,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Jared McCain",
-        "team": "Book Club",
-        "draftPick": 109,
-        "performanceRank": 83,
-        "valueDelta": 26,
+        "auctionValue": 5,
+        "performanceRank": 25,
+        "valueDelta": 186.9,
         "zTotal": 0.0
       },
       {
         "player": "Toumani Camara",
         "team": "Go Hog Wild",
-        "draftPick": 148,
+        "auctionValue": 1,
         "performanceRank": 124,
-        "valueDelta": 24,
+        "valueDelta": 180.5,
         "zTotal": 0.0
       },
       {
-        "player": "Alex Sarr",
-        "team": "UM FSU friends",
-        "draftPick": 73,
-        "performanceRank": 51,
-        "valueDelta": 22,
+        "player": "Reed Sheppard",
+        "team": "Joke  Squad",
+        "auctionValue": 6,
+        "performanceRank": 16,
+        "valueDelta": 179.5,
         "zTotal": 0.0
       },
       {
-        "player": "Fred VanVleet",
-        "team": "You Got Serbed",
-        "draftPick": 88,
-        "performanceRank": 69,
-        "valueDelta": 19,
+        "player": "Yaxel Lendeborg",
+        "team": "Y'all Seen Chris's Team?",
+        "auctionValue": 1,
+        "performanceRank": 109,
+        "valueDelta": 175.0,
         "zTotal": 0.0
       },
       {
-        "player": "Derik Queen",
-        "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 114,
-        "performanceRank": 95,
-        "valueDelta": 19,
+        "player": "Ace Bailey",
+        "team": "Go Hog Wild",
+        "auctionValue": 3,
+        "performanceRank": 70,
+        "valueDelta": 172.8,
         "zTotal": 0.0
       },
       {
         "player": "Isaiah Hartenstein",
         "team": "Y'all Seen Chris's Team?",
-        "draftPick": 145,
+        "auctionValue": 1,
         "performanceRank": 126,
-        "valueDelta": 19,
+        "valueDelta": 172.4,
         "zTotal": 0.0
       },
       {
-        "player": "Damian Lillard",
-        "team": "You Got Serbed",
-        "draftPick": 84,
-        "performanceRank": 67,
-        "valueDelta": 17,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Miles Bridges",
-        "team": "You Got Serbed",
-        "draftPick": 85,
-        "performanceRank": 68,
-        "valueDelta": 17,
-        "zTotal": 0.0
-      },
-      {
-        "player": "AJ Dybantsa",
-        "team": "Guard Squad ",
-        "draftPick": 53,
-        "performanceRank": 37,
-        "valueDelta": 16,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Donovan Clingan",
-        "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 35,
-        "performanceRank": 20,
-        "valueDelta": 15,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Brandon Miller",
-        "team": "Guard Squad ",
-        "draftPick": 51,
-        "performanceRank": 36,
-        "valueDelta": 15,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Jalen Green",
-        "team": "Book Club",
-        "draftPick": 97,
-        "performanceRank": 82,
-        "valueDelta": 15,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Jamal Murray",
-        "team": "The ScrobKnobs",
-        "draftPick": 14,
-        "performanceRank": 1,
-        "valueDelta": 13,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Jalen Johnson",
-        "team": "The ScrobKnobs",
-        "draftPick": 15,
-        "performanceRank": 2,
-        "valueDelta": 13,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Kel'el Ware",
-        "team": "UM FSU friends",
-        "draftPick": 63,
-        "performanceRank": 50,
-        "valueDelta": 13,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Payton Pritchard",
-        "team": "Y'all Seen Chris's Team?",
-        "draftPick": 121,
-        "performanceRank": 108,
-        "valueDelta": 13,
-        "zTotal": 0.0
-      },
-      {
-        "player": "OG Anunoby",
-        "team": "UM FSU friends",
-        "draftPick": 61,
-        "performanceRank": 49,
-        "valueDelta": 12,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Zion Williamson",
-        "team": "Book Club",
-        "draftPick": 91,
-        "performanceRank": 81,
-        "valueDelta": 10,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Zach LaVine",
-        "team": "Go Hog Wild",
-        "draftPick": 133,
-        "performanceRank": 123,
-        "valueDelta": 10,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Cedric Coward",
+        "player": "Derik Queen",
         "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 102,
-        "performanceRank": 94,
-        "valueDelta": 8,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Ja Morant",
-        "team": "UM FSU friends",
-        "draftPick": 54,
-        "performanceRank": 48,
-        "valueDelta": 6,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Darius Acuff Jr.",
-        "team": "Go Hog Wild",
-        "draftPick": 127,
-        "performanceRank": 122,
-        "valueDelta": 5,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Naz Reid",
-        "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 23,
-        "performanceRank": 19,
-        "valueDelta": 4,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Austin Reaves",
-        "team": "Guard Squad ",
-        "draftPick": 39,
-        "performanceRank": 35,
-        "valueDelta": 4,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Julius Randle",
-        "team": "You Got Serbed",
-        "draftPick": 70,
-        "performanceRank": 66,
-        "valueDelta": 4,
+        "auctionValue": 1,
+        "performanceRank": 95,
+        "valueDelta": 170.4,
         "zTotal": 0.0
       },
       {
         "player": "Jeremiah Fears",
         "team": "Joke  Squad",
-        "draftPick": 101,
+        "auctionValue": 1,
         "performanceRank": 97,
-        "valueDelta": 4,
+        "valueDelta": 162.3,
         "zTotal": 0.0
       },
       {
-        "player": "Lauri Markkanen",
-        "team": "UM FSU friends",
-        "draftPick": 49,
-        "performanceRank": 47,
-        "valueDelta": 2,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Dylan Harper",
-        "team": "Book Club",
-        "draftPick": 82,
-        "performanceRank": 80,
-        "valueDelta": 2,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Anthony Edwards",
-        "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 18,
-        "performanceRank": 18,
-        "valueDelta": 0,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Deni Avdija",
-        "team": "UM FSU friends",
-        "draftPick": 46,
-        "performanceRank": 46,
-        "valueDelta": 0,
-        "zTotal": 0.0
-      },
-      {
-        "player": "CJ McCollum",
-        "team": "Book Club",
-        "draftPick": 79,
-        "performanceRank": 79,
-        "valueDelta": 0,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Kon Knueppel",
-        "team": "UM FSU friends",
-        "draftPick": 44,
-        "performanceRank": 45,
-        "valueDelta": -1,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Darius Garland",
-        "team": "You Got Serbed",
-        "draftPick": 64,
-        "performanceRank": 65,
-        "valueDelta": -1,
+        "player": "AJ Dybantsa",
+        "team": "Guard Squad ",
+        "auctionValue": 6,
+        "performanceRank": 37,
+        "valueDelta": 154.4,
         "zTotal": 0.0
       },
       {
         "player": "Tari Eason",
         "team": "Go Hog Wild",
-        "draftPick": 141,
+        "auctionValue": 1,
         "performanceRank": 142,
-        "valueDelta": -1,
+        "valueDelta": 150.2,
         "zTotal": 0.0
       },
       {
-        "player": "Josh Giddey",
-        "team": "Guard Squad ",
-        "draftPick": 32,
-        "performanceRank": 34,
-        "valueDelta": -2,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Dejounte Murray",
-        "team": "You Got Serbed",
-        "draftPick": 62,
-        "performanceRank": 64,
-        "valueDelta": -2,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Josh Hart",
-        "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 90,
-        "performanceRank": 93,
-        "valueDelta": -3,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Jimmy Butler III",
-        "team": "Joke  Squad",
-        "draftPick": 135,
-        "performanceRank": 139,
-        "valueDelta": -4,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Derrick White",
-        "team": "Guard Squad ",
-        "draftPick": 27,
-        "performanceRank": 33,
-        "valueDelta": -6,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Jaylen Brown",
-        "team": "You Got Serbed",
-        "draftPick": 55,
-        "performanceRank": 63,
-        "valueDelta": -8,
+        "player": "Jared McCain",
+        "team": "Book Club",
+        "auctionValue": 3,
+        "performanceRank": 83,
+        "valueDelta": 149.5,
         "zTotal": 0.0
       },
       {
         "player": "Jaime Jaquez Jr.",
         "team": "Banchero Bandits",
-        "draftPick": 147,
+        "auctionValue": 1,
         "performanceRank": 155,
-        "valueDelta": -8,
+        "valueDelta": 147.5,
         "zTotal": 0.0
       },
       {
-        "player": "Day'Ron Sharpe",
-        "team": "Go Hog Wild",
-        "draftPick": 120,
-        "performanceRank": 129,
-        "valueDelta": -9,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Ryan Rollins",
-        "team": "Y'all Seen Chris's Team?",
-        "draftPick": 96,
-        "performanceRank": 107,
-        "valueDelta": -11,
-        "zTotal": 0.0
-      },
-      {
-        "player": "LaMelo Ball",
-        "team": "Guard Squad ",
-        "draftPick": 19,
-        "performanceRank": 31,
-        "valueDelta": -12,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Amen Thompson",
-        "team": "Guard Squad ",
-        "draftPick": 20,
-        "performanceRank": 32,
-        "valueDelta": -12,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Michael Porter Jr.",
-        "team": "You Got Serbed",
-        "draftPick": 50,
-        "performanceRank": 62,
-        "valueDelta": -12,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Luka Doncic",
-        "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 2,
-        "performanceRank": 17,
-        "valueDelta": -15,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Dillon Brooks",
-        "team": "Banchero Bandits",
-        "draftPick": 139,
-        "performanceRank": 154,
-        "valueDelta": -15,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Draymond Green",
-        "team": "You Got Serbed",
-        "draftPick": 124,
-        "performanceRank": 141,
-        "valueDelta": -17,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Collin Murray-Boyles",
-        "team": "Banchero Bandits",
-        "draftPick": 136,
-        "performanceRank": 153,
-        "valueDelta": -17,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Duncan Robinson",
-        "team": "Jehn's Bucket Bandits",
-        "draftPick": 151,
-        "performanceRank": 170,
-        "valueDelta": -19,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Paolo Banchero",
-        "team": "Book Club",
-        "draftPick": 58,
-        "performanceRank": 78,
-        "valueDelta": -20,
+        "player": "Jimmy Butler III",
+        "team": "Joke  Squad",
+        "auctionValue": 1,
+        "performanceRank": 139,
+        "valueDelta": 142.9,
         "zTotal": 0.0
       },
       {
         "player": "Jakob Poeltl",
         "team": "The ScrobKnobs",
-        "draftPick": 154,
+        "auctionValue": 1,
         "performanceRank": 174,
-        "valueDelta": -20,
+        "valueDelta": 142.9,
         "zTotal": 0.0
       },
       {
-        "player": "Onyeka Okongwu",
+        "player": "Duncan Robinson",
+        "team": "Jehn's Bucket Bandits",
+        "auctionValue": 1,
+        "performanceRank": 170,
+        "valueDelta": 140.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "CJ McCollum",
         "team": "Book Club",
-        "draftPick": 56,
-        "performanceRank": 77,
-        "valueDelta": -21,
+        "auctionValue": 4,
+        "performanceRank": 79,
+        "valueDelta": 137.1,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Fred VanVleet",
+        "team": "You Got Serbed",
+        "auctionValue": 5,
+        "performanceRank": 69,
+        "valueDelta": 136.8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Dillon Brooks",
+        "team": "Banchero Bandits",
+        "auctionValue": 1,
+        "performanceRank": 154,
+        "valueDelta": 134.1,
         "zTotal": 0.0
       },
       {
         "player": "Cam Spencer",
         "team": "Jehn's Bucket Bandits",
-        "draftPick": 146,
+        "auctionValue": 1,
         "performanceRank": 169,
-        "valueDelta": -23,
+        "valueDelta": 131.4,
         "zTotal": 0.0
       },
       {
-        "player": "Anthony Black",
-        "team": "Banchero Bandits",
-        "draftPick": 126,
-        "performanceRank": 152,
-        "valueDelta": -26,
+        "player": "Immanuel Quickley",
+        "team": "UM FSU friends",
+        "auctionValue": 7,
+        "performanceRank": 54,
+        "valueDelta": 131.2,
         "zTotal": 0.0
       },
       {
-        "player": "Mikal Bridges",
-        "team": "Book Club",
-        "draftPick": 48,
-        "performanceRank": 76,
-        "valueDelta": -28,
+        "player": "Darius Acuff Jr.",
+        "team": "Go Hog Wild",
+        "auctionValue": 2,
+        "performanceRank": 122,
+        "valueDelta": 131.1,
         "zTotal": 0.0
       },
       {
-        "player": "Ajay Mitchell",
-        "team": "Banchero Bandits",
-        "draftPick": 129,
-        "performanceRank": 157,
-        "valueDelta": -28,
+        "player": "OG Anunoby",
+        "team": "UM FSU friends",
+        "auctionValue": 7,
+        "performanceRank": 49,
+        "valueDelta": 130.0,
         "zTotal": 0.0
       },
       {
-        "player": "De'Aaron Fox",
-        "team": "Book Club",
-        "draftPick": 45,
-        "performanceRank": 75,
-        "valueDelta": -30,
+        "player": "Julius Randle",
+        "team": "You Got Serbed",
+        "auctionValue": 6,
+        "performanceRank": 66,
+        "valueDelta": 127.4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Cedric Coward",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "auctionValue": 4,
+        "performanceRank": 94,
+        "valueDelta": 126.2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Cameron Boozer",
+        "team": "Pauls slightlyaboveaverageteam",
+        "auctionValue": 10,
+        "performanceRank": 21,
+        "valueDelta": 123.0,
         "zTotal": 0.0
       },
       {
         "player": "De'Anthony Melton",
         "team": "Jehn's Bucket Bandits",
-        "draftPick": 138,
+        "auctionValue": 1,
         "performanceRank": 168,
-        "valueDelta": -30,
+        "valueDelta": 118.0,
         "zTotal": 0.0
       },
       {
-        "player": "Caleb Wilson",
-        "team": "Y'all Seen Chris's Team?",
-        "draftPick": 72,
-        "performanceRank": 106,
-        "valueDelta": -34,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Bam Adebayo",
-        "team": "You Got Serbed",
-        "draftPick": 26,
-        "performanceRank": 61,
-        "valueDelta": -35,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Ty Jerome",
-        "team": "Y'all Seen Chris's Team?",
-        "draftPick": 68,
-        "performanceRank": 104,
-        "valueDelta": -36,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Jaren Jackson Jr.",
-        "team": "Y'all Seen Chris's Team?",
-        "draftPick": 69,
-        "performanceRank": 105,
-        "valueDelta": -36,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Jalen Brunson",
+        "player": "Ja Morant",
         "team": "UM FSU friends",
-        "draftPick": 7,
-        "performanceRank": 44,
-        "valueDelta": -37,
+        "auctionValue": 8,
+        "performanceRank": 48,
+        "valueDelta": 116.6,
         "zTotal": 0.0
       },
       {
-        "player": "Quentin Grimes",
-        "team": "Y'all Seen Chris's Team?",
-        "draftPick": 142,
-        "performanceRank": 179,
-        "valueDelta": -37,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Domantas Sabonis",
-        "team": "You Got Serbed",
-        "draftPick": 22,
-        "performanceRank": 60,
-        "valueDelta": -38,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Ausar Thompson",
-        "team": "Joke  Squad",
-        "draftPick": 99,
-        "performanceRank": 137,
-        "valueDelta": -38,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Jalen Suggs",
-        "team": "Joke  Squad",
-        "draftPick": 100,
-        "performanceRank": 138,
-        "valueDelta": -38,
+        "player": "Paul George",
+        "team": "UM FSU friends",
+        "auctionValue": 8,
+        "performanceRank": 52,
+        "valueDelta": 114.7,
         "zTotal": 0.0
       },
       {
         "player": "Sam Merrill",
         "team": "Jehn's Bucket Bandits",
-        "draftPick": 128,
+        "auctionValue": 1,
         "performanceRank": 167,
-        "valueDelta": -39,
+        "valueDelta": 108.7,
         "zTotal": 0.0
       },
       {
-        "player": "Trey Murphy III",
-        "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 52,
-        "performanceRank": 92,
-        "valueDelta": -40,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Brandin Podziemski",
-        "team": "Go Hog Wild",
-        "draftPick": 80,
-        "performanceRank": 121,
-        "valueDelta": -41,
-        "zTotal": 0.0
-      },
-      {
-        "player": "DeMar DeRozan",
-        "team": "Joke  Squad",
-        "draftPick": 93,
-        "performanceRank": 136,
-        "valueDelta": -43,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Nickeil Alexander-Walker",
-        "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 47,
-        "performanceRank": 91,
-        "valueDelta": -44,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Devin Booker",
+        "player": "Jalen Green",
         "team": "Book Club",
-        "draftPick": 29,
-        "performanceRank": 74,
-        "valueDelta": -45,
+        "auctionValue": 7,
+        "performanceRank": 82,
+        "valueDelta": 105.2,
         "zTotal": 0.0
       },
       {
-        "player": "Egor Demin",
-        "team": "Y'all Seen Chris's Team?",
-        "draftPick": 134,
-        "performanceRank": 180,
-        "valueDelta": -46,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Tyrese Maxey",
+        "player": "Miles Bridges",
         "team": "You Got Serbed",
-        "draftPick": 12,
-        "performanceRank": 59,
-        "valueDelta": -47,
+        "auctionValue": 8,
+        "performanceRank": 68,
+        "valueDelta": 104.8,
         "zTotal": 0.0
       },
       {
-        "player": "Kevin Durant",
-        "team": "Book Club",
-        "draftPick": 25,
-        "performanceRank": 73,
-        "valueDelta": -48,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Jabari Smith Jr.",
+        "player": "Collin Murray-Boyles",
         "team": "Banchero Bandits",
-        "draftPick": 103,
-        "performanceRank": 151,
-        "valueDelta": -48,
+        "auctionValue": 2,
+        "performanceRank": 153,
+        "valueDelta": 104.2,
         "zTotal": 0.0
       },
       {
-        "player": "Jaden McDaniels",
-        "team": "Go Hog Wild",
-        "draftPick": 71,
-        "performanceRank": 120,
-        "valueDelta": -49,
+        "player": "Damian Lillard",
+        "team": "You Got Serbed",
+        "auctionValue": 8,
+        "performanceRank": 67,
+        "valueDelta": 103.8,
         "zTotal": 0.0
       },
       {
         "player": "Scotty Pippen Jr.",
         "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 144,
+        "auctionValue": 1,
         "performanceRank": 193,
-        "valueDelta": -49,
+        "valueDelta": 103.3,
         "zTotal": 0.0
       },
       {
-        "player": "Ayo Dosunmu",
-        "team": "Jehn's Bucket Bandits",
-        "draftPick": 116,
-        "performanceRank": 166,
-        "valueDelta": -50,
+        "player": "Ryan Rollins",
+        "team": "Y'all Seen Chris's Team?",
+        "auctionValue": 5,
+        "performanceRank": 107,
+        "valueDelta": 100.8,
         "zTotal": 0.0
       },
       {
-        "player": "Jalen Williams",
-        "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 37,
-        "performanceRank": 89,
-        "valueDelta": -52,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Evan Mobley",
-        "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 38,
-        "performanceRank": 90,
-        "valueDelta": -52,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Norman Powell",
-        "team": "Joke  Squad",
-        "draftPick": 81,
-        "performanceRank": 135,
-        "valueDelta": -54,
+        "player": "Mikal Bridges",
+        "team": "Book Club",
+        "auctionValue": 7,
+        "performanceRank": 76,
+        "valueDelta": 98.9,
         "zTotal": 0.0
       },
       {
         "player": "Tobias Harris",
         "team": "Banchero Bandits",
-        "draftPick": 118,
+        "auctionValue": 1,
         "performanceRank": 172,
-        "valueDelta": -54,
+        "valueDelta": 97.6,
         "zTotal": 0.0
       },
       {
-        "player": "Collin Gillespie",
-        "team": "Go Hog Wild",
-        "draftPick": 123,
-        "performanceRank": 177,
-        "valueDelta": -54,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Kawhi Leonard",
-        "team": "Book Club",
-        "draftPick": 17,
-        "performanceRank": 72,
-        "valueDelta": -55,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Dyson Daniels",
-        "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 33,
-        "performanceRank": 88,
-        "valueDelta": -55,
+        "player": "Stephon Castle",
+        "team": "UM FSU friends",
+        "auctionValue": 10,
+        "performanceRank": 55,
+        "valueDelta": 97.3,
         "zTotal": 0.0
       },
       {
         "player": "Keldon Johnson",
         "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 140,
+        "auctionValue": 1,
         "performanceRank": 195,
-        "valueDelta": -55,
+        "valueDelta": 95.1,
         "zTotal": 0.0
       },
       {
-        "player": "Zach Edey",
-        "team": "Banchero Bandits",
-        "draftPick": 92,
-        "performanceRank": 150,
-        "valueDelta": -58,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Matas Buzelis",
-        "team": "Joke  Squad",
-        "draftPick": 75,
-        "performanceRank": 134,
-        "valueDelta": -59,
-        "zTotal": 0.0
-      },
-      {
-        "player": "John Collins",
-        "team": "Jehn's Bucket Bandits",
-        "draftPick": 104,
-        "performanceRank": 165,
-        "valueDelta": -61,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Nikola Vucevic",
+        "player": "Donovan Clingan",
         "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 113,
-        "performanceRank": 175,
-        "valueDelta": -62,
+        "auctionValue": 14,
+        "performanceRank": 20,
+        "valueDelta": 93.2,
         "zTotal": 0.0
       },
       {
-        "player": "Jarrett Allen",
+        "player": "Anthony Black",
+        "team": "Banchero Bandits",
+        "auctionValue": 3,
+        "performanceRank": 152,
+        "valueDelta": 88.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "DeMar DeRozan",
         "team": "Joke  Squad",
-        "draftPick": 65,
-        "performanceRank": 133,
-        "valueDelta": -68,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Kristaps Porzingis",
-        "team": "Guard Squad ",
-        "draftPick": 105,
-        "performanceRank": 176,
-        "valueDelta": -71,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Alex Caruso",
-        "team": "You Got Serbed",
-        "draftPick": 112,
-        "performanceRank": 183,
-        "valueDelta": -71,
+        "auctionValue": 3,
+        "performanceRank": 136,
+        "valueDelta": 88.3,
         "zTotal": 0.0
       },
       {
         "player": "Mitchell Robinson",
         "team": "Y'all Seen Chris's Team?",
-        "draftPick": 115,
+        "auctionValue": 1,
         "performanceRank": 186,
-        "valueDelta": -71,
+        "valueDelta": 81.5,
         "zTotal": 0.0
       },
       {
-        "player": "Jalen Duren",
-        "team": "Y'all Seen Chris's Team?",
-        "draftPick": 28,
-        "performanceRank": 103,
-        "valueDelta": -75,
+        "player": "Brandon Miller",
+        "team": "Guard Squad ",
+        "auctionValue": 13,
+        "performanceRank": 36,
+        "valueDelta": 81.3,
         "zTotal": 0.0
       },
       {
-        "player": "Franz Wagner",
+        "player": "Draymond Green",
+        "team": "You Got Serbed",
+        "auctionValue": 4,
+        "performanceRank": 141,
+        "valueDelta": 81.2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Alex Caruso",
+        "team": "You Got Serbed",
+        "auctionValue": 1,
+        "performanceRank": 183,
+        "valueDelta": 80.4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Onyeka Okongwu",
+        "team": "Book Club",
+        "auctionValue": 9,
+        "performanceRank": 77,
+        "valueDelta": 79.4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Dejounte Murray",
+        "team": "You Got Serbed",
+        "auctionValue": 10,
+        "performanceRank": 64,
+        "valueDelta": 78.0,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Michael Porter Jr.",
+        "team": "You Got Serbed",
+        "auctionValue": 10,
+        "performanceRank": 62,
+        "valueDelta": 77.9,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jabari Smith Jr.",
         "team": "Banchero Bandits",
-        "draftPick": 74,
-        "performanceRank": 149,
-        "valueDelta": -75,
+        "auctionValue": 3,
+        "performanceRank": 151,
+        "valueDelta": 77.4,
         "zTotal": 0.0
       },
       {
-        "player": "Rudy Gobert",
-        "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 66,
-        "performanceRank": 143,
-        "valueDelta": -77,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Cade Cunningham",
-        "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 9,
-        "performanceRank": 87,
-        "valueDelta": -78,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Tyler Herro",
+        "player": "Zach LaVine",
         "team": "Go Hog Wild",
-        "draftPick": 41,
-        "performanceRank": 119,
-        "valueDelta": -78,
+        "auctionValue": 6,
+        "performanceRank": 123,
+        "valueDelta": 76.6,
         "zTotal": 0.0
       },
       {
-        "player": "Keyonte George",
+        "player": "Naz Reid",
+        "team": "Pauls slightlyaboveaverageteam",
+        "auctionValue": 17,
+        "performanceRank": 19,
+        "valueDelta": 75.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Darryn Peterson",
+        "team": "UM FSU friends",
+        "auctionValue": 12,
+        "performanceRank": 56,
+        "valueDelta": 75.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Egor Demin",
+        "team": "Y'all Seen Chris's Team?",
+        "auctionValue": 2,
+        "performanceRank": 180,
+        "valueDelta": 75.2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Joel Embiid",
+        "team": "Pauls slightlyaboveaverageteam",
+        "auctionValue": 17,
+        "performanceRank": 22,
+        "valueDelta": 74.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Walker Kessler",
+        "team": "Joke  Squad",
+        "auctionValue": 20,
+        "performanceRank": 14,
+        "valueDelta": 74.5,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Nikola Vucevic",
+        "team": "Pauls slightlyaboveaverageteam",
+        "auctionValue": 2,
+        "performanceRank": 175,
+        "valueDelta": 74.0,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Collin Gillespie",
+        "team": "Go Hog Wild",
+        "auctionValue": 2,
+        "performanceRank": 177,
+        "valueDelta": 74.0,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ayo Dosunmu",
         "team": "Jehn's Bucket Bandits",
-        "draftPick": 86,
-        "performanceRank": 164,
-        "valueDelta": -78,
+        "auctionValue": 3,
+        "performanceRank": 166,
+        "valueDelta": 72.7,
         "zTotal": 0.0
       },
       {
-        "player": "Keegan Murray",
-        "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 95,
-        "performanceRank": 178,
-        "valueDelta": -83,
+        "player": "Kristaps Porzingis",
+        "team": "Guard Squad ",
+        "auctionValue": 2,
+        "performanceRank": 176,
+        "valueDelta": 70.9,
         "zTotal": 0.0
       },
       {
-        "player": "VJ Edgecombe",
+        "player": "John Collins",
+        "team": "Jehn's Bucket Bandits",
+        "auctionValue": 3,
+        "performanceRank": 165,
+        "valueDelta": 65.5,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kon Knueppel",
+        "team": "UM FSU friends",
+        "auctionValue": 15,
+        "performanceRank": 45,
+        "valueDelta": 64.1,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jalen Suggs",
+        "team": "Joke  Squad",
+        "auctionValue": 6,
+        "performanceRank": 138,
+        "valueDelta": 59.5,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Trae Young",
+        "team": "The ScrobKnobs",
+        "auctionValue": 26,
+        "performanceRank": 5,
+        "valueDelta": 58.8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ajay Mitchell",
         "team": "Banchero Bandits",
-        "draftPick": 60,
-        "performanceRank": 148,
-        "valueDelta": -88,
+        "auctionValue": 5,
+        "performanceRank": 157,
+        "valueDelta": 57.0,
         "zTotal": 0.0
       },
       {
-        "player": "Scottie Barnes",
+        "player": "Darius Garland",
+        "team": "You Got Serbed",
+        "auctionValue": 13,
+        "performanceRank": 65,
+        "valueDelta": 56.4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jaylen Brown",
+        "team": "You Got Serbed",
+        "auctionValue": 13,
+        "performanceRank": 63,
+        "valueDelta": 56.3,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Lauri Markkanen",
+        "team": "UM FSU friends",
+        "auctionValue": 16,
+        "performanceRank": 47,
+        "valueDelta": 55.9,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kel'el Ware",
+        "team": "UM FSU friends",
+        "auctionValue": 16,
+        "performanceRank": 50,
+        "valueDelta": 54.9,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jamal Murray",
+        "team": "The ScrobKnobs",
+        "auctionValue": 27,
+        "performanceRank": 1,
+        "valueDelta": 54.6,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ivica Zubac",
+        "team": "UM FSU friends",
+        "auctionValue": 16,
+        "performanceRank": 53,
+        "valueDelta": 54.0,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Dylan Harper",
+        "team": "Book Club",
+        "auctionValue": 11,
+        "performanceRank": 80,
+        "valueDelta": 53.8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Payton Pritchard",
         "team": "Y'all Seen Chris's Team?",
-        "draftPick": 13,
-        "performanceRank": 102,
-        "valueDelta": -89,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Cooper Flagg",
-        "team": "Y'all Seen Chris's Team?",
-        "draftPick": 5,
-        "performanceRank": 101,
-        "valueDelta": -96,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Cason Wallace",
-        "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "draftPick": 106,
-        "performanceRank": 203,
-        "valueDelta": -97,
+        "auctionValue": 9,
+        "performanceRank": 108,
+        "valueDelta": 52.5,
         "zTotal": 0.0
       },
       {
         "player": "Khaman Maluach",
         "team": "The ScrobKnobs",
-        "draftPick": 122,
+        "auctionValue": 1,
         "performanceRank": 223,
-        "valueDelta": -101,
+        "valueDelta": 50.7,
         "zTotal": 0.0
       },
       {
-        "player": "Pascal Siakam",
-        "team": "Joke  Squad",
-        "draftPick": 30,
-        "performanceRank": 132,
-        "valueDelta": -102,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Shai Gilgeous-Alexander",
-        "team": "Go Hog Wild",
-        "draftPick": 8,
-        "performanceRank": 118,
-        "valueDelta": -110,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Kyrie Irving",
-        "team": "Banchero Bandits",
-        "draftPick": 36,
-        "performanceRank": 147,
-        "valueDelta": -111,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Victor Wembanyama",
-        "team": "Go Hog Wild",
-        "draftPick": 1,
-        "performanceRank": 117,
-        "valueDelta": -116,
-        "zTotal": 0.0
-      },
-      {
-        "player": "LeBron James",
-        "team": "Jehn's Bucket Bandits",
-        "draftPick": 42,
-        "performanceRank": 162,
-        "valueDelta": -120,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Chet Holmgren",
-        "team": "Jehn's Bucket Bandits",
-        "draftPick": 43,
-        "performanceRank": 163,
-        "valueDelta": -120,
-        "zTotal": 0.0
-      },
-      {
-        "player": "Desmond Bane",
-        "team": "Jehn's Bucket Bandits",
-        "draftPick": 40,
-        "performanceRank": 161,
-        "valueDelta": -121,
-        "zTotal": 0.0
-      },
-      {
-        "player": "James Harden",
+        "player": "Alperen Sengun",
         "team": "The ScrobKnobs",
-        "draftPick": 21,
-        "performanceRank": 144,
-        "valueDelta": -123,
+        "auctionValue": 28,
+        "performanceRank": 4,
+        "valueDelta": 49.5,
         "zTotal": 0.0
       },
       {
-        "player": "Giannis Antetokounmpo",
+        "player": "Keegan Murray",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "auctionValue": 3,
+        "performanceRank": 178,
+        "valueDelta": 48.3,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Norman Powell",
         "team": "Joke  Squad",
-        "draftPick": 6,
-        "performanceRank": 131,
-        "valueDelta": -125,
+        "auctionValue": 7,
+        "performanceRank": 135,
+        "valueDelta": 48.1,
         "zTotal": 0.0
       },
       {
-        "player": "Donovan Mitchell",
-        "team": "Joke  Squad",
-        "draftPick": 3,
-        "performanceRank": 130,
-        "valueDelta": -127,
+        "player": "Brandin Podziemski",
+        "team": "Go Hog Wild",
+        "auctionValue": 8,
+        "performanceRank": 121,
+        "valueDelta": 47.7,
         "zTotal": 0.0
       },
       {
-        "player": "Herbert Jones",
-        "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 130,
-        "performanceRank": 265,
-        "valueDelta": -135,
+        "player": "Caleb Wilson",
+        "team": "Y'all Seen Chris's Team?",
+        "auctionValue": 10,
+        "performanceRank": 106,
+        "valueDelta": 44.2,
         "zTotal": 0.0
       },
       {
-        "player": "Jayson Tatum",
-        "team": "Banchero Bandits",
-        "draftPick": 10,
-        "performanceRank": 146,
-        "valueDelta": -136,
+        "player": "Tyler Herro",
+        "team": "Go Hog Wild",
+        "auctionValue": 8,
+        "performanceRank": 119,
+        "valueDelta": 43.6,
         "zTotal": 0.0
       },
       {
-        "player": "Karl-Anthony Towns",
+        "player": "Zion Williamson",
+        "team": "Book Club",
+        "auctionValue": 13,
+        "performanceRank": 81,
+        "valueDelta": 42.5,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Stephen Curry",
+        "team": "The ScrobKnobs",
+        "auctionValue": 32,
+        "performanceRank": 3,
+        "valueDelta": 42.3,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ty Jerome",
+        "team": "Y'all Seen Chris's Team?",
+        "auctionValue": 10,
+        "performanceRank": 104,
+        "valueDelta": 42.1,
+        "zTotal": 0.0
+      },
+      {
+        "player": "De'Aaron Fox",
+        "team": "Book Club",
+        "auctionValue": 14,
+        "performanceRank": 75,
+        "valueDelta": 40.2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Keyonte George",
         "team": "Jehn's Bucket Bandits",
-        "draftPick": 24,
-        "performanceRank": 160,
-        "valueDelta": -136,
+        "auctionValue": 5,
+        "performanceRank": 164,
+        "valueDelta": 39.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Rudy Gobert",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "auctionValue": 7,
+        "performanceRank": 143,
+        "valueDelta": 38.1,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Amen Thompson",
+        "team": "Guard Squad ",
+        "auctionValue": 23,
+        "performanceRank": 32,
+        "valueDelta": 38.0,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Josh Hart",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "auctionValue": 12,
+        "performanceRank": 93,
+        "valueDelta": 36.6,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Deni Avdija",
+        "team": "UM FSU friends",
+        "auctionValue": 22,
+        "performanceRank": 46,
+        "valueDelta": 36.3,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Austin Reaves",
+        "team": "Guard Squad ",
+        "auctionValue": 25,
+        "performanceRank": 35,
+        "valueDelta": 30.8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "VJ Edgecombe",
+        "team": "Banchero Bandits",
+        "auctionValue": 7,
+        "performanceRank": 148,
+        "valueDelta": 29.0,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Derrick White",
+        "team": "Guard Squad ",
+        "auctionValue": 26,
+        "performanceRank": 33,
+        "valueDelta": 28.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jaden McDaniels",
+        "team": "Go Hog Wild",
+        "auctionValue": 10,
+        "performanceRank": 120,
+        "valueDelta": 28.2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Matas Buzelis",
+        "team": "Joke  Squad",
+        "auctionValue": 9,
+        "performanceRank": 134,
+        "valueDelta": 24.4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Alex Sarr",
+        "team": "UM FSU friends",
+        "auctionValue": 23,
+        "performanceRank": 51,
+        "valueDelta": 23.1,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jalen Johnson",
+        "team": "The ScrobKnobs",
+        "auctionValue": 51,
+        "performanceRank": 2,
+        "valueDelta": 22.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Quentin Grimes",
+        "team": "Y'all Seen Chris's Team?",
+        "auctionValue": 6,
+        "performanceRank": 179,
+        "valueDelta": 22.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Nickeil Alexander-Walker",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "auctionValue": 15,
+        "performanceRank": 91,
+        "valueDelta": 20.1,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ausar Thompson",
+        "team": "Joke  Squad",
+        "auctionValue": 10,
+        "performanceRank": 137,
+        "valueDelta": 17.3,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jalen Brunson",
+        "team": "UM FSU friends",
+        "auctionValue": 26,
+        "performanceRank": 44,
+        "valueDelta": 15.7,
         "zTotal": 0.0
       },
       {
         "player": "Tre Johnson",
         "team": "Pauls slightlyaboveaverageteam",
-        "draftPick": 119,
+        "auctionValue": 1,
         "performanceRank": 258,
-        "valueDelta": -139,
+        "valueDelta": 13.6,
         "zTotal": 0.0
       },
       {
-        "player": "Nikola Jokic",
+        "player": "Herbert Jones",
+        "team": "Pauls slightlyaboveaverageteam",
+        "auctionValue": 1,
+        "performanceRank": 265,
+        "valueDelta": 12.8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Day'Ron Sharpe",
+        "team": "Go Hog Wild",
+        "auctionValue": 11,
+        "performanceRank": 129,
+        "valueDelta": 8.9,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Paolo Banchero",
+        "team": "Book Club",
+        "auctionValue": 21,
+        "performanceRank": 78,
+        "valueDelta": 6.4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Josh Giddey",
+        "team": "Guard Squad ",
+        "auctionValue": 37,
+        "performanceRank": 34,
+        "valueDelta": 3.0,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Dyson Daniels",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "auctionValue": 20,
+        "performanceRank": 88,
+        "valueDelta": -1.6,
+        "zTotal": 0.0
+      },
+      {
+        "player": "LaMelo Ball",
+        "team": "Guard Squad ",
+        "auctionValue": 45,
+        "performanceRank": 31,
+        "valueDelta": -2.2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Bam Adebayo",
+        "team": "You Got Serbed",
+        "auctionValue": 27,
+        "performanceRank": 61,
+        "valueDelta": -3.4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Luka Doncic",
+        "team": "Pauls slightlyaboveaverageteam",
+        "auctionValue": 64,
+        "performanceRank": 17,
+        "valueDelta": -6.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Anthony Edwards",
+        "team": "Pauls slightlyaboveaverageteam",
+        "auctionValue": 65,
+        "performanceRank": 18,
+        "valueDelta": -9.8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jalen Williams",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "auctionValue": 22,
+        "performanceRank": 89,
+        "valueDelta": -10.8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jaren Jackson Jr.",
+        "team": "Y'all Seen Chris's Team?",
+        "auctionValue": 18,
+        "performanceRank": 105,
+        "valueDelta": -12.4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Cason Wallace",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "auctionValue": 7,
+        "performanceRank": 203,
+        "valueDelta": -13.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Zach Edey",
         "team": "Banchero Bandits",
-        "draftPick": 4,
-        "performanceRank": 145,
-        "valueDelta": -141,
+        "auctionValue": 11,
+        "performanceRank": 150,
+        "valueDelta": -14.2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Domantas Sabonis",
+        "team": "You Got Serbed",
+        "auctionValue": 36,
+        "performanceRank": 60,
+        "valueDelta": -20.9,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Franz Wagner",
+        "team": "Banchero Bandits",
+        "auctionValue": 12,
+        "performanceRank": 149,
+        "valueDelta": -21.4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kyrie Irving",
+        "team": "Banchero Bandits",
+        "auctionValue": 12,
+        "performanceRank": 147,
+        "valueDelta": -21.5,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Trey Murphy III",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "auctionValue": 24,
+        "performanceRank": 92,
+        "valueDelta": -24.1,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Devin Booker",
+        "team": "Book Club",
+        "auctionValue": 30,
+        "performanceRank": 74,
+        "valueDelta": -26.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kevin Durant",
+        "team": "Book Club",
+        "auctionValue": 36,
+        "performanceRank": 73,
+        "valueDelta": -31.8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kawhi Leonard",
+        "team": "Book Club",
+        "auctionValue": 39,
+        "performanceRank": 72,
+        "valueDelta": -37.0,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jarrett Allen",
+        "team": "Joke  Squad",
+        "auctionValue": 19,
+        "performanceRank": 133,
+        "valueDelta": -42.5,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Tyrese Maxey",
+        "team": "You Got Serbed",
+        "auctionValue": 59,
+        "performanceRank": 59,
+        "valueDelta": -46.7,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Evan Mobley",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "auctionValue": 34,
+        "performanceRank": 90,
+        "valueDelta": -46.8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jalen Duren",
+        "team": "Y'all Seen Chris's Team?",
+        "auctionValue": 28,
+        "performanceRank": 103,
+        "valueDelta": -51.6,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Pascal Siakam",
+        "team": "Joke  Squad",
+        "auctionValue": 22,
+        "performanceRank": 132,
+        "valueDelta": -55.9,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Cade Cunningham",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "auctionValue": 49,
+        "performanceRank": 87,
+        "valueDelta": -60.2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "LeBron James",
+        "team": "Jehn's Bucket Bandits",
+        "auctionValue": 16,
+        "performanceRank": 162,
+        "valueDelta": -61.2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Desmond Bane",
+        "team": "Jehn's Bucket Bandits",
+        "auctionValue": 16,
+        "performanceRank": 161,
+        "valueDelta": -62.2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "James Harden",
+        "team": "The ScrobKnobs",
+        "auctionValue": 23,
+        "performanceRank": 144,
+        "valueDelta": -72.0,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Cooper Flagg",
+        "team": "Y'all Seen Chris's Team?",
+        "auctionValue": 52,
+        "performanceRank": 101,
+        "valueDelta": -82.5,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Chet Holmgren",
+        "team": "Jehn's Bucket Bandits",
+        "auctionValue": 22,
+        "performanceRank": 163,
+        "valueDelta": -82.8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Scottie Barnes",
+        "team": "Y'all Seen Chris's Team?",
+        "auctionValue": 57,
+        "performanceRank": 102,
+        "valueDelta": -85.5,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Donovan Mitchell",
+        "team": "Joke  Squad",
+        "auctionValue": 39,
+        "performanceRank": 130,
+        "valueDelta": -97.1,
         "zTotal": 0.0
       },
       {
         "player": "Anthony Davis",
         "team": "Jehn's Bucket Bandits",
-        "draftPick": 16,
+        "auctionValue": 29,
         "performanceRank": 159,
-        "valueDelta": -143,
+        "valueDelta": -109.6,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Giannis Antetokounmpo",
+        "team": "Joke  Squad",
+        "auctionValue": 51,
+        "performanceRank": 131,
+        "valueDelta": -110.4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Shai Gilgeous-Alexander",
+        "team": "Go Hog Wild",
+        "auctionValue": 70,
+        "performanceRank": 118,
+        "valueDelta": -111.8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Victor Wembanyama",
+        "team": "Go Hog Wild",
+        "auctionValue": 74,
+        "performanceRank": 117,
+        "valueDelta": -112.9,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jayson Tatum",
+        "team": "Banchero Bandits",
+        "auctionValue": 51,
+        "performanceRank": 146,
+        "valueDelta": -123.4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Karl-Anthony Towns",
+        "team": "Jehn's Bucket Bandits",
+        "auctionValue": 45,
+        "performanceRank": 160,
+        "valueDelta": -129.1,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Nikola Jokic",
+        "team": "Banchero Bandits",
+        "auctionValue": 86,
+        "performanceRank": 145,
+        "valueDelta": -142.9,
         "zTotal": 0.0
       },
       {
         "player": "Tyrese Haliburton",
         "team": "Jehn's Bucket Bandits",
-        "draftPick": 11,
+        "auctionValue": 57,
         "performanceRank": 158,
-        "valueDelta": -147,
+        "valueDelta": -143.6,
         "zTotal": 0.0
       }
     ],
     "team_grades": [
       {
-        "team": "The ScrobKnobs",
-        "avgValueDelta": 39.2,
-        "picksTracked": 13
-      },
-      {
         "team": "Guard Squad ",
-        "avgValueDelta": 34.2,
+        "avgValueDelta": 129.1,
         "picksTracked": 13
       },
       {
-        "team": "UM FSU friends",
-        "avgValueDelta": 17,
+        "team": "The ScrobKnobs",
+        "avgValueDelta": 128.9,
         "picksTracked": 13
       },
       {
         "team": "Pauls slightlyaboveaverageteam",
-        "avgValueDelta": -2.8,
+        "avgValueDelta": 91.7,
         "picksTracked": 13
       },
       {
-        "team": "Book Club",
-        "avgValueDelta": -11.2,
-        "picksTracked": 13
-      },
-      {
-        "team": "You Got Serbed",
-        "avgValueDelta": -13.4,
+        "team": "UM FSU friends",
+        "avgValueDelta": 74.6,
         "picksTracked": 13
       },
       {
         "team": "Go Hog Wild",
-        "avgValueDelta": -22.3,
+        "avgValueDelta": 68.6,
+        "picksTracked": 13
+      },
+      {
+        "team": "You Got Serbed",
+        "avgValueDelta": 64.0,
+        "picksTracked": 13
+      },
+      {
+        "team": "Book Club",
+        "avgValueDelta": 62.6,
         "picksTracked": 13
       },
       {
         "team": "Y'all Seen Chris's Team?",
-        "avgValueDelta": -36.2,
+        "avgValueDelta": 41.1,
         "picksTracked": 13
       },
       {
         "team": "Joke  Squad",
-        "avgValueDelta": -42.2,
-        "picksTracked": 13
-      },
-      {
-        "team": "55 BOARDS 55 DIMES 55 STEALS ",
-        "avgValueDelta": -46.4,
+        "avgValueDelta": 37.8,
         "picksTracked": 13
       },
       {
         "team": "Banchero Bandits",
-        "avgValueDelta": -61.9,
+        "avgValueDelta": 31.7,
+        "picksTracked": 13
+      },
+      {
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "avgValueDelta": 29.7,
         "picksTracked": 13
       },
       {
         "team": "Jehn's Bucket Bandits",
-        "avgValueDelta": -83.6,
+        "avgValueDelta": 6.8,
         "picksTracked": 13
       }
     ]
