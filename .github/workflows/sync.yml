@@ -2,7 +2,12 @@ name: Sync Fantasy Data
 
 on:
   schedule:
-    - cron: '0 13 * * 2'   # every Tuesday 8am ET (13:00 UTC)
+    # Every Monday 8am ET. ET is UTC-5 (standard time) or UTC-4 (daylight time);
+    # cron has no DST awareness, so this is pinned to EST (13:00 UTC = 8am EST).
+    # During EDT (roughly mid-March to early Nov) it'll actually fire at 9am ET.
+    # If you want it dead-on year-round, keep two cron lines (one per DST state)
+    # or just accept the ~1hr drift for half the year -- noted below for later.
+    - cron: '0 13 * * 1'   # every Monday 8am ET (13:00 UTC)
   workflow_dispatch: {}     # manual "Run workflow" button
 
 jobs:
@@ -27,7 +32,6 @@ jobs:
         env:
           ESPN_S2: ${{ secrets.ESPN_S2 }}
           ESPN_SWID: ${{ secrets.ESPN_SWID }}
-          
 
       - name: Rebuild dashboard HTML from fresh data
         run: python build_dashboard.py
