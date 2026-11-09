@@ -291,17 +291,24 @@ PCT_CATS = {"FG%", "FT%"}
 def zscores_for_week(week_data):
     """week_data: {team_id: {cat: value}} -> {team_id: {cat: z}}"""
     cats = CATEGORIES
-    means = {c: statistics.mean(t[c] for t in week_data.values() if t.get(c) is not None) for c in cats}
-    stdevs = {
-        c: (statistics.pstdev(t[c] for t in week_data.values() if t.get(c) is not None) or 1e-9)
-        for c in cats
-    }
+    means = {}
+    stdevs = {}
+    for c in cats:
+        vals = [t[c] for t in week_data.values() if t.get(c) is not None]
+        if not vals:
+            # No team has data for this category this week (e.g. in-progress
+            # or not-yet-started week) -- skip it rather than crash.
+            means[c] = None
+            stdevs[c] = None
+            continue
+        means[c] = statistics.mean(vals)
+        stdevs[c] = statistics.pstdev(vals) or 1e-9
     out = {}
     for tid, cat_vals in week_data.items():
         out[tid] = {}
         for c in cats:
             v = cat_vals.get(c)
-            if v is None:
+            if v is None or means[c] is None:
                 out[tid][c] = 0.0
                 continue
             z = (v - means[c]) / stdevs[c]
