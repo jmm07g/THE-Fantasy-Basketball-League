@@ -1,0 +1,9633 @@
+{
+  "generated_at": "2026-11-09T17:12:25.116658Z",
+  "league_id": 249846,
+  "season_year": 2027,
+  "current_week": 21,
+  "weeks_remaining": 0,
+  "num_teams": 12,
+  "categories": [
+    "FG%",
+    "FT%",
+    "3PM",
+    "REB",
+    "AST",
+    "STL",
+    "BLK",
+    "PTS"
+  ],
+  "teams": [
+    {
+      "team_id": 1,
+      "team_name": "Team 1",
+      "abbrev": "TMAC",
+      "roster": [
+        {
+          "player_id": 3936299,
+          "name": "Jamal Murray",
+          "pro_team_id": 7,
+          "lineup_slot_id": 5,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4701230,
+          "name": "Jalen Johnson",
+          "pro_team_id": 1,
+          "lineup_slot_id": 3,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3975,
+          "name": "Stephen Curry",
+          "pro_team_id": 9,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4871144,
+          "name": "Alperen Sengun",
+          "pro_team_id": 10,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4277905,
+          "name": "Trae Young",
+          "pro_team_id": 27,
+          "lineup_slot_id": 0,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3913176,
+          "name": "Brandon Ingram",
+          "pro_team_id": 12,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 3133628,
+          "name": "Myles Turner",
+          "pro_team_id": 15,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5174563,
+          "name": "Kyshawn George",
+          "pro_team_id": 27,
+          "lineup_slot_id": 2,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4433249,
+          "name": "Moussa Diabate",
+          "pro_team_id": 30,
+          "lineup_slot_id": 12,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 3135045,
+          "name": "Grayson Allen",
+          "pro_team_id": 30,
+          "lineup_slot_id": 1,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3102530,
+          "name": "Jusuf Nurkic",
+          "pro_team_id": 26,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 4431767,
+          "name": "Christian Braun",
+          "pro_team_id": 7,
+          "lineup_slot_id": 6,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 5061589,
+          "name": "Yves Missi",
+          "pro_team_id": 3,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 4433136,
+          "name": "Walker Kessler",
+          "pro_team_id": 13,
+          "lineup_slot_id": 4,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4576087,
+          "name": "Peyton Watson",
+          "pro_team_id": 5,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4711272,
+          "name": "Reed Sheppard",
+          "pro_team_id": 10,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team_id": 3,
+      "team_name": "Team 3",
+      "abbrev": "Baa",
+      "roster": [
+        {
+          "player_id": 3945274,
+          "name": "Luka Doncic",
+          "pro_team_id": 13,
+          "lineup_slot_id": 5,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4594268,
+          "name": "Anthony Edwards",
+          "pro_team_id": 16,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 4396971,
+          "name": "Naz Reid",
+          "pro_team_id": 30,
+          "lineup_slot_id": 4,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5105565,
+          "name": "Donovan Clingan",
+          "pro_team_id": 22,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5041935,
+          "name": "Cameron Boozer",
+          "pro_team_id": 29,
+          "lineup_slot_id": 3,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3059318,
+          "name": "Joel Embiid",
+          "pro_team_id": 20,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4395651,
+          "name": "Coby White",
+          "pro_team_id": 30,
+          "lineup_slot_id": 0,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 2991139,
+          "name": "Kris Dunn",
+          "pro_team_id": 12,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3064290,
+          "name": "Aaron Gordon",
+          "pro_team_id": 7,
+          "lineup_slot_id": 6,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4431679,
+          "name": "Precious Achiuwa",
+          "pro_team_id": 23,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4277847,
+          "name": "Wendell Carter Jr.",
+          "pro_team_id": 19,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4395630,
+          "name": "Devin Vassell",
+          "pro_team_id": 24,
+          "lineup_slot_id": 1,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4433174,
+          "name": "Dylan Cardwell",
+          "pro_team_id": 23,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4278078,
+          "name": "P.J. Washington",
+          "pro_team_id": 6,
+          "lineup_slot_id": 2,
+          "injury_status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team_id": 4,
+      "team_name": "Team 4",
+      "abbrev": "Ball",
+      "roster": [
+        {
+          "player_id": 4432816,
+          "name": "LaMelo Ball",
+          "pro_team_id": 16,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4684740,
+          "name": "Amen Thompson",
+          "pro_team_id": 10,
+          "lineup_slot_id": 1,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3078576,
+          "name": "Derrick White",
+          "pro_team_id": 2,
+          "lineup_slot_id": 5,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4871145,
+          "name": "Josh Giddey",
+          "pro_team_id": 4,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4066457,
+          "name": "Austin Reaves",
+          "pro_team_id": 13,
+          "lineup_slot_id": 0,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4433287,
+          "name": "Brandon Miller",
+          "pro_team_id": 30,
+          "lineup_slot_id": 6,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 5142718,
+          "name": "AJ Dybantsa",
+          "pro_team_id": 27,
+          "lineup_slot_id": 2,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3059319,
+          "name": "Andrew Wiggins",
+          "pro_team_id": 14,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4397140,
+          "name": "Kevin Porter Jr.",
+          "pro_team_id": 0,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4592479,
+          "name": "Julian Champagnie",
+          "pro_team_id": 24,
+          "lineup_slot_id": 3,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3448,
+          "name": "Brook Lopez",
+          "pro_team_id": 12,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4278049,
+          "name": "Daniel Gafford",
+          "pro_team_id": 6,
+          "lineup_slot_id": 4,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3064482,
+          "name": "Bobby Portis",
+          "pro_team_id": 14,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team_id": 5,
+      "team_name": "Team 5",
+      "abbrev": "JACK",
+      "roster": [
+        {
+          "player_id": 3934672,
+          "name": "Jalen Brunson",
+          "pro_team_id": 18,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5061575,
+          "name": "Kon Knueppel",
+          "pro_team_id": 30,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 4683021,
+          "name": "Deni Avdija",
+          "pro_team_id": 22,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4066336,
+          "name": "Lauri Markkanen",
+          "pro_team_id": 26,
+          "lineup_slot_id": 12,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4279888,
+          "name": "Ja Morant",
+          "pro_team_id": 22,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 3934719,
+          "name": "OG Anunoby",
+          "pro_team_id": 18,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5105623,
+          "name": "Kel'el Ware",
+          "pro_team_id": 15,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5160992,
+          "name": "Alex Sarr",
+          "pro_team_id": 27,
+          "lineup_slot_id": 3,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4251,
+          "name": "Paul George",
+          "pro_team_id": 2,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4017837,
+          "name": "Ivica Zubac",
+          "pro_team_id": 11,
+          "lineup_slot_id": 4,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4395724,
+          "name": "Immanuel Quickley",
+          "pro_team_id": 28,
+          "lineup_slot_id": 1,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4845367,
+          "name": "Stephon Castle",
+          "pro_team_id": 24,
+          "lineup_slot_id": 0,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5041955,
+          "name": "Darryn Peterson",
+          "pro_team_id": 26,
+          "lineup_slot_id": 5,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4397136,
+          "name": "Saddiq Bey",
+          "pro_team_id": 3,
+          "lineup_slot_id": 6,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4278594,
+          "name": "Naji Marshall",
+          "pro_team_id": 6,
+          "lineup_slot_id": 2,
+          "injury_status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team_id": 7,
+      "team_name": "Team 7",
+      "abbrev": "KRUL",
+      "roster": [
+        {
+          "player_id": 4431678,
+          "name": "Tyrese Maxey",
+          "pro_team_id": 20,
+          "lineup_slot_id": 0,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3155942,
+          "name": "Domantas Sabonis",
+          "pro_team_id": 23,
+          "lineup_slot_id": 4,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4066261,
+          "name": "Bam Adebayo",
+          "pro_team_id": 14,
+          "lineup_slot_id": 3,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4278104,
+          "name": "Michael Porter Jr.",
+          "pro_team_id": 17,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3917376,
+          "name": "Jaylen Brown",
+          "pro_team_id": 20,
+          "lineup_slot_id": 1,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3907497,
+          "name": "Dejounte Murray",
+          "pro_team_id": 3,
+          "lineup_slot_id": 5,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4396907,
+          "name": "Darius Garland",
+          "pro_team_id": 12,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3064514,
+          "name": "Julius Randle",
+          "pro_team_id": 17,
+          "lineup_slot_id": 6,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 6606,
+          "name": "Damian Lillard",
+          "pro_team_id": 22,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4066383,
+          "name": "Miles Bridges",
+          "pro_team_id": 21,
+          "lineup_slot_id": 2,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 2991230,
+          "name": "Fred VanVleet",
+          "pro_team_id": 10,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4873138,
+          "name": "Ace Bailey",
+          "pro_team_id": 26,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4351851,
+          "name": "Anfernee Simons",
+          "pro_team_id": 20,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team_id": 8,
+      "team_name": "Team 8",
+      "abbrev": "LFG",
+      "roster": [
+        {
+          "player_id": 6450,
+          "name": "Kawhi Leonard",
+          "pro_team_id": 28,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 3202,
+          "name": "Kevin Durant",
+          "pro_team_id": 10,
+          "lineup_slot_id": 2,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3136193,
+          "name": "Devin Booker",
+          "pro_team_id": 21,
+          "lineup_slot_id": 0,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4066259,
+          "name": "De'Aaron Fox",
+          "pro_team_id": 24,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3147657,
+          "name": "Mikal Bridges",
+          "pro_team_id": 18,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4431680,
+          "name": "Onyeka Okongwu",
+          "pro_team_id": 1,
+          "lineup_slot_id": 4,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4432573,
+          "name": "Paolo Banchero",
+          "pro_team_id": 19,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 2490149,
+          "name": "CJ McCollum",
+          "pro_team_id": 1,
+          "lineup_slot_id": 1,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5037871,
+          "name": "Dylan Harper",
+          "pro_team_id": 24,
+          "lineup_slot_id": 5,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4395628,
+          "name": "Zion Williamson",
+          "pro_team_id": 3,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4437244,
+          "name": "Jalen Green",
+          "pro_team_id": 21,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4683778,
+          "name": "Jared McCain",
+          "pro_team_id": 25,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4395625,
+          "name": "RJ Barrett",
+          "pro_team_id": 28,
+          "lineup_slot_id": 6,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3995,
+          "name": "Jrue Holiday",
+          "pro_team_id": 22,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3134907,
+          "name": "Kyle Kuzma",
+          "pro_team_id": 15,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team_id": 9,
+      "team_name": "Team 9",
+      "abbrev": "KERS",
+      "roster": [
+        {
+          "player_id": 4432166,
+          "name": "Cade Cunningham",
+          "pro_team_id": 8,
+          "lineup_slot_id": 0,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4869342,
+          "name": "Dyson Daniels",
+          "pro_team_id": 1,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4593803,
+          "name": "Jalen Williams",
+          "pro_team_id": 25,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 4432158,
+          "name": "Evan Mobley",
+          "pro_team_id": 5,
+          "lineup_slot_id": 4,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4278039,
+          "name": "Nickeil Alexander-Walker",
+          "pro_team_id": 1,
+          "lineup_slot_id": 1,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4397688,
+          "name": "Trey Murphy III",
+          "pro_team_id": 3,
+          "lineup_slot_id": 6,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3062679,
+          "name": "Josh Hart",
+          "pro_team_id": 18,
+          "lineup_slot_id": 12,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4903027,
+          "name": "Cedric Coward",
+          "pro_team_id": 29,
+          "lineup_slot_id": 2,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4869780,
+          "name": "Derik Queen",
+          "pro_team_id": 3,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4702382,
+          "name": "Tristan da Silva",
+          "pro_team_id": 19,
+          "lineup_slot_id": 3,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5144091,
+          "name": "Jeremiah Fears",
+          "pro_team_id": 3,
+          "lineup_slot_id": 5,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4601025,
+          "name": "Pelle Larsson",
+          "pro_team_id": 14,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 6475,
+          "name": "Klay Thompson",
+          "pro_team_id": 14,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4066648,
+          "name": "Rui Hachimura",
+          "pro_team_id": 12,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team_id": 10,
+      "team_name": "Team 10",
+      "abbrev": "BAD",
+      "roster": [
+        {
+          "player_id": 5041939,
+          "name": "Cooper Flagg",
+          "pro_team_id": 6,
+          "lineup_slot_id": 3,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4433134,
+          "name": "Scottie Barnes",
+          "pro_team_id": 28,
+          "lineup_slot_id": 1,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4433621,
+          "name": "Jalen Duren",
+          "pro_team_id": 8,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 4065733,
+          "name": "Ty Jerome",
+          "pro_team_id": 29,
+          "lineup_slot_id": 0,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4277961,
+          "name": "Jaren Jackson Jr.",
+          "pro_team_id": 26,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 5095151,
+          "name": "Caleb Wilson",
+          "pro_team_id": 4,
+          "lineup_slot_id": 2,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4591725,
+          "name": "Ryan Rollins",
+          "pro_team_id": 15,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4066354,
+          "name": "Payton Pritchard",
+          "pro_team_id": 2,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5175737,
+          "name": "Yaxel Lendeborg",
+          "pro_team_id": 9,
+          "lineup_slot_id": 6,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4278067,
+          "name": "Nic Claxton",
+          "pro_team_id": 4,
+          "lineup_slot_id": 13,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4397189,
+          "name": "Jalen Smith",
+          "pro_team_id": 4,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5254165,
+          "name": "Keaton Wagler",
+          "pro_team_id": 12,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4397183,
+          "name": "Aaron Wiggins",
+          "pro_team_id": 1,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5279130,
+          "name": "Nolan Traore",
+          "pro_team_id": 17,
+          "lineup_slot_id": 5,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4065778,
+          "name": "Max Strus",
+          "pro_team_id": 12,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5149077,
+          "name": "Kingston Flemings",
+          "pro_team_id": 1,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team_id": 12,
+      "team_name": "Team 12",
+      "abbrev": "117",
+      "roster": [
+        {
+          "player_id": 5104157,
+          "name": "Victor Wembanyama",
+          "pro_team_id": 24,
+          "lineup_slot_id": 4,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4278073,
+          "name": "Shai Gilgeous-Alexander",
+          "pro_team_id": 25,
+          "lineup_slot_id": 5,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4395725,
+          "name": "Tyler Herro",
+          "pro_team_id": 15,
+          "lineup_slot_id": 1,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4431671,
+          "name": "Jaden McDaniels",
+          "pro_team_id": 16,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4709138,
+          "name": "Brandin Podziemski",
+          "pro_team_id": 9,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5142620,
+          "name": "Darius Acuff Jr.",
+          "pro_team_id": 23,
+          "lineup_slot_id": 0,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3064440,
+          "name": "Zach LaVine",
+          "pro_team_id": 23,
+          "lineup_slot_id": 2,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4431736,
+          "name": "Toumani Camara",
+          "pro_team_id": 22,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4433247,
+          "name": "Jonathan Kuminga",
+          "pro_team_id": 16,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4222252,
+          "name": "Isaiah Hartenstein",
+          "pro_team_id": 25,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3138196,
+          "name": "Cameron Johnson",
+          "pro_team_id": 7,
+          "lineup_slot_id": 12,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 5082206,
+          "name": "Brayden Burries",
+          "pro_team_id": 15,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4432194,
+          "name": "Day'Ron Sharpe",
+          "pro_team_id": 17,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team_id": 13,
+      "team_name": "Team 13",
+      "abbrev": "JK",
+      "roster": [
+        {
+          "player_id": 3908809,
+          "name": "Donovan Mitchell",
+          "pro_team_id": 5,
+          "lineup_slot_id": 0,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3032977,
+          "name": "Giannis Antetokounmpo",
+          "pro_team_id": 14,
+          "lineup_slot_id": 6,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3149673,
+          "name": "Pascal Siakam",
+          "pro_team_id": 11,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4066328,
+          "name": "Jarrett Allen",
+          "pro_team_id": 5,
+          "lineup_slot_id": 12,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4711294,
+          "name": "Matas Buzelis",
+          "pro_team_id": 4,
+          "lineup_slot_id": 3,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 2595516,
+          "name": "Norman Powell",
+          "pro_team_id": 4,
+          "lineup_slot_id": 12,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 3978,
+          "name": "DeMar DeRozan",
+          "pro_team_id": 7,
+          "lineup_slot_id": 12,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4684742,
+          "name": "Ausar Thompson",
+          "pro_team_id": 8,
+          "lineup_slot_id": 2,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4432165,
+          "name": "Jalen Suggs",
+          "pro_team_id": 19,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 6430,
+          "name": "Jimmy Butler III",
+          "pro_team_id": 9,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 4395712,
+          "name": "Andrew Nembhard",
+          "pro_team_id": 11,
+          "lineup_slot_id": 5,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 6589,
+          "name": "Draymond Green",
+          "pro_team_id": 9,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4433192,
+          "name": "Tari Eason",
+          "pro_team_id": 10,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3032976,
+          "name": "Rudy Gobert",
+          "pro_team_id": 16,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3992,
+          "name": "James Harden",
+          "pro_team_id": 5,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team_id": 15,
+      "team_name": "Team 15",
+      "abbrev": "KJ",
+      "roster": [
+        {
+          "player_id": 3112335,
+          "name": "Nikola Jokic",
+          "pro_team_id": 7,
+          "lineup_slot_id": 4,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 4065648,
+          "name": "Jayson Tatum",
+          "pro_team_id": 2,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 6442,
+          "name": "Kyrie Irving",
+          "pro_team_id": 6,
+          "lineup_slot_id": 5,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5124612,
+          "name": "VJ Edgecombe",
+          "pro_team_id": 20,
+          "lineup_slot_id": 1,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4566434,
+          "name": "Franz Wagner",
+          "pro_team_id": 19,
+          "lineup_slot_id": 6,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4600663,
+          "name": "Zach Edey",
+          "pro_team_id": 29,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4432639,
+          "name": "Jabari Smith Jr.",
+          "pro_team_id": 10,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4712849,
+          "name": "Anthony Black",
+          "pro_team_id": 19,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5093267,
+          "name": "Collin Murray-Boyles",
+          "pro_team_id": 28,
+          "lineup_slot_id": 3,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3155526,
+          "name": "Dillon Brooks",
+          "pro_team_id": 21,
+          "lineup_slot_id": 2,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4432848,
+          "name": "Jaime Jaquez Jr.",
+          "pro_team_id": 15,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4278053,
+          "name": "Davion Mitchell",
+          "pro_team_id": 14,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4900671,
+          "name": "Ajay Mitchell",
+          "pro_team_id": 25,
+          "lineup_slot_id": 0,
+          "injury_status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "team_id": 16,
+      "team_name": "Team 16",
+      "abbrev": "JFT",
+      "roster": [
+        {
+          "player_id": 4396993,
+          "name": "Tyrese Haliburton",
+          "pro_team_id": 11,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 6583,
+          "name": "Anthony Davis",
+          "pro_team_id": 27,
+          "lineup_slot_id": 4,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 3136195,
+          "name": "Karl-Anthony Towns",
+          "pro_team_id": 18,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4066320,
+          "name": "Desmond Bane",
+          "pro_team_id": 19,
+          "lineup_slot_id": 12,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 1966,
+          "name": "LeBron James",
+          "pro_team_id": 20,
+          "lineup_slot_id": 2,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4433255,
+          "name": "Chet Holmgren",
+          "pro_team_id": 25,
+          "lineup_slot_id": 13,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 4433627,
+          "name": "Keyonte George",
+          "pro_team_id": 26,
+          "lineup_slot_id": 0,
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "player_id": 3908845,
+          "name": "John Collins",
+          "pro_team_id": 8,
+          "lineup_slot_id": 3,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4397002,
+          "name": "Ayo Dosunmu",
+          "pro_team_id": 16,
+          "lineup_slot_id": 5,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4066757,
+          "name": "Sam Merrill",
+          "pro_team_id": 5,
+          "lineup_slot_id": 12,
+          "injury_status": "OUT"
+        },
+        {
+          "player_id": 4066436,
+          "name": "De'Anthony Melton",
+          "pro_team_id": 9,
+          "lineup_slot_id": 12,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 4433083,
+          "name": "Cam Spencer",
+          "pro_team_id": 29,
+          "lineup_slot_id": 1,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 3157465,
+          "name": "Duncan Robinson",
+          "pro_team_id": 8,
+          "lineup_slot_id": 6,
+          "injury_status": "ACTIVE"
+        },
+        {
+          "player_id": 5174983,
+          "name": "Aday Mara",
+          "pro_team_id": 25,
+          "lineup_slot_id": 11,
+          "injury_status": "ACTIVE"
+        }
+      ]
+    }
+  ],
+  "team_names": {
+    "1": "Team 1",
+    "3": "Team 3",
+    "4": "Team 4",
+    "5": "Team 5",
+    "7": "Team 7",
+    "8": "Team 8",
+    "9": "Team 9",
+    "10": "Team 10",
+    "12": "Team 12",
+    "13": "Team 13",
+    "15": "Team 15",
+    "16": "Team 16"
+  },
+  "free_agents": [
+    {
+      "player_id": 6440,
+      "name": "Tobias Harris",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.46889226,
+        "FT%": 0.86624204,
+        "3PM": 82.0,
+        "REB": 323.0,
+        "AST": 157.0,
+        "STL": 58.0,
+        "BLK": 26.0,
+        "PTS": 836.0
+      }
+    },
+    {
+      "player_id": 4278562,
+      "name": "Paul Reed",
+      "percent_owned": 20,
+      "stats": {
+        "FG%": 0.61651917,
+        "FT%": 0.66363636,
+        "3PM": 13.0,
+        "REB": 294.0,
+        "AST": 80.0,
+        "STL": 57.0,
+        "BLK": 60.0,
+        "PTS": 504.0
+      }
+    },
+    {
+      "player_id": 3134908,
+      "name": "Jakob Poeltl",
+      "percent_owned": 40,
+      "stats": {
+        "FG%": 0.7,
+        "FT%": 0.60204082,
+        "3PM": 0.0,
+        "REB": 323.0,
+        "AST": 93.0,
+        "STL": 40.0,
+        "BLK": 32.0,
+        "PTS": 493.0
+      }
+    },
+    {
+      "player_id": 6478,
+      "name": "Nikola Vucevic",
+      "percent_owned": 56,
+      "stats": {
+        "FG%": 0.4931164,
+        "FT%": 0.82795699,
+        "3PM": 100.0,
+        "REB": 537.0,
+        "AST": 213.0,
+        "STL": 39.0,
+        "BLK": 41.0,
+        "PTS": 965.0
+      }
+    },
+    {
+      "player_id": 3102531,
+      "name": "Kristaps Porzingis",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.44587629,
+        "FT%": 0.84177215,
+        "3PM": 54.0,
+        "REB": 167.0,
+        "AST": 81.0,
+        "STL": 18.0,
+        "BLK": 38.0,
+        "PTS": 533.0
+      }
+    },
+    {
+      "player_id": 4278585,
+      "name": "Collin Gillespie",
+      "percent_owned": 44,
+      "stats": {
+        "FG%": 0.41805226,
+        "FT%": 0.87356322,
+        "3PM": 232.0,
+        "REB": 327.0,
+        "AST": 371.0,
+        "STL": 99.0,
+        "BLK": 16.0,
+        "PTS": 1012.0
+      }
+    },
+    {
+      "player_id": 4594327,
+      "name": "Keegan Murray",
+      "percent_owned": 56,
+      "stats": {
+        "FG%": 0.42,
+        "FT%": 0.7755102,
+        "3PM": 31.0,
+        "REB": 132.0,
+        "AST": 38.0,
+        "STL": 24.0,
+        "BLK": 36.0,
+        "PTS": 321.0
+      }
+    },
+    {
+      "player_id": 4397014,
+      "name": "Quentin Grimes",
+      "percent_owned": 42,
+      "stats": {
+        "FG%": 0.45033113,
+        "FT%": 0.83966245,
+        "3PM": 127.0,
+        "REB": 273.0,
+        "AST": 244.0,
+        "STL": 64.0,
+        "BLK": 28.0,
+        "PTS": 1006.0
+      }
+    },
+    {
+      "player_id": 5175643,
+      "name": "Egor Demin",
+      "percent_owned": 55,
+      "stats": {
+        "FG%": 0.3986637,
+        "FT%": 0.83076923,
+        "3PM": 124.0,
+        "REB": 165.0,
+        "AST": 173.0,
+        "STL": 42.0,
+        "BLK": 17.0,
+        "PTS": 536.0
+      }
+    },
+    {
+      "player_id": 4397424,
+      "name": "Neemias Queta",
+      "percent_owned": 31,
+      "stats": {
+        "FG%": 0.65330661,
+        "FT%": 0.70285714,
+        "3PM": 1.0,
+        "REB": 636.0,
+        "AST": 126.0,
+        "STL": 60.0,
+        "BLK": 100.0,
+        "PTS": 776.0
+      }
+    },
+    {
+      "player_id": 4277811,
+      "name": "Collin Sexton",
+      "percent_owned": 54,
+      "stats": {
+        "FG%": 0.4851752,
+        "FT%": 0.85490196,
+        "3PM": 112.0,
+        "REB": 155.0,
+        "AST": 223.0,
+        "STL": 76.0,
+        "BLK": 10.0,
+        "PTS": 1050.0
+      }
+    },
+    {
+      "player_id": 2991350,
+      "name": "Alex Caruso",
+      "percent_owned": 34,
+      "stats": {
+        "FG%": 0.42333333,
+        "FT%": 0.80392157,
+        "3PM": 53.0,
+        "REB": 155.0,
+        "AST": 110.0,
+        "STL": 72.0,
+        "BLK": 17.0,
+        "PTS": 348.0
+      }
+    },
+    {
+      "player_id": 4601023,
+      "name": "Oso Ighodaro",
+      "percent_owned": 41,
+      "stats": {
+        "FG%": 0.65300546,
+        "FT%": 0.45299145,
+        "3PM": 0.0,
+        "REB": 418.0,
+        "AST": 185.0,
+        "STL": 73.0,
+        "BLK": 57.0,
+        "PTS": 531.0
+      }
+    },
+    {
+      "player_id": 4397077,
+      "name": "Jaxson Hayes",
+      "percent_owned": 16,
+      "stats": {
+        "FG%": 0.75572519,
+        "FT%": 0.65333333,
+        "3PM": 3.0,
+        "REB": 271.0,
+        "AST": 59.0,
+        "STL": 29.0,
+        "BLK": 52.0,
+        "PTS": 497.0
+      }
+    },
+    {
+      "player_id": 4351852,
+      "name": "Mitchell Robinson",
+      "percent_owned": 43,
+      "stats": {
+        "FG%": 0.72330097,
+        "FT%": 0.40776699,
+        "3PM": 0.0,
+        "REB": 525.0,
+        "AST": 52.0,
+        "STL": 56.0,
+        "BLK": 70.0,
+        "PTS": 340.0
+      }
+    },
+    {
+      "player_id": 4684272,
+      "name": "Ja'Kobe Walter",
+      "percent_owned": 35,
+      "stats": {
+        "FG%": 0.44554455,
+        "FT%": 0.78888889,
+        "3PM": 110.0,
+        "REB": 185.0,
+        "AST": 86.0,
+        "STL": 73.0,
+        "BLK": 14.0,
+        "PTS": 541.0
+      }
+    },
+    {
+      "player_id": 4066262,
+      "name": "Malik Monk",
+      "percent_owned": 53,
+      "stats": {
+        "FG%": 0.43829114,
+        "FT%": 0.87850467,
+        "3PM": 124.0,
+        "REB": 117.0,
+        "AST": 185.0,
+        "STL": 37.0,
+        "BLK": 24.0,
+        "PTS": 772.0
+      }
+    },
+    {
+      "player_id": 3936099,
+      "name": "Derrick Jones Jr.",
+      "percent_owned": 27,
+      "stats": {
+        "FG%": 0.49868074,
+        "FT%": 0.76344086,
+        "3PM": 55.0,
+        "REB": 173.0,
+        "AST": 69.0,
+        "STL": 45.0,
+        "BLK": 50.0,
+        "PTS": 504.0
+      }
+    },
+    {
+      "player_id": 4277956,
+      "name": "Jordan Poole",
+      "percent_owned": 69,
+      "stats": {
+        "FG%": 0.37162162,
+        "FT%": 0.85964912,
+        "3PM": 96.0,
+        "REB": 77.0,
+        "AST": 119.0,
+        "STL": 22.0,
+        "BLK": 15.0,
+        "PTS": 524.0
+      }
+    },
+    {
+      "player_id": 5211175,
+      "name": "Zaccharie Risacher",
+      "percent_owned": 29,
+      "stats": {
+        "FG%": 0.45522388,
+        "FT%": 0.64444444,
+        "3PM": 95.0,
+        "REB": 257.0,
+        "AST": 76.0,
+        "STL": 59.0,
+        "BLK": 36.0,
+        "PTS": 641.0
+      }
+    },
+    {
+      "player_id": 4278355,
+      "name": "Obi Toppin",
+      "percent_owned": 28,
+      "stats": {
+        "FG%": 0.50251256,
+        "FT%": 0.91304348,
+        "3PM": 37.0,
+        "REB": 106.0,
+        "AST": 55.0,
+        "STL": 12.0,
+        "BLK": 1.0,
+        "PTS": 279.0
+      }
+    },
+    {
+      "player_id": 4431785,
+      "name": "Scotty Pippen Jr.",
+      "percent_owned": 53,
+      "stats": {
+        "FG%": 0.44791667,
+        "FT%": 0.7826087,
+        "3PM": 10.0,
+        "REB": 22.0,
+        "AST": 47.0,
+        "STL": 19.0,
+        "BLK": 4.0,
+        "PTS": 114.0
+      }
+    },
+    {
+      "player_id": 4278129,
+      "name": "Deandre Ayton",
+      "percent_owned": 38,
+      "stats": {
+        "FG%": 0.67054908,
+        "FT%": 0.64539007,
+        "3PM": 0.0,
+        "REB": 575.0,
+        "AST": 59.0,
+        "STL": 41.0,
+        "BLK": 70.0,
+        "PTS": 897.0
+      }
+    },
+    {
+      "player_id": 4395723,
+      "name": "Keldon Johnson",
+      "percent_owned": 50,
+      "stats": {
+        "FG%": 0.51944793,
+        "FT%": 0.79381443,
+        "3PM": 99.0,
+        "REB": 440.0,
+        "AST": 111.0,
+        "STL": 46.0,
+        "BLK": 11.0,
+        "PTS": 1081.0
+      }
+    },
+    {
+      "player_id": 2991070,
+      "name": "Jerami Grant",
+      "percent_owned": 30,
+      "stats": {
+        "FG%": 0.45342466,
+        "FT%": 0.8136646,
+        "3PM": 136.0,
+        "REB": 199.0,
+        "AST": 122.0,
+        "STL": 42.0,
+        "BLK": 36.0,
+        "PTS": 1060.0
+      }
+    },
+    {
+      "player_id": 4592691,
+      "name": "Jake LaRavia",
+      "percent_owned": 21,
+      "stats": {
+        "FG%": 0.45889101,
+        "FT%": 0.76315789,
+        "3PM": 78.0,
+        "REB": 326.0,
+        "AST": 145.0,
+        "STL": 104.0,
+        "BLK": 38.0,
+        "PTS": 674.0
+      }
+    },
+    {
+      "player_id": 5112087,
+      "name": "Jaylen Wells",
+      "percent_owned": 36,
+      "stats": {
+        "FG%": 0.43123209,
+        "FT%": 0.78362573,
+        "3PM": 129.0,
+        "REB": 220.0,
+        "AST": 111.0,
+        "STL": 61.0,
+        "BLK": 9.0,
+        "PTS": 865.0
+      }
+    },
+    {
+      "player_id": 6585,
+      "name": "Andre Drummond",
+      "percent_owned": 46,
+      "stats": {
+        "FG%": 0.47181009,
+        "FT%": 0.63095238,
+        "3PM": 32.0,
+        "REB": 532.0,
+        "AST": 80.0,
+        "STL": 38.0,
+        "BLK": 49.0,
+        "PTS": 403.0
+      }
+    },
+    {
+      "player_id": 2530530,
+      "name": "T.J. McConnell",
+      "percent_owned": 72,
+      "stats": {
+        "FG%": 0.53777778,
+        "FT%": 0.86206897,
+        "3PM": 16.0,
+        "REB": 124.0,
+        "AST": 287.0,
+        "STL": 56.0,
+        "BLK": 10.0,
+        "PTS": 525.0
+      }
+    },
+    {
+      "player_id": 4683634,
+      "name": "Bennedict Mathurin",
+      "percent_owned": 65,
+      "stats": {
+        "FG%": 0.42983752,
+        "FT%": 0.86904762,
+        "3PM": 75.0,
+        "REB": 293.0,
+        "AST": 129.0,
+        "STL": 43.0,
+        "BLK": 13.0,
+        "PTS": 949.0
+      }
+    },
+    {
+      "player_id": 4593125,
+      "name": "Santi Aldama",
+      "percent_owned": 55,
+      "stats": {
+        "FG%": 0.4789916,
+        "FT%": 0.66666667,
+        "3PM": 70.0,
+        "REB": 287.0,
+        "AST": 125.0,
+        "STL": 37.0,
+        "BLK": 31.0,
+        "PTS": 602.0
+      }
+    },
+    {
+      "player_id": 4683692,
+      "name": "Cason Wallace",
+      "percent_owned": 72,
+      "stats": {
+        "FG%": 0.43150685,
+        "FT%": 0.80882353,
+        "3PM": 101.0,
+        "REB": 238.0,
+        "AST": 200.0,
+        "STL": 150.0,
+        "BLK": 28.0,
+        "PTS": 660.0
+      }
+    },
+    {
+      "player_id": 5101761,
+      "name": "Mikel Brown Jr.",
+      "percent_owned": 46,
+      "stats": {
+        "FG%": 0.34567901,
+        "FT%": 0.8,
+        "3PM": 14.0,
+        "REB": 15.0,
+        "AST": 27.0,
+        "STL": 5.0,
+        "BLK": 1.0,
+        "PTS": 90.0
+      }
+    },
+    {
+      "player_id": 4914336,
+      "name": "Shaedon Sharpe",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.4516129,
+        "FT%": 0.78680203,
+        "3PM": 103.0,
+        "REB": 217.0,
+        "AST": 132.0,
+        "STL": 70.0,
+        "BLK": 6.0,
+        "PTS": 1042.0
+      }
+    },
+    {
+      "player_id": 4873153,
+      "name": "Morez Johnson Jr.",
+      "percent_owned": 31,
+      "stats": {
+        "FG%": 0.51785714,
+        "FT%": 0.72727273,
+        "3PM": 2.0,
+        "REB": 51.0,
+        "AST": 13.0,
+        "STL": 5.0,
+        "BLK": 1.0,
+        "PTS": 76.0
+      }
+    },
+    {
+      "player_id": 4683678,
+      "name": "Scoot Henderson",
+      "percent_owned": 52,
+      "stats": {
+        "FG%": 0.41812865,
+        "FT%": 0.84,
+        "3PM": 57.0,
+        "REB": 80.0,
+        "AST": 112.0,
+        "STL": 27.0,
+        "BLK": 9.0,
+        "PTS": 427.0
+      }
+    },
+    {
+      "player_id": 4701232,
+      "name": "Mark Williams",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.64383562,
+        "FT%": 0.77142857,
+        "3PM": 1.0,
+        "REB": 477.0,
+        "AST": 58.0,
+        "STL": 55.0,
+        "BLK": 55.0,
+        "PTS": 700.0
+      }
+    },
+    {
+      "player_id": 4432170,
+      "name": "Isaiah Jackson",
+      "percent_owned": 22,
+      "stats": {
+        "FG%": 0.6371308,
+        "FT%": 0.64761905,
+        "3PM": 0.0,
+        "REB": 290.0,
+        "AST": 52.0,
+        "STL": 36.0,
+        "BLK": 49.0,
+        "PTS": 370.0
+      }
+    },
+    {
+      "player_id": 4395626,
+      "name": "Tre Jones",
+      "percent_owned": 39,
+      "stats": {
+        "FG%": 0.55267423,
+        "FT%": 0.84140969,
+        "3PM": 41.0,
+        "REB": 204.0,
+        "AST": 350.0,
+        "STL": 76.0,
+        "BLK": 11.0,
+        "PTS": 914.0
+      }
+    },
+    {
+      "player_id": 4065732,
+      "name": "De'Andre Hunter",
+      "percent_owned": 53,
+      "stats": {
+        "FG%": 0.41516966,
+        "FT%": 0.86713287,
+        "3PM": 75.0,
+        "REB": 185.0,
+        "AST": 90.0,
+        "STL": 30.0,
+        "BLK": 6.0,
+        "PTS": 615.0
+      }
+    },
+    {
+      "player_id": 4432847,
+      "name": "Terrence Shannon Jr.",
+      "percent_owned": 59,
+      "stats": {
+        "FG%": 0.4502924,
+        "FT%": 0.8,
+        "3PM": 31.0,
+        "REB": 49.0,
+        "AST": 38.0,
+        "STL": 14.0,
+        "BLK": 1.0,
+        "PTS": 241.0
+      }
+    },
+    {
+      "player_id": 4433137,
+      "name": "Ziaire Williams",
+      "percent_owned": 24,
+      "stats": {
+        "FG%": 0.42494226,
+        "FT%": 0.85,
+        "3PM": 86.0,
+        "REB": 134.0,
+        "AST": 60.0,
+        "STL": 76.0,
+        "BLK": 21.0,
+        "PTS": 573.0
+      }
+    },
+    {
+      "player_id": 5104155,
+      "name": "Bilal Coulibaly",
+      "percent_owned": 30,
+      "stats": {
+        "FG%": 0.42513863,
+        "FT%": 0.74576271,
+        "3PM": 65.0,
+        "REB": 243.0,
+        "AST": 145.0,
+        "STL": 75.0,
+        "BLK": 54.0,
+        "PTS": 657.0
+      }
+    },
+    {
+      "player_id": 4997538,
+      "name": "Karlo Matkovic",
+      "percent_owned": 18,
+      "stats": {
+        "FG%": 0.60425532,
+        "FT%": 0.73170732,
+        "3PM": 38.0,
+        "REB": 229.0,
+        "AST": 50.0,
+        "STL": 25.0,
+        "BLK": 54.0,
+        "PTS": 352.0
+      }
+    },
+    {
+      "player_id": 4592829,
+      "name": "Quenton Jackson",
+      "percent_owned": 26,
+      "stats": {
+        "FG%": 0.4695122,
+        "FT%": 0.82352941,
+        "3PM": 42.0,
+        "REB": 114.0,
+        "AST": 140.0,
+        "STL": 31.0,
+        "BLK": 6.0,
+        "PTS": 448.0
+      }
+    },
+    {
+      "player_id": 4432241,
+      "name": "Jamal Shead",
+      "percent_owned": 35,
+      "stats": {
+        "FG%": 0.36706349,
+        "FT%": 0.78448276,
+        "3PM": 84.0,
+        "REB": 143.0,
+        "AST": 444.0,
+        "STL": 76.0,
+        "BLK": 15.0,
+        "PTS": 545.0
+      }
+    },
+    {
+      "player_id": 4066211,
+      "name": "Robert Williams III",
+      "percent_owned": 29,
+      "stats": {
+        "FG%": 0.708,
+        "FT%": 0.59649123,
+        "3PM": 9.0,
+        "REB": 414.0,
+        "AST": 60.0,
+        "STL": 35.0,
+        "BLK": 87.0,
+        "PTS": 397.0
+      }
+    },
+    {
+      "player_id": 4683688,
+      "name": "Dereck Lively II",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.61111111,
+        "FT%": 0.8,
+        "3PM": 0.0,
+        "REB": 37.0,
+        "AST": 13.0,
+        "STL": 4.0,
+        "BLK": 11.0,
+        "PTS": 30.0
+      }
+    },
+    {
+      "player_id": 4278580,
+      "name": "Sandro Mamukelashvili",
+      "percent_owned": 26,
+      "stats": {
+        "FG%": 0.5229794,
+        "FT%": 0.74683544,
+        "3PM": 115.0,
+        "REB": 395.0,
+        "AST": 151.0,
+        "STL": 64.0,
+        "BLK": 41.0,
+        "PTS": 893.0
+      }
+    },
+    {
+      "player_id": 3032979,
+      "name": "Dennis Schroder",
+      "percent_owned": 40,
+      "stats": {
+        "FG%": 0.40540541,
+        "FT%": 0.83414634,
+        "3PM": 75.0,
+        "REB": 189.0,
+        "AST": 341.0,
+        "STL": 55.0,
+        "BLK": 11.0,
+        "PTS": 756.0
+      }
+    },
+    {
+      "player_id": 5107199,
+      "name": "Daniss Jenkins",
+      "percent_owned": 32,
+      "stats": {
+        "FG%": 0.4084507,
+        "FT%": 0.83229814,
+        "3PM": 73.0,
+        "REB": 166.0,
+        "AST": 278.0,
+        "STL": 64.0,
+        "BLK": 15.0,
+        "PTS": 671.0
+      }
+    },
+    {
+      "player_id": 5203685,
+      "name": "Khaman Maluach",
+      "percent_owned": 33,
+      "stats": {
+        "FG%": 0.53333333,
+        "FT%": 0.70967742,
+        "3PM": 5.0,
+        "REB": 133.0,
+        "AST": 6.0,
+        "STL": 5.0,
+        "BLK": 33.0,
+        "PTS": 139.0
+      }
+    },
+    {
+      "player_id": 3907498,
+      "name": "Matisse Thybulle",
+      "percent_owned": 16,
+      "stats": {
+        "FG%": 0.43283582,
+        "FT%": 0.84,
+        "3PM": 37.0,
+        "REB": 59.0,
+        "AST": 27.0,
+        "STL": 60.0,
+        "BLK": 16.0,
+        "PTS": 174.0
+      }
+    },
+    {
+      "player_id": 4432174,
+      "name": "Cam Thomas",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.40997831,
+        "FT%": 0.81065089,
+        "3PM": 52.0,
+        "REB": 71.0,
+        "AST": 108.0,
+        "STL": 9.0,
+        "BLK": 4.0,
+        "PTS": 567.0
+      }
+    },
+    {
+      "player_id": 3136776,
+      "name": "D'Angelo Russell",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.40517241,
+        "FT%": 0.71666667,
+        "3PM": 33.0,
+        "REB": 61.0,
+        "AST": 104.0,
+        "STL": 12.0,
+        "BLK": 2.0,
+        "PTS": 264.0
+      }
+    },
+    {
+      "player_id": 4397020,
+      "name": "Luguentz Dort",
+      "percent_owned": 32,
+      "stats": {
+        "FG%": 0.38549618,
+        "FT%": 0.75862069,
+        "3PM": 128.0,
+        "REB": 245.0,
+        "AST": 85.0,
+        "STL": 62.0,
+        "BLK": 27.0,
+        "PTS": 576.0
+      }
+    },
+    {
+      "player_id": 5041951,
+      "name": "Meleek Thomas",
+      "percent_owned": 40,
+      "stats": {
+        "FG%": 0.45070423,
+        "FT%": 1.0,
+        "3PM": 18.0,
+        "REB": 18.0,
+        "AST": 7.0,
+        "STL": 7.0,
+        "BLK": 1.0,
+        "PTS": 86.0
+      }
+    },
+    {
+      "player_id": 4432810,
+      "name": "Isaiah Stewart",
+      "percent_owned": 28,
+      "stats": {
+        "FG%": 0.54975124,
+        "FT%": 0.75572519,
+        "3PM": 40.0,
+        "REB": 290.0,
+        "AST": 66.0,
+        "STL": 16.0,
+        "BLK": 93.0,
+        "PTS": 581.0
+      }
+    },
+    {
+      "player_id": 3133603,
+      "name": "Kelly Oubre Jr.",
+      "percent_owned": 67,
+      "stats": {
+        "FG%": 0.46691176,
+        "FT%": 0.76551724,
+        "3PM": 86.0,
+        "REB": 252.0,
+        "AST": 80.0,
+        "STL": 68.0,
+        "BLK": 24.0,
+        "PTS": 705.0
+      }
+    },
+    {
+      "player_id": 4396909,
+      "name": "Aaron Nesmith",
+      "percent_owned": 43,
+      "stats": {
+        "FG%": 0.4140625,
+        "FT%": 0.82882883,
+        "3PM": 105.0,
+        "REB": 187.0,
+        "AST": 86.0,
+        "STL": 26.0,
+        "BLK": 23.0,
+        "PTS": 621.0
+      }
+    },
+    {
+      "player_id": 4684793,
+      "name": "Kyle Filipowski",
+      "percent_owned": 69,
+      "stats": {
+        "FG%": 0.49162861,
+        "FT%": 0.75,
+        "3PM": 74.0,
+        "REB": 552.0,
+        "AST": 198.0,
+        "STL": 73.0,
+        "BLK": 39.0,
+        "PTS": 879.0
+      }
+    },
+    {
+      "player_id": 2528210,
+      "name": "Tim Hardaway Jr.",
+      "percent_owned": 78,
+      "stats": {
+        "FG%": 0.44672657,
+        "FT%": 0.81122449,
+        "3PM": 224.0,
+        "REB": 206.0,
+        "AST": 108.0,
+        "STL": 42.0,
+        "BLK": 10.0,
+        "PTS": 1079.0
+      }
+    },
+    {
+      "player_id": 4277919,
+      "name": "Mo Bamba",
+      "percent_owned": 36,
+      "stats": {
+        "FG%": 0.45454545,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 22.0,
+        "AST": 1.0,
+        "STL": 0.0,
+        "BLK": 3.0,
+        "PTS": 10.0
+      }
+    },
+    {
+      "player_id": 2995706,
+      "name": "Mario Hezonja",
+      "percent_owned": 38,
+      "stats": {
+        "FG%": 0.42307692,
+        "FT%": 0.5,
+        "3PM": 14.0,
+        "REB": 62.0,
+        "AST": 18.0,
+        "STL": 7.0,
+        "BLK": 1.0,
+        "PTS": 84.0
+      }
+    },
+    {
+      "player_id": 5107173,
+      "name": "Danny Wolf",
+      "percent_owned": 47,
+      "stats": {
+        "FG%": 0.40454545,
+        "FT%": 0.7706422,
+        "3PM": 68.0,
+        "REB": 281.0,
+        "AST": 127.0,
+        "STL": 30.0,
+        "BLK": 32.0,
+        "PTS": 508.0
+      }
+    },
+    {
+      "player_id": 4683766,
+      "name": "Isaiah Collier",
+      "percent_owned": 56,
+      "stats": {
+        "FG%": 0.49514563,
+        "FT%": 0.72248804,
+        "3PM": 27.0,
+        "REB": 150.0,
+        "AST": 423.0,
+        "STL": 66.0,
+        "BLK": 20.0,
+        "PTS": 688.0
+      }
+    },
+    {
+      "player_id": 4698719,
+      "name": "Trevon Brazile",
+      "percent_owned": 44,
+      "stats": {
+        "FG%": 0.53488372,
+        "FT%": 0.54545455,
+        "3PM": 7.0,
+        "REB": 49.0,
+        "AST": 5.0,
+        "STL": 6.0,
+        "BLK": 4.0,
+        "PTS": 59.0
+      }
+    },
+    {
+      "player_id": 4683774,
+      "name": "Bronny James",
+      "percent_owned": 74,
+      "stats": {
+        "FG%": 0.40869565,
+        "FT%": 0.85714286,
+        "3PM": 22.0,
+        "REB": 23.0,
+        "AST": 51.0,
+        "STL": 19.0,
+        "BLK": 4.0,
+        "PTS": 122.0
+      }
+    },
+    {
+      "player_id": 4592492,
+      "name": "Bones Hyland",
+      "percent_owned": 37,
+      "stats": {
+        "FG%": 0.45299145,
+        "FT%": 0.7804878,
+        "3PM": 116.0,
+        "REB": 127.0,
+        "AST": 188.0,
+        "STL": 44.0,
+        "BLK": 17.0,
+        "PTS": 604.0
+      }
+    },
+    {
+      "player_id": 4896372,
+      "name": "Walter Clayton Jr.",
+      "percent_owned": 37,
+      "stats": {
+        "FG%": 0.38394794,
+        "FT%": 0.90082645,
+        "3PM": 75.0,
+        "REB": 139.0,
+        "AST": 279.0,
+        "STL": 44.0,
+        "BLK": 19.0,
+        "PTS": 538.0
+      }
+    },
+    {
+      "player_id": 4066372,
+      "name": "Kevin Huerter",
+      "percent_owned": 30,
+      "stats": {
+        "FG%": 0.45134228,
+        "FT%": 0.77464789,
+        "3PM": 100.0,
+        "REB": 240.0,
+        "AST": 178.0,
+        "STL": 63.0,
+        "BLK": 33.0,
+        "PTS": 693.0
+      }
+    },
+    {
+      "player_id": 4065804,
+      "name": "Sam Hauser",
+      "percent_owned": 41,
+      "stats": {
+        "FG%": 0.41930116,
+        "FT%": 0.85,
+        "3PM": 198.0,
+        "REB": 300.0,
+        "AST": 114.0,
+        "STL": 38.0,
+        "BLK": 23.0,
+        "PTS": 719.0
+      }
+    },
+    {
+      "player_id": 4683747,
+      "name": "Jaylon Tyson",
+      "percent_owned": 70,
+      "stats": {
+        "FG%": 0.49253731,
+        "FT%": 0.73831776,
+        "3PM": 133.0,
+        "REB": 338.0,
+        "AST": 147.0,
+        "STL": 54.0,
+        "BLK": 28.0,
+        "PTS": 872.0
+      }
+    },
+    {
+      "player_id": 2581018,
+      "name": "Kentavious Caldwell-Pope",
+      "percent_owned": 27,
+      "stats": {
+        "FG%": 0.40983607,
+        "FT%": 0.9125,
+        "3PM": 55.0,
+        "REB": 125.0,
+        "AST": 139.0,
+        "STL": 43.0,
+        "BLK": 8.0,
+        "PTS": 428.0
+      }
+    },
+    {
+      "player_id": 4397040,
+      "name": "Brandon Williams",
+      "percent_owned": 38,
+      "stats": {
+        "FG%": 0.47163695,
+        "FT%": 0.79276316,
+        "3PM": 36.0,
+        "REB": 191.0,
+        "AST": 256.0,
+        "STL": 62.0,
+        "BLK": 20.0,
+        "PTS": 859.0
+      }
+    },
+    {
+      "player_id": 3150844,
+      "name": "Moritz Wagner",
+      "percent_owned": 32,
+      "stats": {
+        "FG%": 0.42564103,
+        "FT%": 0.81944444,
+        "3PM": 22.0,
+        "REB": 115.0,
+        "AST": 27.0,
+        "STL": 15.0,
+        "BLK": 2.0,
+        "PTS": 247.0
+      }
+    },
+    {
+      "player_id": 4592427,
+      "name": "Spencer Jones",
+      "percent_owned": 80,
+      "stats": {
+        "FG%": 0.50381679,
+        "FT%": 0.60784314,
+        "3PM": 57.0,
+        "REB": 209.0,
+        "AST": 51.0,
+        "STL": 52.0,
+        "BLK": 29.0,
+        "PTS": 352.0
+      }
+    },
+    {
+      "player_id": 4845374,
+      "name": "Bub Carrington",
+      "percent_owned": 41,
+      "stats": {
+        "FG%": 0.42375169,
+        "FT%": 0.72972973,
+        "3PM": 169.0,
+        "REB": 276.0,
+        "AST": 381.0,
+        "STL": 52.0,
+        "BLK": 17.0,
+        "PTS": 878.0
+      }
+    },
+    {
+      "player_id": 2990992,
+      "name": "Marcus Smart",
+      "percent_owned": 46,
+      "stats": {
+        "FG%": 0.39495798,
+        "FT%": 0.82170543,
+        "3PM": 97.0,
+        "REB": 172.0,
+        "AST": 186.0,
+        "STL": 87.0,
+        "BLK": 23.0,
+        "PTS": 579.0
+      }
+    },
+    {
+      "player_id": 3934673,
+      "name": "Donte DiVincenzo",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.40598802,
+        "FT%": 0.74285714,
+        "3PM": 244.0,
+        "REB": 336.0,
+        "AST": 313.0,
+        "STL": 104.0,
+        "BLK": 34.0,
+        "PTS": 1000.0
+      }
+    },
+    {
+      "player_id": 3468,
+      "name": "Russell Westbrook",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.42669845,
+        "FT%": 0.69398907,
+        "3PM": 128.0,
+        "REB": 348.0,
+        "AST": 426.0,
+        "STL": 83.0,
+        "BLK": 12.0,
+        "PTS": 971.0
+      }
+    },
+    {
+      "player_id": 4432582,
+      "name": "Max Christie",
+      "percent_owned": 62,
+      "stats": {
+        "FG%": 0.44137931,
+        "FT%": 0.89928058,
+        "3PM": 180.0,
+        "REB": 249.0,
+        "AST": 151.0,
+        "STL": 47.0,
+        "BLK": 27.0,
+        "PTS": 945.0
+      }
+    },
+    {
+      "player_id": 4576060,
+      "name": "Ryan Kalkbrenner",
+      "percent_owned": 25,
+      "stats": {
+        "FG%": 0.75257732,
+        "FT%": 0.71551724,
+        "3PM": 0.0,
+        "REB": 377.0,
+        "AST": 54.0,
+        "STL": 32.0,
+        "BLK": 101.0,
+        "PTS": 521.0
+      }
+    },
+    {
+      "player_id": 4432823,
+      "name": "Jaylin Williams",
+      "percent_owned": 60,
+      "stats": {
+        "FG%": 0.42329545,
+        "FT%": 0.79347826,
+        "3PM": 98.0,
+        "REB": 358.0,
+        "AST": 158.0,
+        "STL": 31.0,
+        "BLK": 42.0,
+        "PTS": 469.0
+      }
+    },
+    {
+      "player_id": 4898371,
+      "name": "Maxime Raynaud",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.57078987,
+        "FT%": 0.78571429,
+        "3PM": 24.0,
+        "REB": 556.0,
+        "AST": 100.0,
+        "STL": 38.0,
+        "BLK": 39.0,
+        "PTS": 922.0
+      }
+    },
+    {
+      "player_id": 6580,
+      "name": "Bradley Beal",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.375,
+        "FT%": 0.75,
+        "3PM": 7.0,
+        "REB": 5.0,
+        "AST": 10.0,
+        "STL": 3.0,
+        "BLK": 0.0,
+        "PTS": 49.0
+      }
+    },
+    {
+      "player_id": 5238230,
+      "name": "Tre Johnson",
+      "percent_owned": 65,
+      "stats": {
+        "FG%": 0.41885626,
+        "FT%": 0.87356322,
+        "3PM": 115.0,
+        "REB": 170.0,
+        "AST": 122.0,
+        "STL": 33.0,
+        "BLK": 18.0,
+        "PTS": 733.0
+      }
+    },
+    {
+      "player_id": 5105550,
+      "name": "GG Jackson",
+      "percent_owned": 46,
+      "stats": {
+        "FG%": 0.49610895,
+        "FT%": 0.74172185,
+        "3PM": 64.0,
+        "REB": 235.0,
+        "AST": 81.0,
+        "STL": 31.0,
+        "BLK": 44.0,
+        "PTS": 686.0
+      }
+    },
+    {
+      "player_id": 2583632,
+      "name": "Royce O'Neale",
+      "percent_owned": 59,
+      "stats": {
+        "FG%": 0.4208,
+        "FT%": 0.71052632,
+        "3PM": 212.0,
+        "REB": 372.0,
+        "AST": 208.0,
+        "STL": 84.0,
+        "BLK": 32.0,
+        "PTS": 765.0
+      }
+    },
+    {
+      "player_id": 5279133,
+      "name": "Joan Beringer",
+      "percent_owned": 30,
+      "stats": {
+        "FG%": 0.66326531,
+        "FT%": 0.7027027,
+        "3PM": 0.0,
+        "REB": 92.0,
+        "AST": 12.0,
+        "STL": 7.0,
+        "BLK": 26.0,
+        "PTS": 156.0
+      }
+    },
+    {
+      "player_id": 5106060,
+      "name": "Jarace Walker",
+      "percent_owned": 29,
+      "stats": {
+        "FG%": 0.41882674,
+        "FT%": 0.74863388,
+        "3PM": 133.0,
+        "REB": 391.0,
+        "AST": 192.0,
+        "STL": 63.0,
+        "BLK": 26.0,
+        "PTS": 884.0
+      }
+    },
+    {
+      "player_id": 4277813,
+      "name": "Herbert Jones",
+      "percent_owned": 60,
+      "stats": {
+        "FG%": 0.38284519,
+        "FT%": 0.80645161,
+        "3PM": 80.0,
+        "REB": 190.0,
+        "AST": 155.0,
+        "STL": 88.0,
+        "BLK": 27.0,
+        "PTS": 496.0
+      }
+    },
+    {
+      "player_id": 5106258,
+      "name": "Gradey Dick",
+      "percent_owned": 45,
+      "stats": {
+        "FG%": 0.41927083,
+        "FT%": 0.875,
+        "3PM": 56.0,
+        "REB": 147.0,
+        "AST": 51.0,
+        "STL": 45.0,
+        "BLK": 7.0,
+        "PTS": 455.0
+      }
+    },
+    {
+      "player_id": 3213,
+      "name": "Al Horford",
+      "percent_owned": 41,
+      "stats": {
+        "FG%": 0.42592593,
+        "FT%": 0.84615385,
+        "3PM": 74.0,
+        "REB": 219.0,
+        "AST": 116.0,
+        "STL": 30.0,
+        "BLK": 51.0,
+        "PTS": 372.0
+      }
+    },
+    {
+      "player_id": 5105839,
+      "name": "Brice Sensabaugh",
+      "percent_owned": 51,
+      "stats": {
+        "FG%": 0.45974329,
+        "FT%": 0.82587065,
+        "3PM": 162.0,
+        "REB": 231.0,
+        "AST": 143.0,
+        "STL": 54.0,
+        "BLK": 12.0,
+        "PTS": 1116.0
+      }
+    },
+    {
+      "player_id": 2779,
+      "name": "Chris Paul",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.32142857,
+        "FT%": 0.5,
+        "3PM": 10.0,
+        "REB": 28.0,
+        "AST": 53.0,
+        "STL": 11.0,
+        "BLK": 0.0,
+        "PTS": 47.0
+      }
+    },
+    {
+      "player_id": 4997528,
+      "name": "Nikola Jovic",
+      "percent_owned": 57,
+      "stats": {
+        "FG%": 0.36624204,
+        "FT%": 0.68316832,
+        "3PM": 45.0,
+        "REB": 153.0,
+        "AST": 102.0,
+        "STL": 26.0,
+        "BLK": 17.0,
+        "PTS": 344.0
+      }
+    },
+    {
+      "player_id": 3913174,
+      "name": "Luke Kennard",
+      "percent_owned": 57,
+      "stats": {
+        "FG%": 0.53273138,
+        "FT%": 0.91304348,
+        "3PM": 117.0,
+        "REB": 182.0,
+        "AST": 174.0,
+        "STL": 55.0,
+        "BLK": 8.0,
+        "PTS": 652.0
+      }
+    },
+    {
+      "player_id": 4897943,
+      "name": "Dalton Knecht",
+      "percent_owned": 79,
+      "stats": {
+        "FG%": 0.45549738,
+        "FT%": 0.72727273,
+        "3PM": 38.0,
+        "REB": 75.0,
+        "AST": 21.0,
+        "STL": 11.0,
+        "BLK": 11.0,
+        "PTS": 228.0
+      }
+    },
+    {
+      "player_id": 5214640,
+      "name": "Kasparas Jakucionis",
+      "percent_owned": 43,
+      "stats": {
+        "FG%": 0.42857143,
+        "FT%": 0.87878788,
+        "3PM": 66.0,
+        "REB": 138.0,
+        "AST": 137.0,
+        "STL": 33.0,
+        "BLK": 7.0,
+        "PTS": 328.0
+      }
+    },
+    {
+      "player_id": 4432907,
+      "name": "Justin Champagnie",
+      "percent_owned": 63,
+      "stats": {
+        "FG%": 0.5021645,
+        "FT%": 0.78431373,
+        "3PM": 53.0,
+        "REB": 384.0,
+        "AST": 84.0,
+        "STL": 59.0,
+        "BLK": 43.0,
+        "PTS": 597.0
+      }
+    },
+    {
+      "player_id": 4431823,
+      "name": "Miles McBride",
+      "percent_owned": 47,
+      "stats": {
+        "FG%": 0.42326733,
+        "FT%": 0.78723404,
+        "3PM": 112.0,
+        "REB": 100.0,
+        "AST": 106.0,
+        "STL": 35.0,
+        "BLK": 9.0,
+        "PTS": 491.0
+      }
+    },
+    {
+      "player_id": 4702177,
+      "name": "Keon Ellis",
+      "percent_owned": 51,
+      "stats": {
+        "FG%": 0.44010417,
+        "FT%": 0.72857143,
+        "3PM": 91.0,
+        "REB": 135.0,
+        "AST": 72.0,
+        "STL": 83.0,
+        "BLK": 46.0,
+        "PTS": 480.0
+      }
+    },
+    {
+      "player_id": 4277869,
+      "name": "Jose Alvarado",
+      "percent_owned": 64,
+      "stats": {
+        "FG%": 0.41648107,
+        "FT%": 0.76086957,
+        "3PM": 101.0,
+        "REB": 171.0,
+        "AST": 234.0,
+        "STL": 66.0,
+        "BLK": 8.0,
+        "PTS": 510.0
+      }
+    },
+    {
+      "player_id": 4397886,
+      "name": "Charles Bassey",
+      "percent_owned": 34,
+      "stats": {
+        "FG%": 0.65957447,
+        "FT%": 0.7,
+        "3PM": 0.0,
+        "REB": 57.0,
+        "AST": 7.0,
+        "STL": 4.0,
+        "BLK": 11.0,
+        "PTS": 76.0
+      }
+    },
+    {
+      "player_id": 3912848,
+      "name": "Dean Wade",
+      "percent_owned": 32,
+      "stats": {
+        "FG%": 0.43884892,
+        "FT%": 0.71052632,
+        "3PM": 71.0,
+        "REB": 247.0,
+        "AST": 88.0,
+        "STL": 44.0,
+        "BLK": 23.0,
+        "PTS": 342.0
+      }
+    },
+    {
+      "player_id": 4888725,
+      "name": "Ryan Dunn",
+      "percent_owned": 42,
+      "stats": {
+        "FG%": 0.45303867,
+        "FT%": 0.4893617,
+        "3PM": 56.0,
+        "REB": 297.0,
+        "AST": 102.0,
+        "STL": 60.0,
+        "BLK": 29.0,
+        "PTS": 407.0
+      }
+    },
+    {
+      "player_id": 4997536,
+      "name": "Gui Santos",
+      "percent_owned": 73,
+      "stats": {
+        "FG%": 0.5,
+        "FT%": 0.725,
+        "3PM": 78.0,
+        "REB": 266.0,
+        "AST": 159.0,
+        "STL": 61.0,
+        "BLK": 22.0,
+        "PTS": 625.0
+      }
+    },
+    {
+      "player_id": 4702352,
+      "name": "Kobe Sanders",
+      "percent_owned": 29,
+      "stats": {
+        "FG%": 0.46614583,
+        "FT%": 0.82608696,
+        "3PM": 80.0,
+        "REB": 153.0,
+        "AST": 109.0,
+        "STL": 49.0,
+        "BLK": 10.0,
+        "PTS": 495.0
+      }
+    },
+    {
+      "player_id": 4395650,
+      "name": "Leaky Black",
+      "percent_owned": 52,
+      "stats": {
+        "FG%": 0.38834951,
+        "FT%": 0.875,
+        "3PM": 19.0,
+        "REB": 75.0,
+        "AST": 22.0,
+        "STL": 18.0,
+        "BLK": 8.0,
+        "PTS": 106.0
+      }
+    },
+    {
+      "player_id": 3907387,
+      "name": "Ben Simmons",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    {
+      "player_id": 5241364,
+      "name": "Bennett Stirtz",
+      "percent_owned": 42,
+      "stats": {
+        "FG%": 0.47169811,
+        "FT%": 0.90909091,
+        "3PM": 16.0,
+        "REB": 12.0,
+        "AST": 13.0,
+        "STL": 5.0,
+        "BLK": 1.0,
+        "PTS": 76.0
+      }
+    },
+    {
+      "player_id": 4702384,
+      "name": "Nique Clifford",
+      "percent_owned": 80,
+      "stats": {
+        "FG%": 0.41778523,
+        "FT%": 0.72164948,
+        "3PM": 77.0,
+        "REB": 282.0,
+        "AST": 179.0,
+        "STL": 68.0,
+        "BLK": 24.0,
+        "PTS": 645.0
+      }
+    },
+    {
+      "player_id": 4395702,
+      "name": "Isaiah Joe",
+      "percent_owned": 84,
+      "stats": {
+        "FG%": 0.45488029,
+        "FT%": 0.89430894,
+        "3PM": 181.0,
+        "REB": 181.0,
+        "AST": 94.0,
+        "STL": 50.0,
+        "BLK": 11.0,
+        "PTS": 785.0
+      }
+    },
+    {
+      "player_id": 4278402,
+      "name": "Jordan Goodwin",
+      "percent_owned": 47,
+      "stats": {
+        "FG%": 0.41261261,
+        "FT%": 0.69642857,
+        "3PM": 112.0,
+        "REB": 341.0,
+        "AST": 151.0,
+        "STL": 106.0,
+        "BLK": 14.0,
+        "PTS": 609.0
+      }
+    },
+    {
+      "player_id": 4873090,
+      "name": "Labaron Philon Jr.",
+      "percent_owned": 79,
+      "stats": {
+        "FG%": 0.375,
+        "FT%": 0.25,
+        "3PM": 2.0,
+        "REB": 6.0,
+        "AST": 2.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 15.0
+      }
+    },
+    {
+      "player_id": 5061568,
+      "name": "Carter Bryant",
+      "percent_owned": 82,
+      "stats": {
+        "FG%": 0.40754717,
+        "FT%": 0.71428571,
+        "3PM": 52.0,
+        "REB": 178.0,
+        "AST": 47.0,
+        "STL": 16.0,
+        "BLK": 23.0,
+        "PTS": 298.0
+      }
+    },
+    {
+      "player_id": 4593841,
+      "name": "Baylor Scheierman",
+      "percent_owned": 41,
+      "stats": {
+        "FG%": 0.45345345,
+        "FT%": 0.90322581,
+        "3PM": 97.0,
+        "REB": 269.0,
+        "AST": 116.0,
+        "STL": 42.0,
+        "BLK": 6.0,
+        "PTS": 427.0
+      }
+    },
+    {
+      "player_id": 3914044,
+      "name": "Landry Shamet",
+      "percent_owned": 50,
+      "stats": {
+        "FG%": 0.43681319,
+        "FT%": 0.71052632,
+        "3PM": 103.0,
+        "REB": 92.0,
+        "AST": 72.0,
+        "STL": 31.0,
+        "BLK": 9.0,
+        "PTS": 475.0
+      }
+    },
+    {
+      "player_id": 2990969,
+      "name": "Georges Niang",
+      "percent_owned": 27,
+      "stats": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    {
+      "player_id": 3064560,
+      "name": "Luke Kornet",
+      "percent_owned": 47,
+      "stats": {
+        "FG%": 0.64338235,
+        "FT%": 0.8245614,
+        "3PM": 0.0,
+        "REB": 414.0,
+        "AST": 126.0,
+        "STL": 32.0,
+        "BLK": 65.0,
+        "PTS": 444.0
+      }
+    },
+    {
+      "player_id": 4683771,
+      "name": "Ronald Holland II",
+      "percent_owned": 40,
+      "stats": {
+        "FG%": 0.43198529,
+        "FT%": 0.80536913,
+        "3PM": 50.0,
+        "REB": 315.0,
+        "AST": 95.0,
+        "STL": 92.0,
+        "BLK": 27.0,
+        "PTS": 640.0
+      }
+    },
+    {
+      "player_id": 3133626,
+      "name": "Kenrich Williams",
+      "percent_owned": 47,
+      "stats": {
+        "FG%": 0.47297297,
+        "FT%": 0.63461538,
+        "3PM": 50.0,
+        "REB": 187.0,
+        "AST": 79.0,
+        "STL": 31.0,
+        "BLK": 5.0,
+        "PTS": 363.0
+      }
+    },
+    {
+      "player_id": 4065731,
+      "name": "Jay Huff",
+      "percent_owned": 37,
+      "stats": {
+        "FG%": 0.47626841,
+        "FT%": 0.82828283,
+        "3PM": 119.0,
+        "REB": 324.0,
+        "AST": 121.0,
+        "STL": 41.0,
+        "BLK": 154.0,
+        "PTS": 783.0
+      }
+    },
+    {
+      "player_id": 4683689,
+      "name": "Jordan Walsh",
+      "percent_owned": 66,
+      "stats": {
+        "FG%": 0.5093633,
+        "FT%": 0.77192982,
+        "3PM": 48.0,
+        "REB": 272.0,
+        "AST": 54.0,
+        "STL": 49.0,
+        "BLK": 31.0,
+        "PTS": 364.0
+      }
+    },
+    {
+      "player_id": 4397475,
+      "name": "AJ Green",
+      "percent_owned": 44,
+      "stats": {
+        "FG%": 0.42394822,
+        "FT%": 0.85483871,
+        "3PM": 232.0,
+        "REB": 213.0,
+        "AST": 152.0,
+        "STL": 39.0,
+        "BLK": 8.0,
+        "PTS": 809.0
+      }
+    },
+    {
+      "player_id": 4277951,
+      "name": "Luka Garza",
+      "percent_owned": 42,
+      "stats": {
+        "FG%": 0.57703081,
+        "FT%": 0.76923077,
+        "3PM": 55.0,
+        "REB": 281.0,
+        "AST": 66.0,
+        "STL": 27.0,
+        "BLK": 28.0,
+        "PTS": 557.0
+      }
+    },
+    {
+      "player_id": 5281370,
+      "name": "Hannes Steinbach",
+      "percent_owned": 58,
+      "stats": {
+        "FG%": 0.46153846,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 18.0,
+        "AST": 2.0,
+        "STL": 0.0,
+        "BLK": 3.0,
+        "PTS": 12.0
+      }
+    },
+    {
+      "player_id": 4277848,
+      "name": "Marvin Bagley III",
+      "percent_owned": 38,
+      "stats": {
+        "FG%": 0.61800487,
+        "FT%": 0.65972222,
+        "3PM": 24.0,
+        "REB": 366.0,
+        "AST": 85.0,
+        "STL": 28.0,
+        "BLK": 43.0,
+        "PTS": 627.0
+      }
+    },
+    {
+      "player_id": 5175647,
+      "name": "Hugo Gonzalez",
+      "percent_owned": 77,
+      "stats": {
+        "FG%": 0.47560976,
+        "FT%": 0.5,
+        "3PM": 42.0,
+        "REB": 246.0,
+        "AST": 40.0,
+        "STL": 42.0,
+        "BLK": 21.0,
+        "PTS": 289.0
+      }
+    },
+    {
+      "player_id": 5239561,
+      "name": "Jase Richardson",
+      "percent_owned": 61,
+      "stats": {
+        "FG%": 0.47340426,
+        "FT%": 0.7173913,
+        "3PM": 28.0,
+        "REB": 63.0,
+        "AST": 58.0,
+        "STL": 19.0,
+        "BLK": 2.0,
+        "PTS": 239.0
+      }
+    },
+    {
+      "player_id": 2596112,
+      "name": "Javonte Green",
+      "percent_owned": 45,
+      "stats": {
+        "FG%": 0.4468599,
+        "FT%": 0.84,
+        "3PM": 94.0,
+        "REB": 230.0,
+        "AST": 56.0,
+        "STL": 102.0,
+        "BLK": 25.0,
+        "PTS": 569.0
+      }
+    },
+    {
+      "player_id": 3904625,
+      "name": "Tacko Fall",
+      "percent_owned": 79,
+      "stats": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    {
+      "player_id": 6578,
+      "name": "Harrison Barnes",
+      "percent_owned": 50,
+      "stats": {
+        "FG%": 0.45659722,
+        "FT%": 0.82926829,
+        "3PM": 139.0,
+        "REB": 214.0,
+        "AST": 148.0,
+        "STL": 50.0,
+        "BLK": 12.0,
+        "PTS": 767.0
+      }
+    },
+    {
+      "player_id": 5105854,
+      "name": "Braden Smith",
+      "percent_owned": 49,
+      "stats": {
+        "FG%": 0.44827586,
+        "FT%": 0.5,
+        "3PM": 2.0,
+        "REB": 5.0,
+        "AST": 19.0,
+        "STL": 7.0,
+        "BLK": 3.0,
+        "PTS": 30.0
+      }
+    },
+    {
+      "player_id": 5164559,
+      "name": "Nate Ament",
+      "percent_owned": 72,
+      "stats": {
+        "FG%": 0.47916667,
+        "FT%": 0.61538462,
+        "3PM": 8.0,
+        "REB": 20.0,
+        "AST": 3.0,
+        "STL": 3.0,
+        "BLK": 2.0,
+        "PTS": 62.0
+      }
+    },
+    {
+      "player_id": 5105592,
+      "name": "Cam Whitmore",
+      "percent_owned": 102,
+      "stats": {
+        "FG%": 0.4556213,
+        "FT%": 0.74193548,
+        "3PM": 16.0,
+        "REB": 58.0,
+        "AST": 15.0,
+        "STL": 15.0,
+        "BLK": 8.0,
+        "PTS": 193.0
+      }
+    },
+    {
+      "player_id": 2990984,
+      "name": "Buddy Hield",
+      "percent_owned": 64,
+      "stats": {
+        "FG%": 0.43730887,
+        "FT%": 0.81081081,
+        "3PM": 74.0,
+        "REB": 116.0,
+        "AST": 71.0,
+        "STL": 39.0,
+        "BLK": 9.0,
+        "PTS": 390.0
+      }
+    },
+    {
+      "player_id": 2528426,
+      "name": "Jordan Clarkson",
+      "percent_owned": 66,
+      "stats": {
+        "FG%": 0.45057034,
+        "FT%": 0.82978723,
+        "3PM": 70.0,
+        "REB": 127.0,
+        "AST": 96.0,
+        "STL": 30.0,
+        "BLK": 9.0,
+        "PTS": 622.0
+      }
+    },
+    {
+      "player_id": 5279129,
+      "name": "Sergio de Larrea",
+      "percent_owned": 62,
+      "stats": {
+        "FG%": 0.5,
+        "FT%": 0.0,
+        "3PM": 3.0,
+        "REB": 8.0,
+        "AST": 5.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 21.0
+      }
+    },
+    {
+      "player_id": 5113969,
+      "name": "Cameron Carr",
+      "percent_owned": 111,
+      "stats": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    {
+      "player_id": 5105637,
+      "name": "Adem Bona",
+      "percent_owned": 48,
+      "stats": {
+        "FG%": 0.59545455,
+        "FT%": 0.7079646,
+        "3PM": 2.0,
+        "REB": 307.0,
+        "AST": 32.0,
+        "STL": 30.0,
+        "BLK": 82.0,
+        "PTS": 344.0
+      }
+    },
+    {
+      "player_id": 5044385,
+      "name": "Leonard Miller",
+      "percent_owned": 58,
+      "stats": {
+        "FG%": 0.55343511,
+        "FT%": 0.73584906,
+        "3PM": 32.0,
+        "REB": 181.0,
+        "AST": 40.0,
+        "STL": 17.0,
+        "BLK": 15.0,
+        "PTS": 361.0
+      }
+    },
+    {
+      "player_id": 4578893,
+      "name": "Vit Krejci",
+      "percent_owned": 65,
+      "stats": {
+        "FG%": 0.44755245,
+        "FT%": 0.74509804,
+        "3PM": 128.0,
+        "REB": 148.0,
+        "AST": 100.0,
+        "STL": 47.0,
+        "BLK": 18.0,
+        "PTS": 550.0
+      }
+    },
+    {
+      "player_id": 5149115,
+      "name": "Allen Graves",
+      "percent_owned": 71,
+      "stats": {
+        "FG%": 0.42424242,
+        "FT%": 0.66666667,
+        "3PM": 3.0,
+        "REB": 22.0,
+        "AST": 7.0,
+        "STL": 4.0,
+        "BLK": 5.0,
+        "PTS": 39.0
+      }
+    },
+    {
+      "player_id": 4066421,
+      "name": "Lonzo Ball",
+      "percent_owned": 0,
+      "stats": {
+        "FG%": 0.30113636,
+        "FT%": 0.66666667,
+        "3PM": 40.0,
+        "REB": 140.0,
+        "AST": 136.0,
+        "STL": 45.0,
+        "BLK": 9.0,
+        "PTS": 160.0
+      }
+    },
+    {
+      "player_id": 3146557,
+      "name": "Jock Landale",
+      "percent_owned": 55,
+      "stats": {
+        "FG%": 0.51459854,
+        "FT%": 0.63492063,
+        "3PM": 74.0,
+        "REB": 387.0,
+        "AST": 115.0,
+        "STL": 35.0,
+        "BLK": 36.0,
+        "PTS": 718.0
+      }
+    },
+    {
+      "player_id": 3102529,
+      "name": "Clint Capela",
+      "percent_owned": 45,
+      "stats": {
+        "FG%": 0.51982379,
+        "FT%": 0.57692308,
+        "3PM": 1.0,
+        "REB": 345.0,
+        "AST": 50.0,
+        "STL": 36.0,
+        "BLK": 63.0,
+        "PTS": 282.0
+      }
+    },
+    {
+      "player_id": 5081727,
+      "name": "Sidy Cissoko",
+      "percent_owned": 56,
+      "stats": {
+        "FG%": 0.39820359,
+        "FT%": 0.65909091,
+        "3PM": 59.0,
+        "REB": 166.0,
+        "AST": 110.0,
+        "STL": 52.0,
+        "BLK": 25.0,
+        "PTS": 383.0
+      }
+    },
+    {
+      "player_id": 3136196,
+      "name": "Trey Lyles",
+      "percent_owned": 33,
+      "stats": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    }
+  ],
+  "weekly_matchup_stats": {
+    "1": {
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "2": {
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "3": {
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "4": {
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "5": {
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "6": {
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "7": {
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "8": {
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "9": {
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "10": {
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "11": {
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "12": {
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "13": {
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "14": {
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "15": {
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "16": {
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    },
+    "17": {
+      "13": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "8": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "1": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "9": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "3": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "12": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "15": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "10": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "4": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "7": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "16": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      },
+      "5": {
+        "FG%": null,
+        "FT%": null,
+        "3PM": null,
+        "REB": null,
+        "AST": null,
+        "STL": null,
+        "BLK": null,
+        "PTS": null
+      }
+    }
+  },
+  "weekly_zscores": {
+    "1": {
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "2": {
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "3": {
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "4": {
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "5": {
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "6": {
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "7": {
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "8": {
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "9": {
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "10": {
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "11": {
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "12": {
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "13": {
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "14": {
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "15": {
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "16": {
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    },
+    "17": {
+      "13": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "8": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "1": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "9": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "3": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "12": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "15": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "10": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "4": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "7": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "16": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      },
+      "5": {
+        "FG%": 0.0,
+        "FT%": 0.0,
+        "3PM": 0.0,
+        "REB": 0.0,
+        "AST": 0.0,
+        "STL": 0.0,
+        "BLK": 0.0,
+        "PTS": 0.0
+      }
+    }
+  },
+  "weekly_power_scores": {
+    "1": {
+      "16": 0.0,
+      "8": 0.0,
+      "5": 0.0,
+      "4": 0.0,
+      "7": 0.0,
+      "15": 0.0,
+      "10": 0.0,
+      "3": 0.0,
+      "12": 0.0,
+      "1": 0.0,
+      "9": 0.0,
+      "13": 0.0
+    },
+    "2": {
+      "8": 0.0,
+      "4": 0.0,
+      "15": 0.0,
+      "16": 0.0,
+      "3": 0.0,
+      "5": 0.0,
+      "1": 0.0,
+      "7": 0.0,
+      "13": 0.0,
+      "10": 0.0,
+      "9": 0.0,
+      "12": 0.0
+    },
+    "3": {
+      "15": 0.0,
+      "8": 0.0,
+      "4": 0.0,
+      "3": 0.0,
+      "16": 0.0,
+      "1": 0.0,
+      "5": 0.0,
+      "13": 0.0,
+      "7": 0.0,
+      "9": 0.0,
+      "10": 0.0,
+      "12": 0.0
+    },
+    "4": {
+      "8": 0.0,
+      "3": 0.0,
+      "1": 0.0,
+      "15": 0.0,
+      "13": 0.0,
+      "4": 0.0,
+      "9": 0.0,
+      "16": 0.0,
+      "12": 0.0,
+      "5": 0.0,
+      "10": 0.0,
+      "7": 0.0
+    },
+    "5": {
+      "1": 0.0,
+      "8": 0.0,
+      "3": 0.0,
+      "13": 0.0,
+      "15": 0.0,
+      "9": 0.0,
+      "4": 0.0,
+      "12": 0.0,
+      "16": 0.0,
+      "10": 0.0,
+      "5": 0.0,
+      "7": 0.0
+    },
+    "6": {
+      "8": 0.0,
+      "13": 0.0,
+      "9": 0.0,
+      "1": 0.0,
+      "12": 0.0,
+      "3": 0.0,
+      "10": 0.0,
+      "15": 0.0,
+      "7": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "16": 0.0
+    },
+    "7": {
+      "9": 0.0,
+      "8": 0.0,
+      "13": 0.0,
+      "12": 0.0,
+      "1": 0.0,
+      "10": 0.0,
+      "3": 0.0,
+      "7": 0.0,
+      "15": 0.0,
+      "5": 0.0,
+      "4": 0.0,
+      "16": 0.0
+    },
+    "8": {
+      "8": 0.0,
+      "12": 0.0,
+      "10": 0.0,
+      "9": 0.0,
+      "7": 0.0,
+      "13": 0.0,
+      "5": 0.0,
+      "1": 0.0,
+      "16": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "15": 0.0
+    },
+    "9": {
+      "10": 0.0,
+      "8": 0.0,
+      "12": 0.0,
+      "7": 0.0,
+      "9": 0.0,
+      "5": 0.0,
+      "13": 0.0,
+      "16": 0.0,
+      "1": 0.0,
+      "4": 0.0,
+      "3": 0.0,
+      "15": 0.0
+    },
+    "10": {
+      "8": 0.0,
+      "7": 0.0,
+      "5": 0.0,
+      "10": 0.0,
+      "16": 0.0,
+      "12": 0.0,
+      "4": 0.0,
+      "9": 0.0,
+      "15": 0.0,
+      "13": 0.0,
+      "3": 0.0,
+      "1": 0.0
+    },
+    "11": {
+      "5": 0.0,
+      "8": 0.0,
+      "7": 0.0,
+      "16": 0.0,
+      "10": 0.0,
+      "4": 0.0,
+      "12": 0.0,
+      "15": 0.0,
+      "9": 0.0,
+      "3": 0.0,
+      "13": 0.0,
+      "1": 0.0
+    },
+    "12": {
+      "8": 0.0,
+      "16": 0.0,
+      "4": 0.0,
+      "5": 0.0,
+      "15": 0.0,
+      "7": 0.0,
+      "3": 0.0,
+      "10": 0.0,
+      "1": 0.0,
+      "12": 0.0,
+      "13": 0.0,
+      "9": 0.0
+    },
+    "13": {
+      "4": 0.0,
+      "8": 0.0,
+      "16": 0.0,
+      "15": 0.0,
+      "5": 0.0,
+      "3": 0.0,
+      "7": 0.0,
+      "1": 0.0,
+      "10": 0.0,
+      "13": 0.0,
+      "12": 0.0,
+      "9": 0.0
+    },
+    "14": {
+      "8": 0.0,
+      "15": 0.0,
+      "3": 0.0,
+      "4": 0.0,
+      "1": 0.0,
+      "16": 0.0,
+      "13": 0.0,
+      "5": 0.0,
+      "9": 0.0,
+      "7": 0.0,
+      "12": 0.0,
+      "10": 0.0
+    },
+    "15": {
+      "3": 0.0,
+      "8": 0.0,
+      "15": 0.0,
+      "1": 0.0,
+      "4": 0.0,
+      "13": 0.0,
+      "16": 0.0,
+      "9": 0.0,
+      "5": 0.0,
+      "12": 0.0,
+      "7": 0.0,
+      "10": 0.0
+    },
+    "16": {
+      "8": 0.0,
+      "1": 0.0,
+      "13": 0.0,
+      "3": 0.0,
+      "9": 0.0,
+      "15": 0.0,
+      "12": 0.0,
+      "4": 0.0,
+      "10": 0.0,
+      "16": 0.0,
+      "7": 0.0,
+      "5": 0.0
+    },
+    "17": {
+      "13": 0.0,
+      "8": 0.0,
+      "1": 0.0,
+      "9": 0.0,
+      "3": 0.0,
+      "12": 0.0,
+      "15": 0.0,
+      "10": 0.0,
+      "4": 0.0,
+      "7": 0.0,
+      "16": 0.0,
+      "5": 0.0
+    }
+  },
+  "season_power_summary": {
+    "1": {
+      "weekly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg": 0.0,
+      "consistency_std": 0.0,
+      "trend_slope": 0.0
+    },
+    "3": {
+      "weekly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg": 0.0,
+      "consistency_std": 0.0,
+      "trend_slope": 0.0
+    },
+    "4": {
+      "weekly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg": 0.0,
+      "consistency_std": 0.0,
+      "trend_slope": 0.0
+    },
+    "5": {
+      "weekly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg": 0.0,
+      "consistency_std": 0.0,
+      "trend_slope": 0.0
+    },
+    "7": {
+      "weekly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg": 0.0,
+      "consistency_std": 0.0,
+      "trend_slope": 0.0
+    },
+    "8": {
+      "weekly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg": 0.0,
+      "consistency_std": 0.0,
+      "trend_slope": 0.0
+    },
+    "9": {
+      "weekly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg": 0.0,
+      "consistency_std": 0.0,
+      "trend_slope": 0.0
+    },
+    "10": {
+      "weekly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg": 0.0,
+      "consistency_std": 0.0,
+      "trend_slope": 0.0
+    },
+    "12": {
+      "weekly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg": 0.0,
+      "consistency_std": 0.0,
+      "trend_slope": 0.0
+    },
+    "13": {
+      "weekly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg": 0.0,
+      "consistency_std": 0.0,
+      "trend_slope": 0.0
+    },
+    "15": {
+      "weekly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg": 0.0,
+      "consistency_std": 0.0,
+      "trend_slope": 0.0
+    },
+    "16": {
+      "weekly": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg": 0.0,
+      "consistency_std": 0.0,
+      "trend_slope": 0.0
+    }
+  },
+  "transactions": [
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 2991230,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 4066261,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 22,
+      "items": [
+        {
+          "player_id": 2991230,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 6606,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 3,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 3945274,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4396971,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5105565,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5041935,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3059318,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4395651,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 2991139,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3064290,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4431679,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4395630,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433174,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4278078,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 25,
+      "items": [
+        {
+          "player_id": 4711272,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 4433249,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4431767,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 4431678,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 26,
+      "items": [
+        {
+          "player_id": 4576087,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 23,
+      "items": [
+        {
+          "player_id": 4711272,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 26,
+      "items": [
+        {
+          "player_id": 3936299,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3975,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4277905,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3133628,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5174563,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433249,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4431767,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433136,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4711272,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 3,
+      "scoring_period": 23,
+      "items": [
+        {
+          "player_id": 3945274,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5041935,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 2991139,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3064290,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4431679,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 15,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 4065648,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5093267,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 4066383,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 25,
+      "items": [
+        {
+          "player_id": 3936299,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4701230,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3975,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4277905,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3133628,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5174563,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433249,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3135045,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433136,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4576087,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4711272,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 4431767,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5174563,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 5,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 3934672,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4683021,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3934719,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5160992,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4395724,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4845367,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5041955,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4397136,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4278594,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 3936299,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4701230,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3975,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4871144,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4277905,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3133628,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5174563,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433249,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3135045,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4431767,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433136,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 3,
+      "scoring_period": 27,
+      "items": [
+        {
+          "player_id": 4396971,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5105565,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5041935,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3059318,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4395651,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 2991139,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3064290,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4431679,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4277847,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433174,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 4,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 3064482,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4278049,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 3,
+      "scoring_period": 25,
+      "items": [
+        {
+          "player_id": 4396971,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5041935,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3059318,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4395651,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 2991139,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4431679,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4277847,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4395630,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433174,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 23,
+      "items": [
+        {
+          "player_id": 4701230,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3975,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4277905,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3133628,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5174563,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433249,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4431767,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433136,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4576087,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4711272,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 27,
+      "items": [
+        {
+          "player_id": 4711272,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 3,
+      "scoring_period": 24,
+      "items": [
+        {
+          "player_id": 3945274,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4396971,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5041935,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3059318,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4395651,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 2991139,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3064290,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4277847,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4395630,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 27,
+      "items": [
+        {
+          "player_id": 3936299,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4701230,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3975,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4277905,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3133628,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5174563,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433249,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3135045,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4431767,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4576087,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4711272,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 3,
+      "scoring_period": 22,
+      "items": [
+        {
+          "player_id": 4396971,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5041935,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3059318,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4395651,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 2991139,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3064290,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4431679,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4277847,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 22,
+      "items": [
+        {
+          "player_id": 4431678,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 3907497,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 3,
+      "scoring_period": 26,
+      "items": [
+        {
+          "player_id": 3945274,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5105565,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 5041935,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3059318,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 2991139,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3064290,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4431679,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4277847,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4395630,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433174,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 15,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 4712849,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4600663,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 22,
+      "items": [
+        {
+          "player_id": 3975,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4277905,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3133628,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433136,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 9,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 4066648,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4397688,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 3907497,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 22,
+      "items": [
+        {
+          "player_id": 3907497,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "FUTURE_ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 24,
+      "items": [
+        {
+          "player_id": 3936299,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4701230,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3975,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4433249,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3135045,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4431767,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4576087,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4711272,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 3907497,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 4066383,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 1,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 4431767,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 3135045,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 4066261,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 6606,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 2991230,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 4,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 4871145,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        },
+        {
+          "player_id": 4684740,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 9,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 5144091,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    },
+    {
+      "type": "ROSTER",
+      "status": "EXECUTED",
+      "team_id": 7,
+      "scoring_period": 21,
+      "items": [
+        {
+          "player_id": 3155942,
+          "from": 0,
+          "to": 0,
+          "type": "LINEUP"
+        }
+      ]
+    }
+  ]
+}
