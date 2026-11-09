@@ -127,7 +127,7 @@ CATEGORIES = ["FG%", "FT%", "3PM", "REB", "AST", "STL", "BLK", "PTS"]
 ESPN_API_STAT_KEY = {
     "FG%": "FG%",
     "FT%": "FT%",
-    "3PM": "3PTM",
+    "3PM": "3PM",
     "REB": "REB",
     "AST": "AST",
     "STL": "STL",
@@ -236,6 +236,24 @@ def fetch_matchups(league, current_week):
             if not home_stats and not away_stats:
                 continue  # week hasn't posted stats yet (e.g. in-progress/future week)
 
+            # Guard against ESPN returning an all-zero/all-TIE placeholder
+            # shell for a week that hasn't actually started yet (observed for
+            # the in-progress current week: every stat value is 0.0 and every
+            # result is 'TIE'). Treat that as "no real data" rather than a
+            # legitimate 0-0 week.
+            def _looks_like_placeholder(stats_dict):
+                if not stats_dict:
+                    return True
+                entries = list(stats_dict.values())
+                return all(
+                    isinstance(e, dict) and e.get("value") in (0, 0.0, None)
+                    and e.get("result") in (None, "TIE", "UNDECIDED")
+                    for e in entries
+                )
+
+            if _looks_like_placeholder(home_stats) and _looks_like_placeholder(away_stats):
+                continue
+
             if os.environ.get("ESPN_DEBUG_DUMP") and (home_stats or away_stats):
                 sample = home_stats or away_stats
                 print(f"DEBUG week {wk} raw stat keys: {list(sample.keys())}")
@@ -252,9 +270,10 @@ def fetch_matchups(league, current_week):
                 cat_vals = {}
                 for cat, espn_key in ESPN_API_STAT_KEY.items():
                     entry = stats.get(espn_key)
-                    # espn_api box score stat entries are typically
-                    # {'score': <value>, 'result': 'WIN'/'LOSS'/'TIE'}.
-                    val = entry.get("score") if isinstance(entry, dict) else entry
+                    # espn_api box score stat entries are
+                    # {'value': <value>, 'result': 'WIN'/'LOSS'/'TIE'}
+                    # (confirmed via ESPN_DEBUG_DUMP output for this league).
+                    val = entry.get("value") if isinstance(entry, dict) else entry
                     cat_vals[cat] = val
                 weeks.setdefault(wk, {})[team_id] = cat_vals
 
