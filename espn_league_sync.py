@@ -382,13 +382,36 @@ def fetch_draft(league):
 # building block for Z-Score Contribution and Draft Grade Retrospective.
 # ---------------------------------------------------------------------------
 
-def _season_avg_from_player(p):
+def _season_avg_from_player(p, debug=False):
     stats_block = getattr(p, "stats", {}) or {}
+    if debug and stats_block:
+        print(f"DEBUG player '{getattr(p, 'name', '?')}' stats_block keys: {list(stats_block.keys())}")
+        sample_key = next(iter(stats_block))
+        print(f"DEBUG sample stats_block['{sample_key}']: {stats_block[sample_key]}")
+
     season_stats = {}
-    for key in ("0", "00", "total"):
-        if key in stats_block:
-            season_stats = stats_block[key].get("avg", {}) or stats_block[key].get("total", {})
+    # espn_api keys player.stats by strings like "2027_total", "2027_last_7",
+    # "2027_projected" (season-prefixed, NOT bare "0"/"00"/"total" as in an
+    # earlier version of this lookup -- that mismatch silently emptied the
+    # whole player pool). Prefer the current season's "_total" split, with
+    # safe fallbacks if ESPN's exact split naming shifts again.
+    candidates = [
+        f"{SEASON_YEAR}_total",
+        f"{SEASON_YEAR}_last_30",
+        f"{SEASON_YEAR}_projected",
+    ]
+    for key in candidates:
+        if key in stats_block and stats_block[key].get("avg"):
+            season_stats = stats_block[key]["avg"]
             break
+    else:
+        # Fallback: any key containing "total" and an "avg" sub-dict, in case
+        # ESPN's season-year prefix format changes again in the future.
+        for key, block in stats_block.items():
+            if "total" in str(key) and isinstance(block, dict) and block.get("avg"):
+                season_stats = block["avg"]
+                break
+
     return {cat: season_stats.get(espn_key) for cat, espn_key in ESPN_API_STAT_KEY.items()}
 
 
@@ -416,11 +439,16 @@ def build_player_pool(league, teams, free_agents_raw):
         all_rostered_ids = list(pool.keys())
         # espn_api supports fetching full player objects (with stats) in bulk
         # via league.player_info(playerId=...) one at a time; batch where possible.
+        debug_dump = os.environ.get("ESPN_DEBUG_DUMP") == "1"
+        debugged_once = False
         for pid in all_rostered_ids:
             try:
                 p = league.player_info(playerId=pid)
                 if p is not None:
-                    pool[pid]["cats"] = _season_avg_from_player(p)
+                    pool[pid]["cats"] = _season_avg_from_player(
+                        p, debug=(debug_dump and not debugged_once)
+                    )
+                    debugged_once = True
             except Exception:
                 continue
     except Exception as e:
@@ -460,6 +488,14 @@ def build_player_pool(league, teams, free_agents_raw):
                 z[cat] = (v - means[cat]) / stdevs[cat]
         entry["z"] = z
         entry["zTotal"] = sum(z.values())
+
+    filled = sum(1 for v in pool.values() if v.get("cats") and any(x is not None for x in v["cats"].values()))
+    if filled == 0 and pool:
+        print(f"Warning: player pool built ({len(pool)} players) but ZERO had usable "
+              f"stat values -- Player Contribution / Draft Grades will render empty. "
+              f"Set ESPN_DEBUG_DUMP=1 and re-run to see the real stats_block key names.")
+    else:
+        print(f"Player pool: {filled}/{len(pool)} players have usable season stats.")
 
     return pool
 
