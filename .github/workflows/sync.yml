@@ -20,7 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests espn_api
 
       - name: Run ESPN sync script
         run: python espn_league_sync.py
