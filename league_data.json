@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:53:30.906469Z",
+  "generated_at": "2026-11-09T18:58:22.816872Z",
   "league_id": 249846,
   "season_year": 2027,
   "current_week": 4,
@@ -3607,28 +3607,32 @@
       "team_id": 3,
       "team_name": "Pauls slightlyaboveaverageteam",
       "action": "DROPPED",
-      "player": "Isaiah Jackson"
+      "player": "Isaiah Jackson",
+      "player_id": null
     },
     {
       "date": 1794178840838,
       "team_id": 3,
       "team_name": "Pauls slightlyaboveaverageteam",
       "action": "FA ADDED",
-      "player": "P.J. Washington"
+      "player": "P.J. Washington",
+      "player_id": null
     },
     {
       "date": 1794169806538,
       "team_id": 12,
       "team_name": "Go Hog Wild",
       "action": "DROPPED",
-      "player": "Collin Gillespie"
+      "player": "Collin Gillespie",
+      "player_id": null
     },
     {
       "date": 1794169806538,
       "team_id": 12,
       "team_name": "Go Hog Wild",
       "action": "FA ADDED",
-      "player": "Day'Ron Sharpe"
+      "player": "Day'Ron Sharpe",
+      "player_id": null
     }
   ],
   "powerRankings": [
@@ -5687,6 +5691,4301 @@
       "team": "Go Hog Wild",
       "cat": "PTS",
       "val": 663.0
+    }
+  ],
+  "playerContribution": [
+    {
+      "team": "55 BOARDS 55 DIMES 55 STEALS ",
+      "players": [
+        {
+          "name": "Cade Cunningham",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Dyson Daniels",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jalen Williams",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Evan Mobley",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Nickeil Alexander-Walker",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Trey Murphy III",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Josh Hart",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Cedric Coward",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Derik Queen",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Tristan da Silva",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jeremiah Fears",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Pelle Larsson",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Klay Thompson",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Rui Hachimura",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "topContributor": "Cade Cunningham",
+      "biggestDrag": "Rui Hachimura"
+    },
+    {
+      "team": "Banchero Bandits",
+      "players": [
+        {
+          "name": "Nikola Jokic",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Jayson Tatum",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Kyrie Irving",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "VJ Edgecombe",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Franz Wagner",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Zach Edey",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jabari Smith Jr.",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Anthony Black",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Collin Murray-Boyles",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Dillon Brooks",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jaime Jaquez Jr.",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Davion Mitchell",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Ajay Mitchell",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "topContributor": "Nikola Jokic",
+      "biggestDrag": "Ajay Mitchell"
+    },
+    {
+      "team": "Book Club",
+      "players": [
+        {
+          "name": "Kawhi Leonard",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Kevin Durant",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Devin Booker",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "De'Aaron Fox",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Mikal Bridges",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Onyeka Okongwu",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Paolo Banchero",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "CJ McCollum",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Dylan Harper",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Zion Williamson",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jalen Green",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jared McCain",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "RJ Barrett",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jrue Holiday",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Kyle Kuzma",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "topContributor": "Kawhi Leonard",
+      "biggestDrag": "Kyle Kuzma"
+    },
+    {
+      "team": "Go Hog Wild",
+      "players": [
+        {
+          "name": "Victor Wembanyama",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Shai Gilgeous-Alexander",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Tyler Herro",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jaden McDaniels",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Brandin Podziemski",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Darius Acuff Jr.",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Zach LaVine",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Toumani Camara",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jonathan Kuminga",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Isaiah Hartenstein",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Cameron Johnson",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Brayden Burries",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Day'Ron Sharpe",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "topContributor": "Victor Wembanyama",
+      "biggestDrag": "Day'Ron Sharpe"
+    },
+    {
+      "team": "Guard Squad ",
+      "players": [
+        {
+          "name": "LaMelo Ball",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Amen Thompson",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Derrick White",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Josh Giddey",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Austin Reaves",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Brandon Miller",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "AJ Dybantsa",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Andrew Wiggins",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Kevin Porter Jr.",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Julian Champagnie",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Brook Lopez",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Daniel Gafford",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Bobby Portis",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "topContributor": "LaMelo Ball",
+      "biggestDrag": "Bobby Portis"
+    },
+    {
+      "team": "Jehn's Bucket Bandits",
+      "players": [
+        {
+          "name": "Tyrese Haliburton",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Anthony Davis",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Karl-Anthony Towns",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Desmond Bane",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "LeBron James",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Chet Holmgren",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Keyonte George",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "John Collins",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Ayo Dosunmu",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Sam Merrill",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "De'Anthony Melton",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Cam Spencer",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Duncan Robinson",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Aday Mara",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "topContributor": "Tyrese Haliburton",
+      "biggestDrag": "Aday Mara"
+    },
+    {
+      "team": "Joke  Squad",
+      "players": [
+        {
+          "name": "Donovan Mitchell",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Giannis Antetokounmpo",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Pascal Siakam",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jarrett Allen",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Matas Buzelis",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Norman Powell",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "DeMar DeRozan",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Ausar Thompson",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jalen Suggs",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Jimmy Butler III",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Andrew Nembhard",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Draymond Green",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Tari Eason",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Rudy Gobert",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "James Harden",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "topContributor": "Donovan Mitchell",
+      "biggestDrag": "James Harden"
+    },
+    {
+      "team": "Pauls slightlyaboveaverageteam",
+      "players": [
+        {
+          "name": "Luka Doncic",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Anthony Edwards",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Naz Reid",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Donovan Clingan",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Cameron Boozer",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Joel Embiid",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Coby White",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Kris Dunn",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Aaron Gordon",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Precious Achiuwa",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Wendell Carter Jr.",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Devin Vassell",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Dylan Cardwell",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "P.J. Washington",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "topContributor": "Luka Doncic",
+      "biggestDrag": "P.J. Washington"
+    },
+    {
+      "team": "The ScrobKnobs",
+      "players": [
+        {
+          "name": "Jamal Murray",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Jalen Johnson",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Stephen Curry",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Alperen Sengun",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Trae Young",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Brandon Ingram",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Myles Turner",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Kyshawn George",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Moussa Diabate",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Grayson Allen",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jusuf Nurkic",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Christian Braun",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Yves Missi",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Walker Kessler",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Peyton Watson",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Reed Sheppard",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "topContributor": "Jamal Murray",
+      "biggestDrag": "Reed Sheppard"
+    },
+    {
+      "team": "UM FSU friends",
+      "players": [
+        {
+          "name": "Jalen Brunson",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Kon Knueppel",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Deni Avdija",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Lauri Markkanen",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Ja Morant",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "OG Anunoby",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Kel'el Ware",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Alex Sarr",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Paul George",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Ivica Zubac",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Immanuel Quickley",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Stephon Castle",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Darryn Peterson",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Saddiq Bey",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Naji Marshall",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "topContributor": "Jalen Brunson",
+      "biggestDrag": "Naji Marshall"
+    },
+    {
+      "team": "Y'all Seen Chris's Team?",
+      "players": [
+        {
+          "name": "Cooper Flagg",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Scottie Barnes",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Jalen Duren",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Ty Jerome",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jaren Jackson Jr.",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "OUT"
+        },
+        {
+          "name": "Caleb Wilson",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Ryan Rollins",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Payton Pritchard",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Yaxel Lendeborg",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Nic Claxton",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jalen Smith",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Keaton Wagler",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Aaron Wiggins",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Nolan Traore",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Max Strus",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Kingston Flemings",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "topContributor": "Cooper Flagg",
+      "biggestDrag": "Kingston Flemings"
+    },
+    {
+      "team": "You Got Serbed",
+      "players": [
+        {
+          "name": "Tyrese Maxey",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Domantas Sabonis",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "DAY_TO_DAY"
+        },
+        {
+          "name": "Bam Adebayo",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Michael Porter Jr.",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Jaylen Brown",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Dejounte Murray",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Darius Garland",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Julius Randle",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Damian Lillard",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Miles Bridges",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Fred VanVleet",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Ace Bailey",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        },
+        {
+          "name": "Anfernee Simons",
+          "zTotal": 0.0,
+          "cats": {
+            "FG%": 0.0,
+            "FT%": 0.0,
+            "3PM": 0.0,
+            "REB": 0.0,
+            "AST": 0.0,
+            "STL": 0.0,
+            "BLK": 0.0,
+            "PTS": 0.0
+          },
+          "injury_status": "ACTIVE"
+        }
+      ],
+      "topContributor": "Tyrese Maxey",
+      "biggestDrag": "Anfernee Simons"
+    }
+  ],
+  "waiverReport": [
+    {
+      "date": 1794178840838,
+      "team": "Pauls slightlyaboveaverageteam",
+      "added": null,
+      "added_z": null,
+      "dropped": null,
+      "dropped_z": null,
+      "net_value": null
+    },
+    {
+      "date": 1794169806538,
+      "team": "Go Hog Wild",
+      "added": null,
+      "added_z": null,
+      "dropped": null,
+      "dropped_z": null,
+      "net_value": null
+    }
+  ],
+  "matchupWinProb": [
+    {
+      "week": 4,
+      "home": "Book Club",
+      "away": "Pauls slightlyaboveaverageteam",
+      "catProbs": {
+        "FG%": 0.828,
+        "FT%": 0.561,
+        "3PM": 0.145,
+        "REB": 0.015,
+        "AST": 0.868,
+        "STL": 0.614,
+        "BLK": 0.036,
+        "PTS": 0.907
+      },
+      "homeFavoredCats": 5,
+      "awayFavoredCats": 3,
+      "homeOverallFavorite": true
+    },
+    {
+      "week": 4,
+      "home": "The ScrobKnobs",
+      "away": "Banchero Bandits",
+      "catProbs": {
+        "FG%": 0.355,
+        "FT%": 0.668,
+        "3PM": 0.582,
+        "REB": 0.613,
+        "AST": 0.563,
+        "STL": 0.171,
+        "BLK": 0.973,
+        "PTS": 0.389
+      },
+      "homeFavoredCats": 5,
+      "awayFavoredCats": 3,
+      "homeOverallFavorite": true
+    },
+    {
+      "week": 4,
+      "home": "Joke  Squad",
+      "away": "Guard Squad ",
+      "catProbs": {
+        "FG%": 0.969,
+        "FT%": 0.01,
+        "3PM": 0.008,
+        "REB": 0.94,
+        "AST": 0.363,
+        "STL": 0.466,
+        "BLK": 0.808,
+        "PTS": 0.736
+      },
+      "homeFavoredCats": 4,
+      "awayFavoredCats": 4,
+      "homeOverallFavorite": false
+    },
+    {
+      "week": 4,
+      "home": "55 BOARDS 55 DIMES 55 STEALS ",
+      "away": "Jehn's Bucket Bandits",
+      "catProbs": {
+        "FG%": 0.257,
+        "FT%": 0.134,
+        "3PM": 0.674,
+        "REB": 0.861,
+        "AST": 0.521,
+        "STL": 0.977,
+        "BLK": 0.05,
+        "PTS": 0.386
+      },
+      "homeFavoredCats": 4,
+      "awayFavoredCats": 4,
+      "homeOverallFavorite": false
+    },
+    {
+      "week": 4,
+      "home": "Go Hog Wild",
+      "away": "UM FSU friends",
+      "catProbs": {
+        "FG%": 0.933,
+        "FT%": 0.505,
+        "3PM": 0.705,
+        "REB": 0.962,
+        "AST": 0.6,
+        "STL": 0.767,
+        "BLK": 0.999,
+        "PTS": 0.996
+      },
+      "homeFavoredCats": 8,
+      "awayFavoredCats": 0,
+      "homeOverallFavorite": true
+    },
+    {
+      "week": 4,
+      "home": "Y'all Seen Chris's Team?",
+      "away": "You Got Serbed",
+      "catProbs": {
+        "FG%": 0.219,
+        "FT%": 0.39,
+        "3PM": 0.255,
+        "REB": 0.004,
+        "AST": 0.152,
+        "STL": 0.419,
+        "BLK": 0.9,
+        "PTS": 0.081
+      },
+      "homeFavoredCats": 1,
+      "awayFavoredCats": 7,
+      "homeOverallFavorite": false
+    }
+  ],
+  "draftGrades": {
+    "picks": [
+      {
+        "player": "Moussa Diabate",
+        "team": "The ScrobKnobs",
+        "draftPick": 156,
+        "performanceRank": 9,
+        "valueDelta": 147,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kyshawn George",
+        "team": "The ScrobKnobs",
+        "draftPick": 149,
+        "performanceRank": 8,
+        "valueDelta": 141,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Devin Vassell",
+        "team": "The ScrobKnobs",
+        "draftPick": 152,
+        "performanceRank": 28,
+        "valueDelta": 124,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Daniel Gafford",
+        "team": "Guard Squad ",
+        "draftPick": 155,
+        "performanceRank": 42,
+        "valueDelta": 113,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Brook Lopez",
+        "team": "Guard Squad ",
+        "draftPick": 153,
+        "performanceRank": 41,
+        "valueDelta": 112,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Julian Champagnie",
+        "team": "Guard Squad ",
+        "draftPick": 150,
+        "performanceRank": 40,
+        "valueDelta": 110,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kevin Porter Jr.",
+        "team": "Guard Squad ",
+        "draftPick": 143,
+        "performanceRank": 39,
+        "valueDelta": 104,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Myles Turner",
+        "team": "The ScrobKnobs",
+        "draftPick": 110,
+        "performanceRank": 7,
+        "valueDelta": 103,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Brandon Ingram",
+        "team": "The ScrobKnobs",
+        "draftPick": 108,
+        "performanceRank": 6,
+        "valueDelta": 102,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Aaron Gordon",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 125,
+        "performanceRank": 25,
+        "valueDelta": 100,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kris Dunn",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 107,
+        "performanceRank": 24,
+        "valueDelta": 83,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Andrew Wiggins",
+        "team": "Guard Squad ",
+        "draftPick": 111,
+        "performanceRank": 38,
+        "valueDelta": 73,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Peyton Watson",
+        "team": "Go Hog Wild",
+        "draftPick": 83,
+        "performanceRank": 15,
+        "valueDelta": 68,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Coby White",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 89,
+        "performanceRank": 23,
+        "valueDelta": 66,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Darryn Peterson",
+        "team": "UM FSU friends",
+        "draftPick": 117,
+        "performanceRank": 56,
+        "valueDelta": 61,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ace Bailey",
+        "team": "Go Hog Wild",
+        "draftPick": 131,
+        "performanceRank": 70,
+        "valueDelta": 61,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Reed Sheppard",
+        "team": "Joke  Squad",
+        "draftPick": 76,
+        "performanceRank": 16,
+        "valueDelta": 60,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Joel Embiid",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 77,
+        "performanceRank": 22,
+        "valueDelta": 55,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Trae Young",
+        "team": "The ScrobKnobs",
+        "draftPick": 57,
+        "performanceRank": 5,
+        "valueDelta": 52,
+        "zTotal": 0.0
+      },
+      {
+        "player": "RJ Barrett",
+        "team": "Book Club",
+        "draftPick": 132,
+        "performanceRank": 84,
+        "valueDelta": 48,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Cameron Boozer",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 67,
+        "performanceRank": 21,
+        "valueDelta": 46,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Walker Kessler",
+        "team": "Joke  Squad",
+        "draftPick": 59,
+        "performanceRank": 14,
+        "valueDelta": 45,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Stephon Castle",
+        "team": "UM FSU friends",
+        "draftPick": 98,
+        "performanceRank": 55,
+        "valueDelta": 43,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Immanuel Quickley",
+        "team": "UM FSU friends",
+        "draftPick": 94,
+        "performanceRank": 54,
+        "valueDelta": 40,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ivica Zubac",
+        "team": "UM FSU friends",
+        "draftPick": 87,
+        "performanceRank": 53,
+        "valueDelta": 34,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Alperen Sengun",
+        "team": "The ScrobKnobs",
+        "draftPick": 34,
+        "performanceRank": 4,
+        "valueDelta": 30,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Stephen Curry",
+        "team": "The ScrobKnobs",
+        "draftPick": 31,
+        "performanceRank": 3,
+        "valueDelta": 28,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Yaxel Lendeborg",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 137,
+        "performanceRank": 109,
+        "valueDelta": 28,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Paul George",
+        "team": "UM FSU friends",
+        "draftPick": 78,
+        "performanceRank": 52,
+        "valueDelta": 26,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jared McCain",
+        "team": "Book Club",
+        "draftPick": 109,
+        "performanceRank": 83,
+        "valueDelta": 26,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Toumani Camara",
+        "team": "Go Hog Wild",
+        "draftPick": 148,
+        "performanceRank": 124,
+        "valueDelta": 24,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Alex Sarr",
+        "team": "UM FSU friends",
+        "draftPick": 73,
+        "performanceRank": 51,
+        "valueDelta": 22,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Fred VanVleet",
+        "team": "You Got Serbed",
+        "draftPick": 88,
+        "performanceRank": 69,
+        "valueDelta": 19,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Derik Queen",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 114,
+        "performanceRank": 95,
+        "valueDelta": 19,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Isaiah Hartenstein",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 145,
+        "performanceRank": 126,
+        "valueDelta": 19,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Damian Lillard",
+        "team": "You Got Serbed",
+        "draftPick": 84,
+        "performanceRank": 67,
+        "valueDelta": 17,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Miles Bridges",
+        "team": "You Got Serbed",
+        "draftPick": 85,
+        "performanceRank": 68,
+        "valueDelta": 17,
+        "zTotal": 0.0
+      },
+      {
+        "player": "AJ Dybantsa",
+        "team": "Guard Squad ",
+        "draftPick": 53,
+        "performanceRank": 37,
+        "valueDelta": 16,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Donovan Clingan",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 35,
+        "performanceRank": 20,
+        "valueDelta": 15,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Brandon Miller",
+        "team": "Guard Squad ",
+        "draftPick": 51,
+        "performanceRank": 36,
+        "valueDelta": 15,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jalen Green",
+        "team": "Book Club",
+        "draftPick": 97,
+        "performanceRank": 82,
+        "valueDelta": 15,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jamal Murray",
+        "team": "The ScrobKnobs",
+        "draftPick": 14,
+        "performanceRank": 1,
+        "valueDelta": 13,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jalen Johnson",
+        "team": "The ScrobKnobs",
+        "draftPick": 15,
+        "performanceRank": 2,
+        "valueDelta": 13,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kel'el Ware",
+        "team": "UM FSU friends",
+        "draftPick": 63,
+        "performanceRank": 50,
+        "valueDelta": 13,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Payton Pritchard",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 121,
+        "performanceRank": 108,
+        "valueDelta": 13,
+        "zTotal": 0.0
+      },
+      {
+        "player": "OG Anunoby",
+        "team": "UM FSU friends",
+        "draftPick": 61,
+        "performanceRank": 49,
+        "valueDelta": 12,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Zion Williamson",
+        "team": "Book Club",
+        "draftPick": 91,
+        "performanceRank": 81,
+        "valueDelta": 10,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Zach LaVine",
+        "team": "Go Hog Wild",
+        "draftPick": 133,
+        "performanceRank": 123,
+        "valueDelta": 10,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Cedric Coward",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 102,
+        "performanceRank": 94,
+        "valueDelta": 8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ja Morant",
+        "team": "UM FSU friends",
+        "draftPick": 54,
+        "performanceRank": 48,
+        "valueDelta": 6,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Darius Acuff Jr.",
+        "team": "Go Hog Wild",
+        "draftPick": 127,
+        "performanceRank": 122,
+        "valueDelta": 5,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Naz Reid",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 23,
+        "performanceRank": 19,
+        "valueDelta": 4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Austin Reaves",
+        "team": "Guard Squad ",
+        "draftPick": 39,
+        "performanceRank": 35,
+        "valueDelta": 4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Julius Randle",
+        "team": "You Got Serbed",
+        "draftPick": 70,
+        "performanceRank": 66,
+        "valueDelta": 4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jeremiah Fears",
+        "team": "Joke  Squad",
+        "draftPick": 101,
+        "performanceRank": 97,
+        "valueDelta": 4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Lauri Markkanen",
+        "team": "UM FSU friends",
+        "draftPick": 49,
+        "performanceRank": 47,
+        "valueDelta": 2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Dylan Harper",
+        "team": "Book Club",
+        "draftPick": 82,
+        "performanceRank": 80,
+        "valueDelta": 2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Anthony Edwards",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 18,
+        "performanceRank": 18,
+        "valueDelta": 0,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Deni Avdija",
+        "team": "UM FSU friends",
+        "draftPick": 46,
+        "performanceRank": 46,
+        "valueDelta": 0,
+        "zTotal": 0.0
+      },
+      {
+        "player": "CJ McCollum",
+        "team": "Book Club",
+        "draftPick": 79,
+        "performanceRank": 79,
+        "valueDelta": 0,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kon Knueppel",
+        "team": "UM FSU friends",
+        "draftPick": 44,
+        "performanceRank": 45,
+        "valueDelta": -1,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Darius Garland",
+        "team": "You Got Serbed",
+        "draftPick": 64,
+        "performanceRank": 65,
+        "valueDelta": -1,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Tari Eason",
+        "team": "Go Hog Wild",
+        "draftPick": 141,
+        "performanceRank": 142,
+        "valueDelta": -1,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Josh Giddey",
+        "team": "Guard Squad ",
+        "draftPick": 32,
+        "performanceRank": 34,
+        "valueDelta": -2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Dejounte Murray",
+        "team": "You Got Serbed",
+        "draftPick": 62,
+        "performanceRank": 64,
+        "valueDelta": -2,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Josh Hart",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 90,
+        "performanceRank": 93,
+        "valueDelta": -3,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jimmy Butler III",
+        "team": "Joke  Squad",
+        "draftPick": 135,
+        "performanceRank": 139,
+        "valueDelta": -4,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Derrick White",
+        "team": "Guard Squad ",
+        "draftPick": 27,
+        "performanceRank": 33,
+        "valueDelta": -6,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jaylen Brown",
+        "team": "You Got Serbed",
+        "draftPick": 55,
+        "performanceRank": 63,
+        "valueDelta": -8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jaime Jaquez Jr.",
+        "team": "Banchero Bandits",
+        "draftPick": 147,
+        "performanceRank": 155,
+        "valueDelta": -8,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Day'Ron Sharpe",
+        "team": "Go Hog Wild",
+        "draftPick": 120,
+        "performanceRank": 129,
+        "valueDelta": -9,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ryan Rollins",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 96,
+        "performanceRank": 107,
+        "valueDelta": -11,
+        "zTotal": 0.0
+      },
+      {
+        "player": "LaMelo Ball",
+        "team": "Guard Squad ",
+        "draftPick": 19,
+        "performanceRank": 31,
+        "valueDelta": -12,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Amen Thompson",
+        "team": "Guard Squad ",
+        "draftPick": 20,
+        "performanceRank": 32,
+        "valueDelta": -12,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Michael Porter Jr.",
+        "team": "You Got Serbed",
+        "draftPick": 50,
+        "performanceRank": 62,
+        "valueDelta": -12,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Luka Doncic",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 2,
+        "performanceRank": 17,
+        "valueDelta": -15,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Dillon Brooks",
+        "team": "Banchero Bandits",
+        "draftPick": 139,
+        "performanceRank": 154,
+        "valueDelta": -15,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Draymond Green",
+        "team": "You Got Serbed",
+        "draftPick": 124,
+        "performanceRank": 141,
+        "valueDelta": -17,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Collin Murray-Boyles",
+        "team": "Banchero Bandits",
+        "draftPick": 136,
+        "performanceRank": 153,
+        "valueDelta": -17,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Duncan Robinson",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 151,
+        "performanceRank": 170,
+        "valueDelta": -19,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Paolo Banchero",
+        "team": "Book Club",
+        "draftPick": 58,
+        "performanceRank": 78,
+        "valueDelta": -20,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jakob Poeltl",
+        "team": "The ScrobKnobs",
+        "draftPick": 154,
+        "performanceRank": 174,
+        "valueDelta": -20,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Onyeka Okongwu",
+        "team": "Book Club",
+        "draftPick": 56,
+        "performanceRank": 77,
+        "valueDelta": -21,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Cam Spencer",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 146,
+        "performanceRank": 169,
+        "valueDelta": -23,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Anthony Black",
+        "team": "Banchero Bandits",
+        "draftPick": 126,
+        "performanceRank": 152,
+        "valueDelta": -26,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Mikal Bridges",
+        "team": "Book Club",
+        "draftPick": 48,
+        "performanceRank": 76,
+        "valueDelta": -28,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ajay Mitchell",
+        "team": "Banchero Bandits",
+        "draftPick": 129,
+        "performanceRank": 157,
+        "valueDelta": -28,
+        "zTotal": 0.0
+      },
+      {
+        "player": "De'Aaron Fox",
+        "team": "Book Club",
+        "draftPick": 45,
+        "performanceRank": 75,
+        "valueDelta": -30,
+        "zTotal": 0.0
+      },
+      {
+        "player": "De'Anthony Melton",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 138,
+        "performanceRank": 168,
+        "valueDelta": -30,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Caleb Wilson",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 72,
+        "performanceRank": 106,
+        "valueDelta": -34,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Bam Adebayo",
+        "team": "You Got Serbed",
+        "draftPick": 26,
+        "performanceRank": 61,
+        "valueDelta": -35,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ty Jerome",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 68,
+        "performanceRank": 104,
+        "valueDelta": -36,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jaren Jackson Jr.",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 69,
+        "performanceRank": 105,
+        "valueDelta": -36,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jalen Brunson",
+        "team": "UM FSU friends",
+        "draftPick": 7,
+        "performanceRank": 44,
+        "valueDelta": -37,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Quentin Grimes",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 142,
+        "performanceRank": 179,
+        "valueDelta": -37,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Domantas Sabonis",
+        "team": "You Got Serbed",
+        "draftPick": 22,
+        "performanceRank": 60,
+        "valueDelta": -38,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ausar Thompson",
+        "team": "Joke  Squad",
+        "draftPick": 99,
+        "performanceRank": 137,
+        "valueDelta": -38,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jalen Suggs",
+        "team": "Joke  Squad",
+        "draftPick": 100,
+        "performanceRank": 138,
+        "valueDelta": -38,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Sam Merrill",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 128,
+        "performanceRank": 167,
+        "valueDelta": -39,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Trey Murphy III",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 52,
+        "performanceRank": 92,
+        "valueDelta": -40,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Brandin Podziemski",
+        "team": "Go Hog Wild",
+        "draftPick": 80,
+        "performanceRank": 121,
+        "valueDelta": -41,
+        "zTotal": 0.0
+      },
+      {
+        "player": "DeMar DeRozan",
+        "team": "Joke  Squad",
+        "draftPick": 93,
+        "performanceRank": 136,
+        "valueDelta": -43,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Nickeil Alexander-Walker",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 47,
+        "performanceRank": 91,
+        "valueDelta": -44,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Devin Booker",
+        "team": "Book Club",
+        "draftPick": 29,
+        "performanceRank": 74,
+        "valueDelta": -45,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Egor Demin",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 134,
+        "performanceRank": 180,
+        "valueDelta": -46,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Tyrese Maxey",
+        "team": "You Got Serbed",
+        "draftPick": 12,
+        "performanceRank": 59,
+        "valueDelta": -47,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kevin Durant",
+        "team": "Book Club",
+        "draftPick": 25,
+        "performanceRank": 73,
+        "valueDelta": -48,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jabari Smith Jr.",
+        "team": "Banchero Bandits",
+        "draftPick": 103,
+        "performanceRank": 151,
+        "valueDelta": -48,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jaden McDaniels",
+        "team": "Go Hog Wild",
+        "draftPick": 71,
+        "performanceRank": 120,
+        "valueDelta": -49,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Scotty Pippen Jr.",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 144,
+        "performanceRank": 193,
+        "valueDelta": -49,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Ayo Dosunmu",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 116,
+        "performanceRank": 166,
+        "valueDelta": -50,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jalen Williams",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 37,
+        "performanceRank": 89,
+        "valueDelta": -52,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Evan Mobley",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 38,
+        "performanceRank": 90,
+        "valueDelta": -52,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Norman Powell",
+        "team": "Joke  Squad",
+        "draftPick": 81,
+        "performanceRank": 135,
+        "valueDelta": -54,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Tobias Harris",
+        "team": "Banchero Bandits",
+        "draftPick": 118,
+        "performanceRank": 172,
+        "valueDelta": -54,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Collin Gillespie",
+        "team": "Go Hog Wild",
+        "draftPick": 123,
+        "performanceRank": 177,
+        "valueDelta": -54,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kawhi Leonard",
+        "team": "Book Club",
+        "draftPick": 17,
+        "performanceRank": 72,
+        "valueDelta": -55,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Dyson Daniels",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 33,
+        "performanceRank": 88,
+        "valueDelta": -55,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Keldon Johnson",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 140,
+        "performanceRank": 195,
+        "valueDelta": -55,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Zach Edey",
+        "team": "Banchero Bandits",
+        "draftPick": 92,
+        "performanceRank": 150,
+        "valueDelta": -58,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Matas Buzelis",
+        "team": "Joke  Squad",
+        "draftPick": 75,
+        "performanceRank": 134,
+        "valueDelta": -59,
+        "zTotal": 0.0
+      },
+      {
+        "player": "John Collins",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 104,
+        "performanceRank": 165,
+        "valueDelta": -61,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Nikola Vucevic",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 113,
+        "performanceRank": 175,
+        "valueDelta": -62,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jarrett Allen",
+        "team": "Joke  Squad",
+        "draftPick": 65,
+        "performanceRank": 133,
+        "valueDelta": -68,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kristaps Porzingis",
+        "team": "Guard Squad ",
+        "draftPick": 105,
+        "performanceRank": 176,
+        "valueDelta": -71,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Alex Caruso",
+        "team": "You Got Serbed",
+        "draftPick": 112,
+        "performanceRank": 183,
+        "valueDelta": -71,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Mitchell Robinson",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 115,
+        "performanceRank": 186,
+        "valueDelta": -71,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jalen Duren",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 28,
+        "performanceRank": 103,
+        "valueDelta": -75,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Franz Wagner",
+        "team": "Banchero Bandits",
+        "draftPick": 74,
+        "performanceRank": 149,
+        "valueDelta": -75,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Rudy Gobert",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 66,
+        "performanceRank": 143,
+        "valueDelta": -77,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Cade Cunningham",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 9,
+        "performanceRank": 87,
+        "valueDelta": -78,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Tyler Herro",
+        "team": "Go Hog Wild",
+        "draftPick": 41,
+        "performanceRank": 119,
+        "valueDelta": -78,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Keyonte George",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 86,
+        "performanceRank": 164,
+        "valueDelta": -78,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Keegan Murray",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 95,
+        "performanceRank": 178,
+        "valueDelta": -83,
+        "zTotal": 0.0
+      },
+      {
+        "player": "VJ Edgecombe",
+        "team": "Banchero Bandits",
+        "draftPick": 60,
+        "performanceRank": 148,
+        "valueDelta": -88,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Scottie Barnes",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 13,
+        "performanceRank": 102,
+        "valueDelta": -89,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Cooper Flagg",
+        "team": "Y'all Seen Chris's Team?",
+        "draftPick": 5,
+        "performanceRank": 101,
+        "valueDelta": -96,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Cason Wallace",
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "draftPick": 106,
+        "performanceRank": 203,
+        "valueDelta": -97,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Khaman Maluach",
+        "team": "The ScrobKnobs",
+        "draftPick": 122,
+        "performanceRank": 223,
+        "valueDelta": -101,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Pascal Siakam",
+        "team": "Joke  Squad",
+        "draftPick": 30,
+        "performanceRank": 132,
+        "valueDelta": -102,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Shai Gilgeous-Alexander",
+        "team": "Go Hog Wild",
+        "draftPick": 8,
+        "performanceRank": 118,
+        "valueDelta": -110,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Kyrie Irving",
+        "team": "Banchero Bandits",
+        "draftPick": 36,
+        "performanceRank": 147,
+        "valueDelta": -111,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Victor Wembanyama",
+        "team": "Go Hog Wild",
+        "draftPick": 1,
+        "performanceRank": 117,
+        "valueDelta": -116,
+        "zTotal": 0.0
+      },
+      {
+        "player": "LeBron James",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 42,
+        "performanceRank": 162,
+        "valueDelta": -120,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Chet Holmgren",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 43,
+        "performanceRank": 163,
+        "valueDelta": -120,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Desmond Bane",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 40,
+        "performanceRank": 161,
+        "valueDelta": -121,
+        "zTotal": 0.0
+      },
+      {
+        "player": "James Harden",
+        "team": "The ScrobKnobs",
+        "draftPick": 21,
+        "performanceRank": 144,
+        "valueDelta": -123,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Giannis Antetokounmpo",
+        "team": "Joke  Squad",
+        "draftPick": 6,
+        "performanceRank": 131,
+        "valueDelta": -125,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Donovan Mitchell",
+        "team": "Joke  Squad",
+        "draftPick": 3,
+        "performanceRank": 130,
+        "valueDelta": -127,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Herbert Jones",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 130,
+        "performanceRank": 265,
+        "valueDelta": -135,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Jayson Tatum",
+        "team": "Banchero Bandits",
+        "draftPick": 10,
+        "performanceRank": 146,
+        "valueDelta": -136,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Karl-Anthony Towns",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 24,
+        "performanceRank": 160,
+        "valueDelta": -136,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Tre Johnson",
+        "team": "Pauls slightlyaboveaverageteam",
+        "draftPick": 119,
+        "performanceRank": 258,
+        "valueDelta": -139,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Nikola Jokic",
+        "team": "Banchero Bandits",
+        "draftPick": 4,
+        "performanceRank": 145,
+        "valueDelta": -141,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Anthony Davis",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 16,
+        "performanceRank": 159,
+        "valueDelta": -143,
+        "zTotal": 0.0
+      },
+      {
+        "player": "Tyrese Haliburton",
+        "team": "Jehn's Bucket Bandits",
+        "draftPick": 11,
+        "performanceRank": 158,
+        "valueDelta": -147,
+        "zTotal": 0.0
+      }
+    ],
+    "team_grades": [
+      {
+        "team": "The ScrobKnobs",
+        "avgValueDelta": 39.2,
+        "picksTracked": 13
+      },
+      {
+        "team": "Guard Squad ",
+        "avgValueDelta": 34.2,
+        "picksTracked": 13
+      },
+      {
+        "team": "UM FSU friends",
+        "avgValueDelta": 17,
+        "picksTracked": 13
+      },
+      {
+        "team": "Pauls slightlyaboveaverageteam",
+        "avgValueDelta": -2.8,
+        "picksTracked": 13
+      },
+      {
+        "team": "Book Club",
+        "avgValueDelta": -11.2,
+        "picksTracked": 13
+      },
+      {
+        "team": "You Got Serbed",
+        "avgValueDelta": -13.4,
+        "picksTracked": 13
+      },
+      {
+        "team": "Go Hog Wild",
+        "avgValueDelta": -22.3,
+        "picksTracked": 13
+      },
+      {
+        "team": "Y'all Seen Chris's Team?",
+        "avgValueDelta": -36.2,
+        "picksTracked": 13
+      },
+      {
+        "team": "Joke  Squad",
+        "avgValueDelta": -42.2,
+        "picksTracked": 13
+      },
+      {
+        "team": "55 BOARDS 55 DIMES 55 STEALS ",
+        "avgValueDelta": -46.4,
+        "picksTracked": 13
+      },
+      {
+        "team": "Banchero Bandits",
+        "avgValueDelta": -61.9,
+        "picksTracked": 13
+      },
+      {
+        "team": "Jehn's Bucket Bandits",
+        "avgValueDelta": -83.6,
+        "picksTracked": 13
+      }
+    ]
+  },
+  "rivalryScores": [
+    {
+      "teamA": "Book Club",
+      "teamB": "Jehn's Bucket Bandits",
+      "meetings": 1,
+      "teamA_catW": 4,
+      "teamB_catW": 4,
+      "ties": 0,
+      "closestCat": "PTS",
+      "closestMarginPct": 0.4,
+      "closestWeek": 1
+    },
+    {
+      "teamA": "Guard Squad ",
+      "teamB": "UM FSU friends",
+      "meetings": 1,
+      "teamA_catW": 4,
+      "teamB_catW": 4,
+      "ties": 0,
+      "closestCat": "FG%",
+      "closestMarginPct": 0.7,
+      "closestWeek": 1
+    },
+    {
+      "teamA": "You Got Serbed",
+      "teamB": "Banchero Bandits",
+      "meetings": 1,
+      "teamA_catW": 7,
+      "teamB_catW": 1,
+      "ties": 0,
+      "closestCat": "FT%",
+      "closestMarginPct": 1.9,
+      "closestWeek": 1
+    },
+    {
+      "teamA": "Pauls slightlyaboveaverageteam",
+      "teamB": "Y'all Seen Chris's Team?",
+      "meetings": 1,
+      "teamA_catW": 5,
+      "teamB_catW": 3,
+      "ties": 0,
+      "closestCat": "FG%",
+      "closestMarginPct": 0.8,
+      "closestWeek": 1
+    },
+    {
+      "teamA": "The ScrobKnobs",
+      "teamB": "Go Hog Wild",
+      "meetings": 1,
+      "teamA_catW": 3,
+      "teamB_catW": 5,
+      "ties": 0,
+      "closestCat": "FT%",
+      "closestMarginPct": 0.8,
+      "closestWeek": 1
+    },
+    {
+      "teamA": "55 BOARDS 55 DIMES 55 STEALS ",
+      "teamB": "Joke  Squad",
+      "meetings": 1,
+      "teamA_catW": 4,
+      "teamB_catW": 4,
+      "ties": 0,
+      "closestCat": "FG%",
+      "closestMarginPct": 1.9,
+      "closestWeek": 1
+    },
+    {
+      "teamA": "Guard Squad ",
+      "teamB": "Book Club",
+      "meetings": 1,
+      "teamA_catW": 3,
+      "teamB_catW": 5,
+      "ties": 0,
+      "closestCat": "PTS",
+      "closestMarginPct": 0.2,
+      "closestWeek": 2
+    },
+    {
+      "teamA": "Banchero Bandits",
+      "teamB": "Jehn's Bucket Bandits",
+      "meetings": 1,
+      "teamA_catW": 5,
+      "teamB_catW": 3,
+      "ties": 0,
+      "closestCat": "FG%",
+      "closestMarginPct": 0.8,
+      "closestWeek": 2
+    },
+    {
+      "teamA": "Pauls slightlyaboveaverageteam",
+      "teamB": "UM FSU friends",
+      "meetings": 1,
+      "teamA_catW": 5,
+      "teamB_catW": 3,
+      "ties": 0,
+      "closestCat": "PTS",
+      "closestMarginPct": 0.1,
+      "closestWeek": 2
+    },
+    {
+      "teamA": "The ScrobKnobs",
+      "teamB": "You Got Serbed",
+      "meetings": 1,
+      "teamA_catW": 5,
+      "teamB_catW": 2,
+      "ties": 1,
+      "closestCat": "STL",
+      "closestMarginPct": 0.0,
+      "closestWeek": 2
+    },
+    {
+      "teamA": "Y'all Seen Chris's Team?",
+      "teamB": "Joke  Squad",
+      "meetings": 1,
+      "teamA_catW": 4,
+      "teamB_catW": 4,
+      "ties": 0,
+      "closestCat": "FT%",
+      "closestMarginPct": 0.5,
+      "closestWeek": 2
+    },
+    {
+      "teamA": "55 BOARDS 55 DIMES 55 STEALS ",
+      "teamB": "Go Hog Wild",
+      "meetings": 1,
+      "teamA_catW": 2,
+      "teamB_catW": 6,
+      "ties": 0,
+      "closestCat": "REB",
+      "closestMarginPct": 0.7,
+      "closestWeek": 2
+    },
+    {
+      "teamA": "Book Club",
+      "teamB": "Banchero Bandits",
+      "meetings": 1,
+      "teamA_catW": 1,
+      "teamB_catW": 7,
+      "ties": 0,
+      "closestCat": "FT%",
+      "closestMarginPct": 0.4,
+      "closestWeek": 3
+    },
+    {
+      "teamA": "Pauls slightlyaboveaverageteam",
+      "teamB": "Guard Squad ",
+      "meetings": 1,
+      "teamA_catW": 4,
+      "teamB_catW": 4,
+      "ties": 0,
+      "closestCat": "FG%",
+      "closestMarginPct": 1.3,
+      "closestWeek": 3
+    },
+    {
+      "teamA": "The ScrobKnobs",
+      "teamB": "Jehn's Bucket Bandits",
+      "meetings": 1,
+      "teamA_catW": 6,
+      "teamB_catW": 2,
+      "ties": 0,
+      "closestCat": "REB",
+      "closestMarginPct": 2.2,
+      "closestWeek": 3
+    },
+    {
+      "teamA": "UM FSU friends",
+      "teamB": "Joke  Squad",
+      "meetings": 1,
+      "teamA_catW": 4,
+      "teamB_catW": 4,
+      "ties": 0,
+      "closestCat": "AST",
+      "closestMarginPct": 1.3,
+      "closestWeek": 3
+    },
+    {
+      "teamA": "You Got Serbed",
+      "teamB": "55 BOARDS 55 DIMES 55 STEALS ",
+      "meetings": 1,
+      "teamA_catW": 4,
+      "teamB_catW": 4,
+      "ties": 0,
+      "closestCat": "3PM",
+      "closestMarginPct": 2.3,
+      "closestWeek": 3
+    },
+    {
+      "teamA": "Y'all Seen Chris's Team?",
+      "teamB": "Go Hog Wild",
+      "meetings": 1,
+      "teamA_catW": 2,
+      "teamB_catW": 6,
+      "ties": 0,
+      "closestCat": "FG%",
+      "closestMarginPct": 0.0,
+      "closestWeek": 3
     }
   ]
 }
