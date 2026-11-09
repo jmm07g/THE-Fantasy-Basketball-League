@@ -63,6 +63,11 @@ BASE_URL = (
     f"/segments/0/leagues/{LEAGUE_ID}"
 )
 
+# ESPN requires SWID wrapped in curly braces, e.g. "{89FE16C2-...-BEBA8A}".
+# Browser dev tools sometimes show it without braces — add them back if missing.
+if ESPN_SWID and not ESPN_SWID.startswith("{"):
+    ESPN_SWID = "{" + ESPN_SWID.strip("{}") + "}"
+
 COOKIES = {"espn_s2": ESPN_S2, "SWID": ESPN_SWID}
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
@@ -92,7 +97,20 @@ def _get(view_params, extra=None):
     if resp.status_code == 401:
         sys.exit("ESPN returned 401 Unauthorized — cookies are invalid/expired. Re-auth and update secrets.")
     resp.raise_for_status()
-    return resp.json()
+
+    content_type = resp.headers.get("Content-Type", "")
+    if "json" not in content_type.lower():
+        snippet = resp.text[:300].replace("\n", " ")
+        sys.exit(
+            f"ESPN did not return JSON (Content-Type: {content_type!r}, status {resp.status_code}). "
+            f"This almost always means auth failed silently (bad/expired espn_s2 or malformed SWID) "
+            f"and ESPN served a login/error page instead. First 300 chars of response:\n{snippet}"
+        )
+    try:
+        return resp.json()
+    except ValueError:
+        snippet = resp.text[:300].replace("\n", " ")
+        sys.exit(f"Failed to parse JSON from ESPN response. First 300 chars:\n{snippet}")
 
 
 # ---------------------------------------------------------------------------
