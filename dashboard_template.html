@@ -379,7 +379,7 @@
   <section id="draft" class="tab">
     <div class="card">
       <h2>Draft Grade Retrospective — Team Grades</h2>
-      <div class="sub">Average Value Delta (Draft Pick # − current Performance Rank) across each team's draft picks still in today's player pool. Positive = draft steals outweighing busts.</div>
+      <div class="sub">Auction draft grading: average Value Delta (scaled $ Rank − current Performance Rank) across each team's drafted players still in today's player pool. Positive = team got more performance than it paid for; negative = overpaid relative to output.</div>
       <div style="overflow-x:auto;">
       <table id="draftTeamTable">
         <thead><tr><th>Team</th><th>Avg Value Delta</th><th>Picks Tracked</th></tr></thead>
@@ -1265,10 +1265,10 @@ function renderDraftGrades(){
   const steals = picks.slice().sort((a,b)=>b.valueDelta-a.valueDelta).slice(0,8);
   const busts = picks.slice().sort((a,b)=>a.valueDelta-b.valueDelta).slice(0,8);
   stealsBody.innerHTML = steals.map(p=>`
-    <tr><td class="team-name">${p.player}</td><td>${p.team}</td><td>Pick #${p.draftPick} → Rank #${p.performanceRank}</td><td class="pos">+${p.valueDelta}</td></tr>
+    <tr><td class="team-name">${p.player}</td><td>${p.team}</td><td>$${p.auctionValue} → Rank #${p.performanceRank}</td><td class="pos">+${p.valueDelta}</td></tr>
   `).join('');
   bustsBody.innerHTML = busts.map(p=>`
-    <tr><td class="team-name">${p.player}</td><td>${p.team}</td><td>Pick #${p.draftPick} → Rank #${p.performanceRank}</td><td class="neg">${p.valueDelta}</td></tr>
+    <tr><td class="team-name">${p.player}</td><td>${p.team}</td><td>$${p.auctionValue} → Rank #${p.performanceRank}</td><td class="neg">${p.valueDelta}</td></tr>
   `).join('');
 }
 
