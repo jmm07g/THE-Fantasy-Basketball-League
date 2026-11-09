@@ -236,6 +236,13 @@ def fetch_matchups(league, current_week):
             if not home_stats and not away_stats:
                 continue  # week hasn't posted stats yet (e.g. in-progress/future week)
 
+            if os.environ.get("ESPN_DEBUG_DUMP") and (home_stats or away_stats):
+                sample = home_stats or away_stats
+                print(f"DEBUG week {wk} raw stat keys: {list(sample.keys())}")
+                first_key = next(iter(sample), None)
+                if first_key is not None:
+                    print(f"DEBUG sample entry for '{first_key}': {sample[first_key]!r}")
+
             for team, stats in ((home_team, home_stats), (away_team, away_stats)):
                 if team is None or not stats:
                     continue
@@ -368,6 +375,24 @@ def build_dataset(league, current_week):
             f"No matchup data came back for any week <= {current_week}. "
             f"Check that LEAGUE_ID/SEASON_YEAR are correct and that ESPN has "
             f"posted box scores yet for this season."
+        )
+    # weekly_matchups can be non-empty at the week/team level but still carry
+    # all-None category values if ESPN_API_STAT_KEY doesn't match the stat
+    # names espn_api actually returns for this league/version. Catch that here
+    # instead of silently shipping an empty 'weekly' array downstream.
+    any_real_value = any(
+        v is not None
+        for wk_data in weekly_matchups.values()
+        for cat_vals in wk_data.values()
+        for v in cat_vals.values()
+    )
+    if not any_real_value:
+        sys.exit(
+            "Matchup weeks/teams were found, but every category value came back "
+            "None -- ESPN_API_STAT_KEY almost certainly doesn't match the stat "
+            "names espn_api is returning for this league. Re-run with "
+            "ESPN_DEBUG_DUMP=1 set and check the printed 'DEBUG week ... raw stat "
+            "keys' line to see the real key names, then update ESPN_API_STAT_KEY."
         )
     transactions = fetch_transactions(league)
     actual_cat_records = compute_actual_cat_records(weekly_matchups, weekly_pairs)
