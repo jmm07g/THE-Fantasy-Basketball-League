@@ -55,6 +55,16 @@ def load_dataset(path):
 
 def build_data_blob(dataset):
     """Assemble the exact DATA object shape the dashboard's JS expects."""
+    required = ["powerRankings", "zProfile", "weekly"]
+    missing = [k for k in required if k not in dataset]
+    if missing:
+        sys.exit(
+            f"league_data.json is missing required key(s): {missing}.\n"
+            f"This usually means espn_league_sync.py in the repo is an older version "
+            f"that doesn't compute these fields. Re-download the latest "
+            f"espn_league_sync.py (the one that builds powerRankings/zProfile/weekly), "
+            f"overwrite it in the repo, and re-run the sync step before rebuilding."
+        )
     return {
         "powerRankings": dataset["powerRankings"],
         "zProfile": dataset["zProfile"],
@@ -70,7 +80,11 @@ def inject_into_template(template_html, data_blob, current_week):
     pattern = re.compile(r"const DATA = \{.*?\};(?=\s*const CATS)", re.DOTALL)
     if not pattern.search(template_html):
         sys.exit("Could not find 'const DATA = {...};' block in template — template structure changed.")
-    html = pattern.sub(new_data_js, template_html, count=1)
+    # Use a function replacement, not a raw string: json.dumps() output can contain
+    # backslash sequences (e.g. \u escapes), and re.sub() treats backslashes in a
+    # string replacement as regex escape codes, which throws "bad escape \u".
+    # A function replacement is inserted literally, with no backslash processing.
+    html = pattern.sub(lambda m: new_data_js, template_html, count=1)
 
     # Update header "Through Week N" text.
     html = re.sub(
