@@ -186,11 +186,16 @@ def fetch_teams_and_rosters():
                 "lineup_slot_id": entry.get("lineupSlotId"),
                 "injury_status": player.get("injuryStatus"),
             })
+        record = t.get("record", {}).get("overall", {})
         teams.append({
             "team_id": t.get("id"),
             "team_name": team_name or f"Team {t.get('id')}",
             "abbrev": t.get("abbrev"),
             "roster": roster,
+            # Actual league standing (H2H matchup record, not category record).
+            "wins": record.get("wins", 0),
+            "losses": record.get("losses", 0),
+            "ties": record.get("ties", 0),
         })
     return teams
 
@@ -238,12 +243,19 @@ def fetch_free_agents(limit=150):
 # ---------------------------------------------------------------------------
 
 def fetch_matchups(current_week):
+    """Returns (weekly_stats, weekly_pairs).
+    weekly_stats: {week: {team_id: {cat: value}}} — per-team category totals that week.
+    weekly_pairs: {week: [(team_id_a, team_id_b), ...]} — actual real-schedule matchups,
+    used to compute each team's TRUE category W-L-T against their real opponent
+    (distinct from the dashboard's simulated All-Play record against everyone)."""
     data = _get("mMatchupScore", extra={"matchupPeriodId": current_week})
     weeks = {}
+    pairs = {}
     for m in data.get("schedule", []):
         period = m.get("matchupPeriodId")
-        for side_key in ("home", "away"):
-            side = m.get(side_key)
+        home = m.get("home")
+        away = m.get("away")
+        for side in (home, away):
             if not side:
                 continue
             team_id = side.get("teamId")
@@ -252,7 +264,36 @@ def fetch_matchups(current_week):
                 stat_name: cats.get(str(sid), {}).get("score")
                 for stat_name, sid in STAT_ID_MAP.items()
             }
-    return weeks
+        if home and away and home.get("teamId") is not None and away.get("teamId") is not None:
+            pairs.setdefault(period, []).append((home["teamId"], away["teamId"]))
+    return weeks, pairs
+
+
+def compute_actual_cat_records(weekly_stats, weekly_pairs):
+    """Real head-to-head category W-L-T per team, based on actual scheduled opponents
+    each week (not the All-Play round-robin simulation, which the dashboard computes
+    client-side from raw weekly values)."""
+    records = {}
+    for wk, pair_list in weekly_pairs.items():
+        week_data = weekly_stats.get(wk, {})
+        for a, b in pair_list:
+            ta, tb = week_data.get(a, {}), week_data.get(b, {})
+            records.setdefault(a, {"w": 0, "l": 0, "t": 0})
+            records.setdefault(b, {"w": 0, "l": 0, "t": 0})
+            for cat in CATEGORIES:
+                va, vb = ta.get(cat), tb.get(cat)
+                if va is None or vb is None:
+                    continue
+                if va > vb:
+                    records[a]["w"] += 1
+                    records[b]["l"] += 1
+                elif va < vb:
+                    records[b]["w"] += 1
+                    records[a]["l"] += 1
+                else:
+                    records[a]["t"] += 1
+                    records[b]["t"] += 1
+    return records
 
 
 # ---------------------------------------------------------------------------
@@ -320,13 +361,26 @@ def power_score(z_row):
     return sum(z_row.values())
 
 
+def _pct_rank_0_to_1(value, all_values):
+    """Percentile rank (0=worst,1=best) of value within all_values, used for Expected Cat Wins."""
+    if value is None or not all_values:
+        return 0.0
+    n = len(all_values)
+    if n <= 1:
+        return 0.5
+    rank = sum(1 for v in all_values if v < value) + 0.5 * sum(1 for v in all_values if v == value)
+    return rank / (n - 1) if n > 1 else 0.5
+
+
 def build_dataset(current_week):
     teams = fetch_teams_and_rosters()
     free_agents = fetch_free_agents()
-    weekly_matchups = fetch_matchups(current_week)
+    weekly_matchups, weekly_pairs = fetch_matchups(current_week)
     transactions = fetch_transactions()
+    actual_cat_records = compute_actual_cat_records(weekly_matchups, weekly_pairs)
 
     team_names = {t["team_id"]: t["team_name"] for t in teams}
+    standings = {t["team_id"]: t for t in teams}
 
     weekly_z = {wk: zscores_for_week(data) for wk, data in weekly_matchups.items()}
     weekly_power = {
@@ -344,6 +398,78 @@ def build_dataset(current_week):
             "trend_slope": (series[-1] - series[0]) / max(len(series) - 1, 1) if len(series) > 1 else 0,
         }
 
+    # Season z-profile (avg z per category across all weeks) -> matches dashboard's zProfile shape.
+    z_profile = []
+    for tid, name in team_names.items():
+        cat_avgs = {}
+        for cat in CATEGORIES:
+            vals = [weekly_z[wk][tid][cat] for wk in weekly_z if tid in weekly_z[wk]]
+            cat_avgs[cat] = round(statistics.mean(vals), 2) if vals else 0.0
+        z_profile.append({"team": name, **cat_avgs})
+
+    # Expected Cat Wins: percentile rank per category per week, summed (matches dashboard methodology).
+    expected_cat_w = {tid: 0.0 for tid in team_names}
+    for wk, data in weekly_matchups.items():
+        for cat in CATEGORIES:
+            cat_vals = {t: v[cat] for t, v in data.items() if v.get(cat) is not None}
+            all_vals = list(cat_vals.values())
+            for tid, v in cat_vals.items():
+                expected_cat_w[tid] += _pct_rank_0_to_1(v, all_vals)
+
+    # Power rankings in the exact shape the HTML dashboard expects.
+    power_rows = []
+    for tid, name in team_names.items():
+        rec = actual_cat_records.get(tid, {"w": 0, "l": 0, "t": 0})
+        avg_power = season_power[tid]["avg"]
+        zp = next((z for z in z_profile if z["team"] == name), {})
+        cat_scores = {c: zp.get(c, 0.0) for c in CATEGORIES}
+        sorted_cats = sorted(cat_scores.items(), key=lambda kv: kv[1], reverse=True)
+        top_cats = ", ".join(c for c, _ in sorted_cats[:2])
+        weak_cats = ", ".join(c for c, _ in sorted_cats[-2:])
+        power_rows.append({
+            "team": name,
+            "team_id": tid,
+            "powerScore": avg_power,
+            "consistency": season_power[tid]["consistency_std"],
+            "trend": season_power[tid]["trend_slope"],
+            "catW": rec["w"], "catL": rec["l"], "catT": rec["t"],
+            "expCatW": expected_cat_w[tid],
+            "luckIndex": rec["w"] - expected_cat_w[tid],
+            "topCats": top_cats,
+            "weakCats": weak_cats,
+            # actual standing rank derived from real W-L record (ties as half-wins), used for rankDelta
+            "leagueW": standings.get(tid, {}).get("wins", 0),
+            "leagueL": standings.get(tid, {}).get("losses", 0),
+            "leagueT": standings.get(tid, {}).get("ties", 0),
+        })
+
+    # Rank by power score (power rank) and by actual league W-L (actual rank), then compute deltas.
+    power_rows.sort(key=lambda r: r["powerScore"], reverse=True)
+    for i, r in enumerate(power_rows):
+        r["powerRank"] = i + 1
+    power_rows.sort(key=lambda r: (r["leagueW"] + 0.5 * r["leagueT"]), reverse=True)
+    for i, r in enumerate(power_rows):
+        r["actualRank"] = i + 1
+        r["rankDelta"] = r["actualRank"] - r["powerRank"]
+    power_rows.sort(key=lambda r: r["powerRank"])
+    for r in power_rows:
+        r.pop("team_id", None)
+        r.pop("leagueW", None)
+        r.pop("leagueL", None)
+        r.pop("leagueT", None)
+
+    # Tidy weekly records -> matches dashboard's DATA.weekly shape (week, team, cat, val).
+    weekly_tidy = []
+    for wk, data in weekly_matchups.items():
+        for tid, cat_vals in data.items():
+            name = team_names.get(tid)
+            if not name:
+                continue
+            for cat in CATEGORIES:
+                v = cat_vals.get(cat)
+                if v is not None:
+                    weekly_tidy.append({"week": wk, "team": name, "cat": cat, "val": v})
+
     weeks_remaining = max(SEASON_WEEKS_TOTAL - current_week, 0)
 
     dataset = {
@@ -357,11 +483,11 @@ def build_dataset(current_week):
         "teams": teams,
         "team_names": team_names,
         "free_agents": free_agents,
-        "weekly_matchup_stats": weekly_matchups,
-        "weekly_zscores": weekly_z,
-        "weekly_power_scores": weekly_power,
-        "season_power_summary": season_power,
         "transactions": transactions,
+        # Dashboard-ready shapes (consumed directly by build_dashboard.py):
+        "powerRankings": power_rows,
+        "zProfile": z_profile,
+        "weekly": weekly_tidy,
     }
     return dataset
 
