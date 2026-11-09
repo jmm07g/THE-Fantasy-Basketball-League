@@ -8,11 +8,11 @@ as the hand-built dashboard, just re-populated with live numbers.
 
 Usage:
     python build_dashboard.py
-    (reads league_data.json, writes fantasy_power_rankings.html in the same folder)
+    (reads league_data.json, writes index.html in the same folder)
 
 Env overrides:
     INPUT_JSON_PATH   default "league_data.json"
-    OUTPUT_HTML_PATH  default "fantasy_power_rankings.html"
+    OUTPUT_HTML_PATH  default "index.html"
     TEMPLATE_HTML_PATH default "dashboard_template.html"
 """
 
@@ -22,7 +22,7 @@ import json
 import sys
 
 INPUT_JSON_PATH = os.environ.get("INPUT_JSON_PATH", "league_data.json")
-OUTPUT_HTML_PATH = os.environ.get("OUTPUT_HTML_PATH", "fantasy_power_rankings.html")
+OUTPUT_HTML_PATH = os.environ.get("OUTPUT_HTML_PATH", "index.html")
 TEMPLATE_HTML_PATH = os.environ.get("TEMPLATE_HTML_PATH", "dashboard_template.html")
 
 CATEGORIES = ["FG%", "FT%", "3PM", "REB", "AST", "STL", "BLK", "PTS"]
