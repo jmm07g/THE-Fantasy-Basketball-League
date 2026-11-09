@@ -146,6 +146,20 @@
   }
   .team-badge-chip .emoji{font-size:1rem;}
   .mow-history{margin-top:16px;}
+  .navdrop{position:relative; display:inline-block;}
+  .navdrop-menu{
+    display:none; position:absolute; top:calc(100% + 6px); left:0; z-index:60;
+    background:var(--panel2); border:1px solid var(--border); border-radius:10px;
+    min-width:190px; padding:6px; flex-direction:column; gap:2px; box-shadow:0 8px 24px rgba(0,0,0,0.35);
+  }
+  .navdrop-menu.open{display:flex;}
+  .navdrop-menu button{
+    background:transparent; border:none; color:var(--muted); text-align:left;
+    padding:9px 12px; border-radius:7px; cursor:pointer; font-size:0.87rem; font-weight:600; width:100%;
+  }
+  .navdrop-menu button:hover{background:var(--panel); color:var(--text);}
+  .navdrop-menu button.active{background:var(--accent); color:#fff;}
+  .navdrop > button.active{background:var(--accent); color:#fff; border-color:var(--accent);}
 </style>
 </head>
 <body>
@@ -157,13 +171,23 @@
 
 <nav>
   <button data-tab="rankings" class="active">Power Rankings</button>
-  <button data-tab="profile">Category Profiles</button>
-  <button data-tab="allplay">All-Play</button>
-  <button data-tab="movement">Power Movement</button>
-  <button data-tab="playoffs">Playoff Odds</button>
-  <button data-tab="badges">Badges & MOTW</button>
+  <button data-tab="profile">Stat Profile</button>
   <button data-tab="team">Team Explorer</button>
-  <button data-tab="method">Methodology</button>
+  <button data-tab="allplay">vs the League</button>
+  <button data-tab="movement">Power Ranking Movement</button>
+  <button data-tab="playoffs">Playoff Odds</button>
+  <button data-tab="badges">Badges</button>
+  <div class="navdrop" id="otherToolsDrop">
+    <button type="button" id="otherToolsBtn">Other Tools ▾</button>
+    <div class="navdrop-menu" id="otherToolsMenu">
+      <button data-tab="contribution">Player Contribution</button>
+      <button data-tab="waiver">Waiver Report Card</button>
+      <button data-tab="winprob">Win Probability</button>
+      <button data-tab="draft">Draft Grades</button>
+      <button data-tab="rivalry">Rivalry Score</button>
+      <button data-tab="method">Methodology</button>
+    </div>
+  </div>
 </nav>
 
 <main>
@@ -202,7 +226,7 @@
   <!-- CATEGORY PROFILE TAB -->
   <section id="profile" class="tab">
     <div class="card">
-      <h2>Category Z-Score Heatmap</h2>
+      <h2>Stat Profile — Category Z-Score Heatmap</h2>
       <div class="sub">Z-score vs league average for the season so far. Green = strength, red = weakness. Click a team row to open it in Team Explorer.</div>
       <div style="overflow-x:auto;">
       <table id="zTable">
@@ -221,7 +245,7 @@
   <!-- ALL-PLAY TAB -->
   <section id="allplay" class="tab">
     <div class="card">
-      <h2>All-Play Record</h2>
+      <h2>vs the League — All-Play Record</h2>
       <div class="sub">If every team played every other team head-to-head every week (roto-style), based on each week's category W-L-T. This is often the best read on "true" standings since it removes the luck of a fixed schedule. "vs Actual" shows how many more/fewer wins a team has gotten from its real schedule than the all-play method would predict.</div>
       <div style="overflow-x:auto;">
       <table id="allPlayTable">
@@ -285,7 +309,7 @@
     </div>
 
     <div class="card">
-      <h2>🎖️ Weekly Badge Cabinet</h2>
+      <h2>🎖️ Badges</h2>
       <div class="sub">Fun, data-driven awards recalculated from this week's category results. Click a badge to jump to that team's profile.</div>
       <div class="section-label">This Week's Honors</div>
       <div class="badgegrid" id="badgeGridWeek"></div>
@@ -297,6 +321,104 @@
       <h2>📛 Every Manager's Badge Case</h2>
       <div class="sub">All badges each team has earned this season, most recent week included.</div>
       <div id="teamBadgeCase"></div>
+    </div>
+  </section>
+
+  <!-- PLAYER Z-SCORE CONTRIBUTION TAB -->
+  <section id="contribution" class="tab">
+    <div class="card">
+      <h2>Player Z-Score Contribution</h2>
+      <div class="sub">Every rostered player, z-scored against the full league player pool (rostered + free agents) in each of the 8 categories. Pick a team to see who's actually driving its strengths — and who's dragging it down.</div>
+      <div class="team-select-wrap">
+        <select id="contribTeamSelect"></select>
+      </div>
+      <div id="contribSummary" class="statgrid"></div>
+      <div style="overflow-x:auto;">
+      <table id="contribTable">
+        <thead>
+          <tr>
+            <th>Player</th><th>zTotal</th>
+            <th>FG%</th><th>FT%</th><th>3PM</th><th>REB</th><th>AST</th><th>STL</th><th>BLK</th><th>PTS</th>
+          </tr>
+        </thead>
+        <tbody id="contribBody"></tbody>
+      </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAIVER WIRE REPORT CARD TAB -->
+  <section id="waiver" class="tab">
+    <div class="card">
+      <h2>Waiver Wire Report Card</h2>
+      <div class="sub">Every add/drop, graded using each player's CURRENT season zTotal (not their value at the moment of the move — see Methodology). Net Value = Added zTotal − Dropped zTotal. Sorted biggest win first.</div>
+      <div class="filters">
+        <input type="text" id="waiverFilter" placeholder="Filter by team name...">
+      </div>
+      <div style="overflow-x:auto;">
+      <table id="waiverTable">
+        <thead>
+          <tr><th>Team</th><th>Added</th><th>Added z</th><th>Dropped</th><th>Dropped z</th><th>Net Value</th></tr>
+        </thead>
+        <tbody id="waiverBody"></tbody>
+      </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- MATCHUP WIN PROBABILITY TAB -->
+  <section id="winprob" class="tab">
+    <div class="card">
+      <h2>Win Probability — This Week</h2>
+      <div class="sub">For each real scheduled matchup this week, per-category win probability modeled from each team's own season mean/standard deviation so far. Team-level estimate, not lineup-aware.</div>
+      <div id="winprobCards"></div>
+    </div>
+  </section>
+
+  <!-- DRAFT GRADE RETROSPECTIVE TAB -->
+  <section id="draft" class="tab">
+    <div class="card">
+      <h2>Draft Grade Retrospective — Team Grades</h2>
+      <div class="sub">Average Value Delta (Draft Pick # − current Performance Rank) across each team's draft picks still in today's player pool. Positive = draft steals outweighing busts.</div>
+      <div style="overflow-x:auto;">
+      <table id="draftTeamTable">
+        <thead><tr><th>Team</th><th>Avg Value Delta</th><th>Picks Tracked</th></tr></thead>
+        <tbody id="draftTeamBody"></tbody>
+      </table>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Biggest Steals & Busts</h2>
+      <div class="sub">Individual picks furthest above/below their draft slot.</div>
+      <div class="grid2">
+        <div>
+          <div class="section-label">🏆 Steals</div>
+          <table><tbody id="draftStealsBody"></tbody></table>
+        </div>
+        <div>
+          <div class="section-label">💀 Busts</div>
+          <table><tbody id="draftBustsBody"></tbody></table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RIVALRY SCORE TAB -->
+  <section id="rivalry" class="tab">
+    <div class="card">
+      <h2>Rivalry Score</h2>
+      <div class="sub">Cumulative category W-L-T between every pair of teams that has actually played each other this season, plus the closest-margin category decision between them.</div>
+      <div class="filters">
+        <input type="text" id="rivalryFilter" placeholder="Filter by team name...">
+      </div>
+      <div style="overflow-x:auto;">
+      <table id="rivalryTable">
+        <thead>
+          <tr><th>Team A</th><th>Team B</th><th>Meetings</th><th>Cat W-L (A-B)</th><th>Closest Category</th></tr>
+        </thead>
+        <tbody id="rivalryBody"></tbody>
+      </table>
+      </div>
     </div>
   </section>
 
@@ -348,15 +470,36 @@ const DATA = {"powerRankings": [{"powerRank": 1, "team": "You Got Serbed", "powe
 const CATS = ['FG%','FT%','3PM','REB','AST','STL','BLK','PTS'];
 
 // ---------- Nav ----------
-document.querySelectorAll('nav button').forEach(btn=>{
+document.querySelectorAll('nav button[data-tab]').forEach(btn=>{
   btn.addEventListener('click', ()=>{
-    document.querySelectorAll('nav button').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('nav button[data-tab]').forEach(b=>b.classList.remove('active'));
     document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
     btn.classList.add('active');
     document.getElementById(btn.dataset.tab).classList.add('active');
+    // If the clicked button lives inside the "Other Tools" dropdown, reflect its
+    // label on the dropdown toggle and keep the toggle visually active too.
+    const inDropdown = btn.closest('#otherToolsMenu');
+    const otherToolsBtn = document.getElementById('otherToolsBtn');
+    if(inDropdown){
+      otherToolsBtn.textContent = btn.textContent + ' ▾';
+      otherToolsBtn.classList.add('active');
+    } else if(otherToolsBtn){
+      otherToolsBtn.textContent = 'Other Tools ▾';
+      otherToolsBtn.classList.remove('active');
+    }
+    document.getElementById('otherToolsMenu').classList.remove('open');
     if(btn.dataset.tab==='movement' && typeof renderMovementChart==='function') renderMovementChart();
     if(btn.dataset.tab==='badges' && typeof renderBadgesTab==='function') renderBadgesTab();
+    if(btn.dataset.tab==='winprob' && typeof renderWinProb==='function') renderWinProb();
   });
+});
+document.getElementById('otherToolsBtn').addEventListener('click', (e)=>{
+  e.stopPropagation();
+  document.getElementById('otherToolsMenu').classList.toggle('open');
+});
+document.addEventListener('click', (e)=>{
+  const drop = document.getElementById('otherToolsDrop');
+  if(!drop.contains(e.target)) document.getElementById('otherToolsMenu').classList.remove('open');
 });
 
 // ---------- Helpers ----------
@@ -1006,6 +1149,157 @@ function renderTeamExplorer(team){
   }).join('');
 }
 
+// ---------- Player Z-Score Contribution ----------
+function populateContribTeamSelect(){
+  const sel = document.getElementById('contribTeamSelect');
+  const teams = (DATA.playerContribution||[]).map(r=>r.team).sort();
+  if(!teams.length){
+    sel.innerHTML = '<option>No player data available</option>';
+    return;
+  }
+  sel.innerHTML = teams.map(t=>`<option value="${t}">${t}</option>`).join('');
+  sel.addEventListener('change', ()=>renderContribution(sel.value));
+}
+function renderContribution(team){
+  const row = (DATA.playerContribution||[]).find(r=>r.team===team);
+  const body = document.getElementById('contribBody');
+  const summary = document.getElementById('contribSummary');
+  if(!row || !row.players || !row.players.length){
+    body.innerHTML = '';
+    summary.innerHTML = `<div class="sub">No player stat data available for this team yet.</div>`;
+    return;
+  }
+  summary.innerHTML = `
+    <div class="stat-box"><div class="label">Top Contributor</div><div class="value pos" style="font-size:1.1rem;">${row.topContributor||'—'}</div></div>
+    <div class="stat-box"><div class="label">Biggest Drag</div><div class="value neg" style="font-size:1.1rem;">${row.biggestDrag||'—'}</div></div>
+    <div class="stat-box"><div class="label">Roster Tracked</div><div class="value">${row.players.length}</div></div>
+  `;
+  body.innerHTML = row.players.map(p=>`
+    <tr>
+      <td class="team-name">${p.name}${p.injury_status && p.injury_status!=='ACTIVE' ? ` <span class="badge-chip">${p.injury_status}</span>` : ''}</td>
+      <td class="${colorClass(p.zTotal)}">${fmt(p.zTotal)}</td>
+      ${CATS.map(c=>`<td class="${colorClass(p.cats[c])}">${fmt(p.cats[c])}</td>`).join('')}
+    </tr>
+  `).join('');
+}
+
+// ---------- Waiver Wire Report Card ----------
+let waiverFilterText = '';
+function renderWaiverTable(){
+  const body = document.getElementById('waiverBody');
+  let rows = DATA.waiverReport||[];
+  if(!rows.length){
+    body.innerHTML = `<tr><td colspan="6" class="sub">No transaction data available yet.</td></tr>`;
+    return;
+  }
+  if(waiverFilterText){
+    rows = rows.filter(r=>(r.team||'').toLowerCase().includes(waiverFilterText.toLowerCase()));
+  }
+  body.innerHTML = rows.map(r=>`
+    <tr>
+      <td class="team-name">${r.team||'—'}</td>
+      <td>${r.added||'—'}</td>
+      <td class="${r.added_z!=null?colorClass(r.added_z):''}">${r.added_z!=null?fmt(r.added_z):'—'}</td>
+      <td>${r.dropped||'—'}</td>
+      <td class="${r.dropped_z!=null?colorClass(r.dropped_z):''}">${r.dropped_z!=null?fmt(r.dropped_z):'—'}</td>
+      <td class="${r.net_value!=null?colorClass(r.net_value):''}">${r.net_value!=null?fmt(r.net_value):'—'}</td>
+    </tr>
+  `).join('');
+}
+document.getElementById('waiverFilter').addEventListener('input', (e)=>{
+  waiverFilterText = e.target.value;
+  renderWaiverTable();
+});
+
+// ---------- Matchup Win Probability ----------
+function renderWinProb(){
+  const div = document.getElementById('winprobCards');
+  const matchups = DATA.matchupWinProb||[];
+  if(!matchups.length){
+    div.innerHTML = `<div class="sub">No current-week matchup data available yet (week may not have posted a schedule).</div>`;
+    return;
+  }
+  div.innerHTML = matchups.map(m=>{
+    const favorite = m.homeOverallFavorite ? m.home : m.away;
+    const favPct = Math.max(m.homeFavoredCats, m.awayFavoredCats);
+    return `
+    <div class="card" style="margin-bottom:14px;">
+      <h2 style="font-size:1rem;">${m.home} <span style="color:var(--muted);">vs</span> ${m.away}</h2>
+      <div class="sub">Favored in ${favPct}/8 categories: <strong class="pos">${favorite}</strong></div>
+      ${CATS.map(c=>{
+        const p = m.catProbs[c];
+        const homePct = (p*100).toFixed(0);
+        const awayPct = (100-p*100).toFixed(0);
+        return `
+        <div class="bar-row">
+          <div class="bar-label">${c}</div>
+          <div class="bar-track"><div class="bar-fill" style="width:${homePct}%"></div></div>
+          <div class="bar-pct">${homePct}% / ${awayPct}%</div>
+        </div>`;
+      }).join('')}
+    </div>`;
+  }).join('');
+}
+
+// ---------- Draft Grade Retrospective ----------
+function renderDraftGrades(){
+  const dg = DATA.draftGrades || {picks:[], team_grades:[]};
+  const teamBody = document.getElementById('draftTeamBody');
+  const stealsBody = document.getElementById('draftStealsBody');
+  const bustsBody = document.getElementById('draftBustsBody');
+
+  if(!dg.team_grades.length){
+    teamBody.innerHTML = `<tr><td colspan="3" class="sub">No draft data available yet.</td></tr>`;
+    stealsBody.innerHTML = ''; bustsBody.innerHTML = '';
+    return;
+  }
+  teamBody.innerHTML = dg.team_grades.map(r=>`
+    <tr>
+      <td class="team-name">${r.team}</td>
+      <td class="${colorClass(r.avgValueDelta)}">${r.avgValueDelta>0?'+':''}${r.avgValueDelta}</td>
+      <td>${r.picksTracked}</td>
+    </tr>
+  `).join('');
+
+  const picks = dg.picks||[];
+  const steals = picks.slice().sort((a,b)=>b.valueDelta-a.valueDelta).slice(0,8);
+  const busts = picks.slice().sort((a,b)=>a.valueDelta-b.valueDelta).slice(0,8);
+  stealsBody.innerHTML = steals.map(p=>`
+    <tr><td class="team-name">${p.player}</td><td>${p.team}</td><td>Pick #${p.draftPick} → Rank #${p.performanceRank}</td><td class="pos">+${p.valueDelta}</td></tr>
+  `).join('');
+  bustsBody.innerHTML = busts.map(p=>`
+    <tr><td class="team-name">${p.player}</td><td>${p.team}</td><td>Pick #${p.draftPick} → Rank #${p.performanceRank}</td><td class="neg">${p.valueDelta}</td></tr>
+  `).join('');
+}
+
+// ---------- Rivalry Score ----------
+let rivalryFilterText = '';
+function renderRivalryTable(){
+  const body = document.getElementById('rivalryBody');
+  let rows = DATA.rivalryScores||[];
+  if(!rows.length){
+    body.innerHTML = `<tr><td colspan="5" class="sub">No head-to-head history available yet.</td></tr>`;
+    return;
+  }
+  if(rivalryFilterText){
+    const f = rivalryFilterText.toLowerCase();
+    rows = rows.filter(r=>r.teamA.toLowerCase().includes(f) || r.teamB.toLowerCase().includes(f));
+  }
+  body.innerHTML = rows.map(r=>`
+    <tr>
+      <td class="team-name">${r.teamA}</td>
+      <td class="team-name">${r.teamB}</td>
+      <td>${r.meetings}</td>
+      <td>${r.teamA_catW}-${r.teamB_catW}${r.ties?`-${r.ties}`:''}</td>
+      <td>${r.closestCat ? `${r.closestCat} (Wk ${r.closestWeek}, ${r.closestMarginPct}% margin)` : '—'}</td>
+    </tr>
+  `).join('');
+}
+document.getElementById('rivalryFilter').addEventListener('input', (e)=>{
+  rivalryFilterText = e.target.value;
+  renderRivalryTable();
+});
+
 // ---------- Methodology ----------
 function renderMethodology(){
   const list = document.getElementById('methodList');
@@ -1022,6 +1316,11 @@ renderTeamExplorer(DATA.powerRankings.find(r=>r.powerRank===1).team);
 renderMethodology();
 runAndRenderSim();
 renderBadgesTab();
+populateContribTeamSelect();
+if((DATA.playerContribution||[]).length) renderContribution(DATA.playerContribution[0].team);
+renderWaiverTable();
+renderDraftGrades();
+renderRivalryTable();
 </script>
 </body>
 </html>
