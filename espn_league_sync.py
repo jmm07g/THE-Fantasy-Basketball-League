@@ -494,7 +494,16 @@ def build_dataset(current_week):
 
 def main():
     status = _get("mStatus")
-    current_week = status.get("scoringPeriodId") or status.get("status", {}).get("currentMatchupPeriod")
+    # IMPORTANT: ESPN's status response has two different "current period" fields.
+    # - currentMatchupPeriod = the actual fantasy WEEK number (what we want).
+    # - scoringPeriodId = the NBA season's DAY count (e.g. ~21 in early Nov),
+    #   which is NOT the fantasy week and will silently break matchup lookups
+    #   (queries a nonexistent matchup period -> empty data -> blank/placeholder
+    #   dashboard, with the header showing the wrong "Week 21" etc.).
+    # Always prefer currentMatchupPeriod; only fall back to scoringPeriodId if
+    # ESPN's response shape is missing it entirely.
+    status_block = status.get("status", {})
+    current_week = status_block.get("currentMatchupPeriod") or status.get("scoringPeriodId")
     if not current_week:
         sys.exit("Could not determine current week from ESPN response.")
 
