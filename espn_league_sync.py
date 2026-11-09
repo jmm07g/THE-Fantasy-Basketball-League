@@ -348,8 +348,17 @@ def fetch_transactions(league, size=50):
 # ---------------------------------------------------------------------------
 # Pull: draft results (for Draft Grade Retrospective)
 # ---------------------------------------------------------------------------
+# This league is an AUCTION draft, not a snake draft -- there's no meaningful
+# "pick order" (round_num/round_pick are largely meaningless/constant in
+# auction mode). The real "cost" signal is the $ bid amount spent on each
+# player, so grading is based on auction value, not draft position.
 
 def fetch_draft(league):
+    """Returns a list of picks with the auction bid amount (dollars spent).
+    espn_api's Pick objects expose this as `bid_amount` for auction-draft
+    leagues. If it's ever missing/zero across the board (e.g. league type
+    detection issue), callers should treat draft grading as unavailable
+    rather than silently falling back to a meaningless pick-order metric."""
     picks = []
     try:
         draft = league.draft
@@ -363,18 +372,8 @@ def fetch_draft(league):
             "player_id": getattr(p, "playerId", None),
             "player_name": getattr(p, "playerName", None),
             "team_id": getattr(team, "team_id", None),
-            "round_num": getattr(p, "round_num", None),
-            "round_pick": getattr(p, "round_pick", None),
-            "overall_pick": None,  # filled in below once we know round size
+            "bid_amount": getattr(p, "bid_amount", None),
         })
-    # Compute overall pick number from round/pick + number of teams (snake draft aware
-    # isn't needed here — we just need draft ORDER for "value vs cost" comparison).
-    picks.sort(key=lambda r: (
-        r["round_num"] if r["round_num"] is not None else 999,
-        r["round_pick"] if r["round_pick"] is not None else 999,
-    ))
-    for i, r in enumerate(picks):
-        r["overall_pick"] = i + 1
     return picks
 
 
@@ -631,32 +630,53 @@ def build_matchup_win_probability(league, current_week, season_power, team_names
 # ---------------------------------------------------------------------------
 
 def build_draft_grades(draft_picks, player_pool, team_names):
-    """Compares each drafted player's draft position to their current-season
-    performance rank (by zTotal across the whole player pool). A player drafted
-    #5 overall who now ranks #40 in zTotal is a bust; a player drafted #80 who
-    now ranks #10 is a steal. Aggregates to a per-team average 'value delta'."""
+    """AUCTION draft grading: compares each player's $ cost at auction to their
+    current-season performance rank (by zTotal across the whole player pool),
+    converted into an implied '$ rank' so cost and performance are on the same
+    scale. A $60 player who now ranks #85 in zTotal is a bust; a $2 player who
+    now ranks #10 is a steal of the year. Aggregates to a per-team average
+    '$ value delta' (positive = team got more performance than it paid for)."""
     if not draft_picks:
+        return {"picks": [], "team_grades": []}
+
+    # Only picks with a real $ amount are usable for auction-value grading.
+    priced_picks = [p for p in draft_picks if p.get("bid_amount") is not None]
+    if not priced_picks:
+        print("Warning: no bid_amount found on draft picks (league may not be "
+              "detected as auction-type by espn_api); draft grades unavailable.")
         return {"picks": [], "team_grades": []}
 
     # Rank every player in the pool by zTotal (1 = best performer in the league).
     ranked_pool = sorted(player_pool.values(), key=lambda p: p["zTotal"], reverse=True)
     perf_rank = {p["player_id"]: i + 1 for i, p in enumerate(ranked_pool)}
+    pool_size = len(ranked_pool)
+
+    # Rank players by $ spent too (1 = most expensive), so we can express
+    # "expected performance rank given the price paid" on the same 1..N scale
+    # as perf_rank, making picks of different price tiers comparable.
+    priced_picks_sorted = sorted(priced_picks, key=lambda p: p["bid_amount"], reverse=True)
+    cost_rank = {p["player_id"]: i + 1 for i, p in enumerate(priced_picks_sorted)}
 
     picks_out = []
     team_deltas = {}
-    for pick in draft_picks:
+    for pick in priced_picks:
         pid = pick.get("player_id")
         entry = player_pool.get(pid)
         pr = perf_rank.get(pid)
-        if entry is None or pr is None:
-            continue  # player no longer in pool (dropped off waivers/retired/etc.)
-        value_delta = pick["overall_pick"] - pr  # positive = outperforming draft slot
+        cr = cost_rank.get(pid)
+        if entry is None or pr is None or cr is None:
+            continue  # player no longer in pool (dropped/retired/etc.)
+        # Scale cost_rank (1..len(priced_picks)) onto the same range as perf_rank
+        # (1..pool_size) so a $ rank of #1 and a performance rank of #1 are
+        # directly comparable even though the pools are different sizes.
+        scaled_cost_rank = cr * (pool_size / len(priced_picks)) if priced_picks else cr
+        value_delta = scaled_cost_rank - pr  # positive = outperforming price tag
         picks_out.append({
             "player": pick.get("player_name") or entry.get("name"),
             "team": team_names.get(pick.get("team_id"), "Unassigned"),
-            "draftPick": pick["overall_pick"],
+            "auctionValue": pick["bid_amount"],
             "performanceRank": pr,
-            "valueDelta": value_delta,
+            "valueDelta": round(value_delta, 1),
             "zTotal": round(entry["zTotal"], 2),
         })
         tid = pick.get("team_id")
