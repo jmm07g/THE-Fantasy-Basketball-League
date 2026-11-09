@@ -65,6 +65,20 @@ def build_data_blob(dataset):
             f"espn_league_sync.py (the one that builds powerRankings/zProfile/weekly), "
             f"overwrite it in the repo, and re-run the sync step before rebuilding."
         )
+    # Guard against a "technically valid but empty" dataset — e.g. the sync script
+    # requested a matchup period that doesn't exist (wrong week number), so ESPN
+    # returned no matchups and every list above is empty. Shipping that would
+    # silently regenerate a placeholder-looking dashboard instead of failing loudly.
+    empty = [k for k in required if len(dataset[k]) == 0]
+    if empty:
+        sys.exit(
+            f"league_data.json has required key(s) but they're EMPTY: {empty}.\n"
+            f"This usually means espn_league_sync.py queried the wrong matchup week "
+            f"(e.g. confused ESPN's day-count 'scoringPeriodId' with the real fantasy "
+            f"'currentMatchupPeriod'), so no matchup data came back. Check current_week "
+            f"in league_data.json against the real fantasy week on espn.com before "
+            f"re-running."
+        )
     return {
         "powerRankings": dataset["powerRankings"],
         "zProfile": dataset["zProfile"],
