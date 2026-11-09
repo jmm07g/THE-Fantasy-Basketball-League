@@ -42,6 +42,11 @@ METHODOLOGY = [
     ["Manager of the Week", "Compares each team's weekly z-score total between the two most recent weeks. The biggest positive jump wins; the biggest drop gets the tongue-in-cheek 'Free Fall Award.' A hot-streak indicator, not a season-quality measure."],
     ["Weekly Badge Cabinet", "Category-leader badges (e.g. Sharpshooter, Glass Cleaner) are awarded to whoever posted the single best raw total in that category during the most recent week. 'Wooden Spoon' goes to the lowest combined weekly z-score. Recalculates every week as new data comes in."],
     ["Season Storylines (badges)", "Season-long badges derived from existing metrics: Horseshoe Award/Cursed = highest/lowest Luck Index, Roller Coaster/Mr. Reliable = highest/lowest Consistency, Rocket Ship/Cooling Off = highest/lowest Trend, Buy-Low/Sell-High = highest/lowest Rank Delta."],
+    ["Player Z-Score Contribution", "Every rostered player is z-scored against the full league player pool (rostered + free agents) in each of the 8 categories, using season-average per-game stats. A team's roster is then sorted by each player's summed z-score (zTotal) to show who's actually driving the team's category strengths and who's dragging them down."],
+    ["Waiver Wire Report Card", "Grades each add/drop transaction by comparing the added and dropped player's current zTotal (season-average z-score, league-wide). Net Value = Added zTotal − Dropped zTotal. This grades the move using today's full-season numbers, not the players' value at the moment of the transaction (ESPN's API doesn't expose a historical snapshot) — read it as 'how did this move age', not a live trade grade."],
+    ["Matchup Win Probability", "For the current week's real scheduled matchup, each team's 8 category outputs are modeled as a normal distribution using that team's own season mean/standard deviation so far. Per-category win probability is the probability one team's distribution exceeds the other's, given both means and variances. Team-level, not lineup/player-level — ESPN's API doesn't expose games-remaining-this-week per roster slot."],
+    ["Draft Grade Retrospective", "Every player's current zTotal (season z-score vs the full player pool) is converted into a league-wide performance rank (#1 = best performer). Value Delta = Draft Pick # − Performance Rank; positive means the player is outperforming where they were drafted (a steal), negative means underperforming (a bust). Team Grade = average Value Delta across all of a team's picks still trackable in today's player pool."],
+    ["Rivalry Score", "For every pair of teams that has actually played each other this season, tracks the cumulative category W-L-T between just those two teams, plus the single closest-margin category decision between them (the biggest nail-biter), as a storyline/rivalry hook."],
     ["To update", "This file is auto-generated weekly by the GitHub Actions pipeline (espn_league_sync.py -> build_dashboard.py). No manual edits needed — they'll be overwritten on the next run."],
 ]
 
@@ -84,6 +89,15 @@ def build_data_blob(dataset):
         "zProfile": dataset["zProfile"],
         "weekly": dataset["weekly"],
         "methodology": METHODOLOGY,
+        # New feature datasets — optional; each defaults to an empty shape if the
+        # sync script's corresponding builder failed or an older league_data.json
+        # predates these fields, so the dashboard degrades gracefully rather than
+        # crashing on a missing key.
+        "playerContribution": dataset.get("playerContribution", []),
+        "waiverReport": dataset.get("waiverReport", []),
+        "matchupWinProb": dataset.get("matchupWinProb", []),
+        "draftGrades": dataset.get("draftGrades", {"picks": [], "team_grades": []}),
+        "rivalryScores": dataset.get("rivalryScores", []),
     }
 
 
