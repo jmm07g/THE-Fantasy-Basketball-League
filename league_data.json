@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T17:12:25.116658Z",
+  "generated_at": "2026-11-09T17:33:51.707705Z",
   "league_id": 249846,
   "season_year": 2027,
   "current_week": 21,
@@ -133,7 +133,10 @@
           "lineup_slot_id": 12,
           "injury_status": "ACTIVE"
         }
-      ]
+      ],
+      "wins": 14,
+      "losses": 9,
+      "ties": 1
     },
     {
       "team_id": 3,
@@ -238,7 +241,10 @@
           "lineup_slot_id": 2,
           "injury_status": "ACTIVE"
         }
-      ]
+      ],
+      "wins": 14,
+      "losses": 10,
+      "ties": 0
     },
     {
       "team_id": 4,
@@ -336,7 +342,10 @@
           "lineup_slot_id": 12,
           "injury_status": "ACTIVE"
         }
-      ]
+      ],
+      "wins": 11,
+      "losses": 13,
+      "ties": 0
     },
     {
       "team_id": 5,
@@ -448,7 +457,10 @@
           "lineup_slot_id": 2,
           "injury_status": "ACTIVE"
         }
-      ]
+      ],
+      "wins": 11,
+      "losses": 13,
+      "ties": 0
     },
     {
       "team_id": 7,
@@ -546,7 +558,10 @@
           "lineup_slot_id": 12,
           "injury_status": "ACTIVE"
         }
-      ]
+      ],
+      "wins": 13,
+      "losses": 10,
+      "ties": 1
     },
     {
       "team_id": 8,
@@ -658,7 +673,10 @@
           "lineup_slot_id": 12,
           "injury_status": "ACTIVE"
         }
-      ]
+      ],
+      "wins": 10,
+      "losses": 14,
+      "ties": 0
     },
     {
       "team_id": 9,
@@ -763,7 +781,10 @@
           "lineup_slot_id": 12,
           "injury_status": "ACTIVE"
         }
-      ]
+      ],
+      "wins": 10,
+      "losses": 14,
+      "ties": 0
     },
     {
       "team_id": 10,
@@ -882,7 +903,10 @@
           "lineup_slot_id": 12,
           "injury_status": "ACTIVE"
         }
-      ]
+      ],
+      "wins": 9,
+      "losses": 15,
+      "ties": 0
     },
     {
       "team_id": 12,
@@ -980,7 +1004,10 @@
           "lineup_slot_id": 11,
           "injury_status": "ACTIVE"
         }
-      ]
+      ],
+      "wins": 17,
+      "losses": 7,
+      "ties": 0
     },
     {
       "team_id": 13,
@@ -1092,7 +1119,10 @@
           "lineup_slot_id": 12,
           "injury_status": "ACTIVE"
         }
-      ]
+      ],
+      "wins": 12,
+      "losses": 12,
+      "ties": 0
     },
     {
       "team_id": 15,
@@ -1190,7 +1220,10 @@
           "lineup_slot_id": 0,
           "injury_status": "ACTIVE"
         }
-      ]
+      ],
+      "wins": 13,
+      "losses": 11,
+      "ties": 0
     },
     {
       "team_id": 16,
@@ -1295,7 +1328,10 @@
           "lineup_slot_id": 11,
           "injury_status": "ACTIVE"
         }
-      ]
+      ],
+      "wins": 9,
+      "losses": 15,
+      "ties": 0
     }
   ],
   "team_names": {
@@ -1629,21 +1665,6 @@
       }
     },
     {
-      "player_id": 4431785,
-      "name": "Scotty Pippen Jr.",
-      "percent_owned": 53,
-      "stats": {
-        "FG%": 0.44791667,
-        "FT%": 0.7826087,
-        "3PM": 10.0,
-        "REB": 22.0,
-        "AST": 47.0,
-        "STL": 19.0,
-        "BLK": 4.0,
-        "PTS": 114.0
-      }
-    },
-    {
       "player_id": 4278129,
       "name": "Deandre Ayton",
       "percent_owned": 38,
@@ -1656,6 +1677,21 @@
         "STL": 41.0,
         "BLK": 70.0,
         "PTS": 897.0
+      }
+    },
+    {
+      "player_id": 4431785,
+      "name": "Scotty Pippen Jr.",
+      "percent_owned": 53,
+      "stats": {
+        "FG%": 0.44791667,
+        "FT%": 0.7826087,
+        "3PM": 10.0,
+        "REB": 22.0,
+        "AST": 47.0,
+        "STL": 19.0,
+        "BLK": 4.0,
+        "PTS": 114.0
       }
     },
     {
@@ -1884,21 +1920,6 @@
       }
     },
     {
-      "player_id": 4395626,
-      "name": "Tre Jones",
-      "percent_owned": 39,
-      "stats": {
-        "FG%": 0.55267423,
-        "FT%": 0.84140969,
-        "3PM": 41.0,
-        "REB": 204.0,
-        "AST": 350.0,
-        "STL": 76.0,
-        "BLK": 11.0,
-        "PTS": 914.0
-      }
-    },
-    {
       "player_id": 4065732,
       "name": "De'Andre Hunter",
       "percent_owned": 53,
@@ -1911,6 +1932,21 @@
         "STL": 30.0,
         "BLK": 6.0,
         "PTS": 615.0
+      }
+    },
+    {
+      "player_id": 4395626,
+      "name": "Tre Jones",
+      "percent_owned": 39,
+      "stats": {
+        "FG%": 0.55267423,
+        "FT%": 0.84140969,
+        "3PM": 41.0,
+        "REB": 204.0,
+        "AST": 350.0,
+        "STL": 76.0,
+        "BLK": 11.0,
+        "PTS": 914.0
       }
     },
     {
@@ -1959,6 +1995,21 @@
       }
     },
     {
+      "player_id": 4432241,
+      "name": "Jamal Shead",
+      "percent_owned": 35,
+      "stats": {
+        "FG%": 0.36706349,
+        "FT%": 0.78448276,
+        "3PM": 84.0,
+        "REB": 143.0,
+        "AST": 444.0,
+        "STL": 76.0,
+        "BLK": 15.0,
+        "PTS": 545.0
+      }
+    },
+    {
       "player_id": 4997538,
       "name": "Karlo Matkovic",
       "percent_owned": 18,
@@ -1986,21 +2037,6 @@
         "STL": 31.0,
         "BLK": 6.0,
         "PTS": 448.0
-      }
-    },
-    {
-      "player_id": 4432241,
-      "name": "Jamal Shead",
-      "percent_owned": 35,
-      "stats": {
-        "FG%": 0.36706349,
-        "FT%": 0.78448276,
-        "3PM": 84.0,
-        "REB": 143.0,
-        "AST": 444.0,
-        "STL": 76.0,
-        "BLK": 15.0,
-        "PTS": 545.0
       }
     },
     {
@@ -2034,6 +2070,21 @@
       }
     },
     {
+      "player_id": 5107199,
+      "name": "Daniss Jenkins",
+      "percent_owned": 32,
+      "stats": {
+        "FG%": 0.4084507,
+        "FT%": 0.83229814,
+        "3PM": 73.0,
+        "REB": 166.0,
+        "AST": 278.0,
+        "STL": 64.0,
+        "BLK": 15.0,
+        "PTS": 671.0
+      }
+    },
+    {
       "player_id": 4278580,
       "name": "Sandro Mamukelashvili",
       "percent_owned": 26,
@@ -2061,21 +2112,6 @@
         "STL": 55.0,
         "BLK": 11.0,
         "PTS": 756.0
-      }
-    },
-    {
-      "player_id": 5107199,
-      "name": "Daniss Jenkins",
-      "percent_owned": 32,
-      "stats": {
-        "FG%": 0.4084507,
-        "FT%": 0.83229814,
-        "3PM": 73.0,
-        "REB": 166.0,
-        "AST": 278.0,
-        "STL": 64.0,
-        "BLK": 15.0,
-        "PTS": 671.0
       }
     },
     {
@@ -2334,21 +2370,6 @@
       }
     },
     {
-      "player_id": 4592492,
-      "name": "Bones Hyland",
-      "percent_owned": 37,
-      "stats": {
-        "FG%": 0.45299145,
-        "FT%": 0.7804878,
-        "3PM": 116.0,
-        "REB": 127.0,
-        "AST": 188.0,
-        "STL": 44.0,
-        "BLK": 17.0,
-        "PTS": 604.0
-      }
-    },
-    {
       "player_id": 4896372,
       "name": "Walter Clayton Jr.",
       "percent_owned": 37,
@@ -2361,6 +2382,21 @@
         "STL": 44.0,
         "BLK": 19.0,
         "PTS": 538.0
+      }
+    },
+    {
+      "player_id": 4592492,
+      "name": "Bones Hyland",
+      "percent_owned": 37,
+      "stats": {
+        "FG%": 0.45299145,
+        "FT%": 0.7804878,
+        "3PM": 116.0,
+        "REB": 127.0,
+        "AST": 188.0,
+        "STL": 44.0,
+        "BLK": 17.0,
+        "PTS": 604.0
       }
     },
     {
@@ -2409,21 +2445,6 @@
       }
     },
     {
-      "player_id": 2581018,
-      "name": "Kentavious Caldwell-Pope",
-      "percent_owned": 27,
-      "stats": {
-        "FG%": 0.40983607,
-        "FT%": 0.9125,
-        "3PM": 55.0,
-        "REB": 125.0,
-        "AST": 139.0,
-        "STL": 43.0,
-        "BLK": 8.0,
-        "PTS": 428.0
-      }
-    },
-    {
       "player_id": 4397040,
       "name": "Brandon Williams",
       "percent_owned": 38,
@@ -2439,18 +2460,18 @@
       }
     },
     {
-      "player_id": 3150844,
-      "name": "Moritz Wagner",
-      "percent_owned": 32,
+      "player_id": 2581018,
+      "name": "Kentavious Caldwell-Pope",
+      "percent_owned": 27,
       "stats": {
-        "FG%": 0.42564103,
-        "FT%": 0.81944444,
-        "3PM": 22.0,
-        "REB": 115.0,
-        "AST": 27.0,
-        "STL": 15.0,
-        "BLK": 2.0,
-        "PTS": 247.0
+        "FG%": 0.40983607,
+        "FT%": 0.9125,
+        "3PM": 55.0,
+        "REB": 125.0,
+        "AST": 139.0,
+        "STL": 43.0,
+        "BLK": 8.0,
+        "PTS": 428.0
       }
     },
     {
@@ -2466,6 +2487,21 @@
         "STL": 52.0,
         "BLK": 29.0,
         "PTS": 352.0
+      }
+    },
+    {
+      "player_id": 3150844,
+      "name": "Moritz Wagner",
+      "percent_owned": 32,
+      "stats": {
+        "FG%": 0.42564103,
+        "FT%": 0.81944444,
+        "3PM": 22.0,
+        "REB": 115.0,
+        "AST": 27.0,
+        "STL": 15.0,
+        "BLK": 2.0,
+        "PTS": 247.0
       }
     },
     {
@@ -2679,21 +2715,6 @@
       }
     },
     {
-      "player_id": 4277813,
-      "name": "Herbert Jones",
-      "percent_owned": 60,
-      "stats": {
-        "FG%": 0.38284519,
-        "FT%": 0.80645161,
-        "3PM": 80.0,
-        "REB": 190.0,
-        "AST": 155.0,
-        "STL": 88.0,
-        "BLK": 27.0,
-        "PTS": 496.0
-      }
-    },
-    {
       "player_id": 5106258,
       "name": "Gradey Dick",
       "percent_owned": 45,
@@ -2724,18 +2745,18 @@
       }
     },
     {
-      "player_id": 5105839,
-      "name": "Brice Sensabaugh",
-      "percent_owned": 51,
+      "player_id": 4277813,
+      "name": "Herbert Jones",
+      "percent_owned": 60,
       "stats": {
-        "FG%": 0.45974329,
-        "FT%": 0.82587065,
-        "3PM": 162.0,
-        "REB": 231.0,
-        "AST": 143.0,
-        "STL": 54.0,
-        "BLK": 12.0,
-        "PTS": 1116.0
+        "FG%": 0.38284519,
+        "FT%": 0.80645161,
+        "3PM": 80.0,
+        "REB": 190.0,
+        "AST": 155.0,
+        "STL": 88.0,
+        "BLK": 27.0,
+        "PTS": 496.0
       }
     },
     {
@@ -2751,6 +2772,21 @@
         "STL": 11.0,
         "BLK": 0.0,
         "PTS": 47.0
+      }
+    },
+    {
+      "player_id": 5105839,
+      "name": "Brice Sensabaugh",
+      "percent_owned": 51,
+      "stats": {
+        "FG%": 0.45974329,
+        "FT%": 0.82587065,
+        "3PM": 162.0,
+        "REB": 231.0,
+        "AST": 143.0,
+        "STL": 54.0,
+        "BLK": 12.0,
+        "PTS": 1116.0
       }
     },
     {
@@ -2799,21 +2835,6 @@
       }
     },
     {
-      "player_id": 5214640,
-      "name": "Kasparas Jakucionis",
-      "percent_owned": 43,
-      "stats": {
-        "FG%": 0.42857143,
-        "FT%": 0.87878788,
-        "3PM": 66.0,
-        "REB": 138.0,
-        "AST": 137.0,
-        "STL": 33.0,
-        "BLK": 7.0,
-        "PTS": 328.0
-      }
-    },
-    {
       "player_id": 4432907,
       "name": "Justin Champagnie",
       "percent_owned": 63,
@@ -2841,6 +2862,21 @@
         "STL": 35.0,
         "BLK": 9.0,
         "PTS": 491.0
+      }
+    },
+    {
+      "player_id": 5214640,
+      "name": "Kasparas Jakucionis",
+      "percent_owned": 43,
+      "stats": {
+        "FG%": 0.42857143,
+        "FT%": 0.87878788,
+        "3PM": 66.0,
+        "REB": 138.0,
+        "AST": 137.0,
+        "STL": 33.0,
+        "BLK": 7.0,
+        "PTS": 328.0
       }
     },
     {
@@ -3189,21 +3225,6 @@
       }
     },
     {
-      "player_id": 4397475,
-      "name": "AJ Green",
-      "percent_owned": 44,
-      "stats": {
-        "FG%": 0.42394822,
-        "FT%": 0.85483871,
-        "3PM": 232.0,
-        "REB": 213.0,
-        "AST": 152.0,
-        "STL": 39.0,
-        "BLK": 8.0,
-        "PTS": 809.0
-      }
-    },
-    {
       "player_id": 4277951,
       "name": "Luka Garza",
       "percent_owned": 42,
@@ -3216,6 +3237,21 @@
         "STL": 27.0,
         "BLK": 28.0,
         "PTS": 557.0
+      }
+    },
+    {
+      "player_id": 4397475,
+      "name": "AJ Green",
+      "percent_owned": 44,
+      "stats": {
+        "FG%": 0.42394822,
+        "FT%": 0.85483871,
+        "3PM": 232.0,
+        "REB": 213.0,
+        "AST": 152.0,
+        "STL": 39.0,
+        "BLK": 8.0,
+        "PTS": 809.0
       }
     },
     {
@@ -3264,21 +3300,6 @@
       }
     },
     {
-      "player_id": 5239561,
-      "name": "Jase Richardson",
-      "percent_owned": 61,
-      "stats": {
-        "FG%": 0.47340426,
-        "FT%": 0.7173913,
-        "3PM": 28.0,
-        "REB": 63.0,
-        "AST": 58.0,
-        "STL": 19.0,
-        "BLK": 2.0,
-        "PTS": 239.0
-      }
-    },
-    {
       "player_id": 2596112,
       "name": "Javonte Green",
       "percent_owned": 45,
@@ -3291,6 +3312,21 @@
         "STL": 102.0,
         "BLK": 25.0,
         "PTS": 569.0
+      }
+    },
+    {
+      "player_id": 5239561,
+      "name": "Jase Richardson",
+      "percent_owned": 61,
+      "stats": {
+        "FG%": 0.47340426,
+        "FT%": 0.7173913,
+        "3PM": 28.0,
+        "REB": 63.0,
+        "AST": 58.0,
+        "STL": 19.0,
+        "BLK": 2.0,
+        "PTS": 239.0
       }
     },
     {
@@ -3324,21 +3360,6 @@
       }
     },
     {
-      "player_id": 5105854,
-      "name": "Braden Smith",
-      "percent_owned": 49,
-      "stats": {
-        "FG%": 0.44827586,
-        "FT%": 0.5,
-        "3PM": 2.0,
-        "REB": 5.0,
-        "AST": 19.0,
-        "STL": 7.0,
-        "BLK": 3.0,
-        "PTS": 30.0
-      }
-    },
-    {
       "player_id": 5164559,
       "name": "Nate Ament",
       "percent_owned": 72,
@@ -3366,6 +3387,21 @@
         "STL": 15.0,
         "BLK": 8.0,
         "PTS": 193.0
+      }
+    },
+    {
+      "player_id": 5105854,
+      "name": "Braden Smith",
+      "percent_owned": 49,
+      "stats": {
+        "FG%": 0.44827586,
+        "FT%": 0.5,
+        "3PM": 2.0,
+        "REB": 5.0,
+        "AST": 19.0,
+        "STL": 7.0,
+        "BLK": 3.0,
+        "PTS": 30.0
       }
     },
     {
@@ -3444,21 +3480,6 @@
       }
     },
     {
-      "player_id": 5044385,
-      "name": "Leonard Miller",
-      "percent_owned": 58,
-      "stats": {
-        "FG%": 0.55343511,
-        "FT%": 0.73584906,
-        "3PM": 32.0,
-        "REB": 181.0,
-        "AST": 40.0,
-        "STL": 17.0,
-        "BLK": 15.0,
-        "PTS": 361.0
-      }
-    },
-    {
       "player_id": 4578893,
       "name": "Vit Krejci",
       "percent_owned": 65,
@@ -3471,6 +3492,21 @@
         "STL": 47.0,
         "BLK": 18.0,
         "PTS": 550.0
+      }
+    },
+    {
+      "player_id": 5044385,
+      "name": "Leonard Miller",
+      "percent_owned": 58,
+      "stats": {
+        "FG%": 0.55343511,
+        "FT%": 0.73584906,
+        "3PM": 32.0,
+        "REB": 181.0,
+        "AST": 40.0,
+        "STL": 17.0,
+        "BLK": 15.0,
+        "PTS": 361.0
       }
     },
     {
@@ -3564,4688 +3600,6 @@
       }
     }
   ],
-  "weekly_matchup_stats": {
-    "1": {
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "2": {
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "3": {
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "4": {
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "5": {
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "6": {
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "7": {
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "8": {
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "9": {
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "10": {
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "11": {
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "12": {
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "13": {
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "14": {
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "15": {
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "16": {
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    },
-    "17": {
-      "13": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "8": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "1": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "9": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "3": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "12": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "15": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "10": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "4": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "7": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "16": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      },
-      "5": {
-        "FG%": null,
-        "FT%": null,
-        "3PM": null,
-        "REB": null,
-        "AST": null,
-        "STL": null,
-        "BLK": null,
-        "PTS": null
-      }
-    }
-  },
-  "weekly_zscores": {
-    "1": {
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "2": {
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "3": {
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "4": {
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "5": {
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "6": {
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "7": {
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "8": {
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "9": {
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "10": {
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "11": {
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "12": {
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "13": {
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "14": {
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "15": {
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "16": {
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    },
-    "17": {
-      "13": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "8": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "1": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "9": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "3": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "12": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "15": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "10": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "4": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "7": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "16": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      },
-      "5": {
-        "FG%": 0.0,
-        "FT%": 0.0,
-        "3PM": 0.0,
-        "REB": 0.0,
-        "AST": 0.0,
-        "STL": 0.0,
-        "BLK": 0.0,
-        "PTS": 0.0
-      }
-    }
-  },
-  "weekly_power_scores": {
-    "1": {
-      "16": 0.0,
-      "8": 0.0,
-      "5": 0.0,
-      "4": 0.0,
-      "7": 0.0,
-      "15": 0.0,
-      "10": 0.0,
-      "3": 0.0,
-      "12": 0.0,
-      "1": 0.0,
-      "9": 0.0,
-      "13": 0.0
-    },
-    "2": {
-      "8": 0.0,
-      "4": 0.0,
-      "15": 0.0,
-      "16": 0.0,
-      "3": 0.0,
-      "5": 0.0,
-      "1": 0.0,
-      "7": 0.0,
-      "13": 0.0,
-      "10": 0.0,
-      "9": 0.0,
-      "12": 0.0
-    },
-    "3": {
-      "15": 0.0,
-      "8": 0.0,
-      "4": 0.0,
-      "3": 0.0,
-      "16": 0.0,
-      "1": 0.0,
-      "5": 0.0,
-      "13": 0.0,
-      "7": 0.0,
-      "9": 0.0,
-      "10": 0.0,
-      "12": 0.0
-    },
-    "4": {
-      "8": 0.0,
-      "3": 0.0,
-      "1": 0.0,
-      "15": 0.0,
-      "13": 0.0,
-      "4": 0.0,
-      "9": 0.0,
-      "16": 0.0,
-      "12": 0.0,
-      "5": 0.0,
-      "10": 0.0,
-      "7": 0.0
-    },
-    "5": {
-      "1": 0.0,
-      "8": 0.0,
-      "3": 0.0,
-      "13": 0.0,
-      "15": 0.0,
-      "9": 0.0,
-      "4": 0.0,
-      "12": 0.0,
-      "16": 0.0,
-      "10": 0.0,
-      "5": 0.0,
-      "7": 0.0
-    },
-    "6": {
-      "8": 0.0,
-      "13": 0.0,
-      "9": 0.0,
-      "1": 0.0,
-      "12": 0.0,
-      "3": 0.0,
-      "10": 0.0,
-      "15": 0.0,
-      "7": 0.0,
-      "4": 0.0,
-      "5": 0.0,
-      "16": 0.0
-    },
-    "7": {
-      "9": 0.0,
-      "8": 0.0,
-      "13": 0.0,
-      "12": 0.0,
-      "1": 0.0,
-      "10": 0.0,
-      "3": 0.0,
-      "7": 0.0,
-      "15": 0.0,
-      "5": 0.0,
-      "4": 0.0,
-      "16": 0.0
-    },
-    "8": {
-      "8": 0.0,
-      "12": 0.0,
-      "10": 0.0,
-      "9": 0.0,
-      "7": 0.0,
-      "13": 0.0,
-      "5": 0.0,
-      "1": 0.0,
-      "16": 0.0,
-      "3": 0.0,
-      "4": 0.0,
-      "15": 0.0
-    },
-    "9": {
-      "10": 0.0,
-      "8": 0.0,
-      "12": 0.0,
-      "7": 0.0,
-      "9": 0.0,
-      "5": 0.0,
-      "13": 0.0,
-      "16": 0.0,
-      "1": 0.0,
-      "4": 0.0,
-      "3": 0.0,
-      "15": 0.0
-    },
-    "10": {
-      "8": 0.0,
-      "7": 0.0,
-      "5": 0.0,
-      "10": 0.0,
-      "16": 0.0,
-      "12": 0.0,
-      "4": 0.0,
-      "9": 0.0,
-      "15": 0.0,
-      "13": 0.0,
-      "3": 0.0,
-      "1": 0.0
-    },
-    "11": {
-      "5": 0.0,
-      "8": 0.0,
-      "7": 0.0,
-      "16": 0.0,
-      "10": 0.0,
-      "4": 0.0,
-      "12": 0.0,
-      "15": 0.0,
-      "9": 0.0,
-      "3": 0.0,
-      "13": 0.0,
-      "1": 0.0
-    },
-    "12": {
-      "8": 0.0,
-      "16": 0.0,
-      "4": 0.0,
-      "5": 0.0,
-      "15": 0.0,
-      "7": 0.0,
-      "3": 0.0,
-      "10": 0.0,
-      "1": 0.0,
-      "12": 0.0,
-      "13": 0.0,
-      "9": 0.0
-    },
-    "13": {
-      "4": 0.0,
-      "8": 0.0,
-      "16": 0.0,
-      "15": 0.0,
-      "5": 0.0,
-      "3": 0.0,
-      "7": 0.0,
-      "1": 0.0,
-      "10": 0.0,
-      "13": 0.0,
-      "12": 0.0,
-      "9": 0.0
-    },
-    "14": {
-      "8": 0.0,
-      "15": 0.0,
-      "3": 0.0,
-      "4": 0.0,
-      "1": 0.0,
-      "16": 0.0,
-      "13": 0.0,
-      "5": 0.0,
-      "9": 0.0,
-      "7": 0.0,
-      "12": 0.0,
-      "10": 0.0
-    },
-    "15": {
-      "3": 0.0,
-      "8": 0.0,
-      "15": 0.0,
-      "1": 0.0,
-      "4": 0.0,
-      "13": 0.0,
-      "16": 0.0,
-      "9": 0.0,
-      "5": 0.0,
-      "12": 0.0,
-      "7": 0.0,
-      "10": 0.0
-    },
-    "16": {
-      "8": 0.0,
-      "1": 0.0,
-      "13": 0.0,
-      "3": 0.0,
-      "9": 0.0,
-      "15": 0.0,
-      "12": 0.0,
-      "4": 0.0,
-      "10": 0.0,
-      "16": 0.0,
-      "7": 0.0,
-      "5": 0.0
-    },
-    "17": {
-      "13": 0.0,
-      "8": 0.0,
-      "1": 0.0,
-      "9": 0.0,
-      "3": 0.0,
-      "12": 0.0,
-      "15": 0.0,
-      "10": 0.0,
-      "4": 0.0,
-      "7": 0.0,
-      "16": 0.0,
-      "5": 0.0
-    }
-  },
-  "season_power_summary": {
-    "1": {
-      "weekly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "avg": 0.0,
-      "consistency_std": 0.0,
-      "trend_slope": 0.0
-    },
-    "3": {
-      "weekly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "avg": 0.0,
-      "consistency_std": 0.0,
-      "trend_slope": 0.0
-    },
-    "4": {
-      "weekly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "avg": 0.0,
-      "consistency_std": 0.0,
-      "trend_slope": 0.0
-    },
-    "5": {
-      "weekly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "avg": 0.0,
-      "consistency_std": 0.0,
-      "trend_slope": 0.0
-    },
-    "7": {
-      "weekly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "avg": 0.0,
-      "consistency_std": 0.0,
-      "trend_slope": 0.0
-    },
-    "8": {
-      "weekly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "avg": 0.0,
-      "consistency_std": 0.0,
-      "trend_slope": 0.0
-    },
-    "9": {
-      "weekly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "avg": 0.0,
-      "consistency_std": 0.0,
-      "trend_slope": 0.0
-    },
-    "10": {
-      "weekly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "avg": 0.0,
-      "consistency_std": 0.0,
-      "trend_slope": 0.0
-    },
-    "12": {
-      "weekly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "avg": 0.0,
-      "consistency_std": 0.0,
-      "trend_slope": 0.0
-    },
-    "13": {
-      "weekly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "avg": 0.0,
-      "consistency_std": 0.0,
-      "trend_slope": 0.0
-    },
-    "15": {
-      "weekly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "avg": 0.0,
-      "consistency_std": 0.0,
-      "trend_slope": 0.0
-    },
-    "16": {
-      "weekly": [
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "avg": 0.0,
-      "consistency_std": 0.0,
-      "trend_slope": 0.0
-    }
-  },
   "transactions": [
     {
       "type": "ROSTER",
@@ -9629,5 +4983,334 @@
         }
       ]
     }
-  ]
+  ],
+  "powerRankings": [
+    {
+      "team": "Team 1",
+      "powerScore": 0.0,
+      "consistency": 0.0,
+      "trend": 0.0,
+      "catW": 0,
+      "catL": 0,
+      "catT": 0,
+      "expCatW": 0.0,
+      "luckIndex": 0.0,
+      "topCats": "FG%, FT%",
+      "weakCats": "BLK, PTS",
+      "powerRank": 1,
+      "actualRank": 2,
+      "rankDelta": 1
+    },
+    {
+      "team": "Team 3",
+      "powerScore": 0.0,
+      "consistency": 0.0,
+      "trend": 0.0,
+      "catW": 0,
+      "catL": 0,
+      "catT": 0,
+      "expCatW": 0.0,
+      "luckIndex": 0.0,
+      "topCats": "FG%, FT%",
+      "weakCats": "BLK, PTS",
+      "powerRank": 2,
+      "actualRank": 3,
+      "rankDelta": 1
+    },
+    {
+      "team": "Team 4",
+      "powerScore": 0.0,
+      "consistency": 0.0,
+      "trend": 0.0,
+      "catW": 0,
+      "catL": 0,
+      "catT": 0,
+      "expCatW": 0.0,
+      "luckIndex": 0.0,
+      "topCats": "FG%, FT%",
+      "weakCats": "BLK, PTS",
+      "powerRank": 3,
+      "actualRank": 7,
+      "rankDelta": 4
+    },
+    {
+      "team": "Team 5",
+      "powerScore": 0.0,
+      "consistency": 0.0,
+      "trend": 0.0,
+      "catW": 0,
+      "catL": 0,
+      "catT": 0,
+      "expCatW": 0.0,
+      "luckIndex": 0.0,
+      "topCats": "FG%, FT%",
+      "weakCats": "BLK, PTS",
+      "powerRank": 4,
+      "actualRank": 8,
+      "rankDelta": 4
+    },
+    {
+      "team": "Team 7",
+      "powerScore": 0.0,
+      "consistency": 0.0,
+      "trend": 0.0,
+      "catW": 0,
+      "catL": 0,
+      "catT": 0,
+      "expCatW": 0.0,
+      "luckIndex": 0.0,
+      "topCats": "FG%, FT%",
+      "weakCats": "BLK, PTS",
+      "powerRank": 5,
+      "actualRank": 4,
+      "rankDelta": -1
+    },
+    {
+      "team": "Team 8",
+      "powerScore": 0.0,
+      "consistency": 0.0,
+      "trend": 0.0,
+      "catW": 0,
+      "catL": 0,
+      "catT": 0,
+      "expCatW": 0.0,
+      "luckIndex": 0.0,
+      "topCats": "FG%, FT%",
+      "weakCats": "BLK, PTS",
+      "powerRank": 6,
+      "actualRank": 9,
+      "rankDelta": 3
+    },
+    {
+      "team": "Team 9",
+      "powerScore": 0.0,
+      "consistency": 0.0,
+      "trend": 0.0,
+      "catW": 0,
+      "catL": 0,
+      "catT": 0,
+      "expCatW": 0.0,
+      "luckIndex": 0.0,
+      "topCats": "FG%, FT%",
+      "weakCats": "BLK, PTS",
+      "powerRank": 7,
+      "actualRank": 10,
+      "rankDelta": 3
+    },
+    {
+      "team": "Team 10",
+      "powerScore": 0.0,
+      "consistency": 0.0,
+      "trend": 0.0,
+      "catW": 0,
+      "catL": 0,
+      "catT": 0,
+      "expCatW": 0.0,
+      "luckIndex": 0.0,
+      "topCats": "FG%, FT%",
+      "weakCats": "BLK, PTS",
+      "powerRank": 8,
+      "actualRank": 11,
+      "rankDelta": 3
+    },
+    {
+      "team": "Team 12",
+      "powerScore": 0.0,
+      "consistency": 0.0,
+      "trend": 0.0,
+      "catW": 0,
+      "catL": 0,
+      "catT": 0,
+      "expCatW": 0.0,
+      "luckIndex": 0.0,
+      "topCats": "FG%, FT%",
+      "weakCats": "BLK, PTS",
+      "powerRank": 9,
+      "actualRank": 1,
+      "rankDelta": -8
+    },
+    {
+      "team": "Team 13",
+      "powerScore": 0.0,
+      "consistency": 0.0,
+      "trend": 0.0,
+      "catW": 0,
+      "catL": 0,
+      "catT": 0,
+      "expCatW": 0.0,
+      "luckIndex": 0.0,
+      "topCats": "FG%, FT%",
+      "weakCats": "BLK, PTS",
+      "powerRank": 10,
+      "actualRank": 6,
+      "rankDelta": -4
+    },
+    {
+      "team": "Team 15",
+      "powerScore": 0.0,
+      "consistency": 0.0,
+      "trend": 0.0,
+      "catW": 0,
+      "catL": 0,
+      "catT": 0,
+      "expCatW": 0.0,
+      "luckIndex": 0.0,
+      "topCats": "FG%, FT%",
+      "weakCats": "BLK, PTS",
+      "powerRank": 11,
+      "actualRank": 5,
+      "rankDelta": -6
+    },
+    {
+      "team": "Team 16",
+      "powerScore": 0.0,
+      "consistency": 0.0,
+      "trend": 0.0,
+      "catW": 0,
+      "catL": 0,
+      "catT": 0,
+      "expCatW": 0.0,
+      "luckIndex": 0.0,
+      "topCats": "FG%, FT%",
+      "weakCats": "BLK, PTS",
+      "powerRank": 12,
+      "actualRank": 12,
+      "rankDelta": 0
+    }
+  ],
+  "zProfile": [
+    {
+      "team": "Team 1",
+      "FG%": 0.0,
+      "FT%": 0.0,
+      "3PM": 0.0,
+      "REB": 0.0,
+      "AST": 0.0,
+      "STL": 0.0,
+      "BLK": 0.0,
+      "PTS": 0.0
+    },
+    {
+      "team": "Team 3",
+      "FG%": 0.0,
+      "FT%": 0.0,
+      "3PM": 0.0,
+      "REB": 0.0,
+      "AST": 0.0,
+      "STL": 0.0,
+      "BLK": 0.0,
+      "PTS": 0.0
+    },
+    {
+      "team": "Team 4",
+      "FG%": 0.0,
+      "FT%": 0.0,
+      "3PM": 0.0,
+      "REB": 0.0,
+      "AST": 0.0,
+      "STL": 0.0,
+      "BLK": 0.0,
+      "PTS": 0.0
+    },
+    {
+      "team": "Team 5",
+      "FG%": 0.0,
+      "FT%": 0.0,
+      "3PM": 0.0,
+      "REB": 0.0,
+      "AST": 0.0,
+      "STL": 0.0,
+      "BLK": 0.0,
+      "PTS": 0.0
+    },
+    {
+      "team": "Team 7",
+      "FG%": 0.0,
+      "FT%": 0.0,
+      "3PM": 0.0,
+      "REB": 0.0,
+      "AST": 0.0,
+      "STL": 0.0,
+      "BLK": 0.0,
+      "PTS": 0.0
+    },
+    {
+      "team": "Team 8",
+      "FG%": 0.0,
+      "FT%": 0.0,
+      "3PM": 0.0,
+      "REB": 0.0,
+      "AST": 0.0,
+      "STL": 0.0,
+      "BLK": 0.0,
+      "PTS": 0.0
+    },
+    {
+      "team": "Team 9",
+      "FG%": 0.0,
+      "FT%": 0.0,
+      "3PM": 0.0,
+      "REB": 0.0,
+      "AST": 0.0,
+      "STL": 0.0,
+      "BLK": 0.0,
+      "PTS": 0.0
+    },
+    {
+      "team": "Team 10",
+      "FG%": 0.0,
+      "FT%": 0.0,
+      "3PM": 0.0,
+      "REB": 0.0,
+      "AST": 0.0,
+      "STL": 0.0,
+      "BLK": 0.0,
+      "PTS": 0.0
+    },
+    {
+      "team": "Team 12",
+      "FG%": 0.0,
+      "FT%": 0.0,
+      "3PM": 0.0,
+      "REB": 0.0,
+      "AST": 0.0,
+      "STL": 0.0,
+      "BLK": 0.0,
+      "PTS": 0.0
+    },
+    {
+      "team": "Team 13",
+      "FG%": 0.0,
+      "FT%": 0.0,
+      "3PM": 0.0,
+      "REB": 0.0,
+      "AST": 0.0,
+      "STL": 0.0,
+      "BLK": 0.0,
+      "PTS": 0.0
+    },
+    {
+      "team": "Team 15",
+      "FG%": 0.0,
+      "FT%": 0.0,
+      "3PM": 0.0,
+      "REB": 0.0,
+      "AST": 0.0,
+      "STL": 0.0,
+      "BLK": 0.0,
+      "PTS": 0.0
+    },
+    {
+      "team": "Team 16",
+      "FG%": 0.0,
+      "FT%": 0.0,
+      "3PM": 0.0,
+      "REB": 0.0,
+      "AST": 0.0,
+      "STL": 0.0,
+      "BLK": 0.0,
+      "PTS": 0.0
+    }
+  ],
+  "weekly": []
 }
